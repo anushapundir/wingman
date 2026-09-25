@@ -254,7 +254,7 @@ function Column({
         <h3 className="font-semibold">{RECOMMENDERS[id].label}</h3>
         {ranking && hasLabels && (
           <p className="text-sm text-muted">
-            <span className="text-good">{partners} partners</span>, <span className="text-bad">{competitors} competitors</span>
+            <span className="text-good">{partners} {partners === 1 ? "partner" : "partners"}</span>, <span className="text-bad">{competitors} {competitors === 1 ? "competitor" : "competitors"}</span>
           </p>
         )}
       </div>

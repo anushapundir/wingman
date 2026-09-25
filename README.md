@@ -1,24 +1,43 @@
 # Wingman
 
-**Find the companies you should partner with.**
+**Find the companies you should partner with, not the ones you compete with.**
 
-Give Wingman a company. It returns 10 ranked partner candidates, each with a fit score, a one-line reason, flags, and quotes from the company descriptions that back the reason up.
+## What is a partner?
 
-![Help Scout: the naive list is mostly competitors, Wingman finds 7 real partners](docs/compare.png)
+A wedding photographer and a florist don't compete. One takes photos, the other sells flowers. But they have the same customers: couples getting married. So the photographer recommends the florist, the florist recommends the photographer, and both get more couples for free. That's a partner.
 
-Click any evidence chip and the quoted line lights up in that company's description.
+Another photographer is a competitor. You would never send them your couples.
 
-![Evidence chip highlighting the cited text](docs/evidence.png)
+Software companies work the same way. Help Scout sells email support software. Nicereply sends a "how did we do?" survey after each support email. Same customers (support teams), different product, so they integrate and send each other customers. Zendesk sells the same thing as Help Scout, so it's a competitor.
 
-## Why
+**A partner sells something different to the same customers.**
 
-The obvious way to find partners is to search for companies similar to yours. That mostly returns competitors. A company that describes itself the way you do usually sells the same thing to the same people.
+## The problem
 
-A good partner is the opposite shape: same buyer, different product. A payroll tool and an expense card both sell to the finance lead at a small business, and neither replaces the other. That is the pair that integrates, co-sells and refers customers.
+The obvious way to find partners is to search for companies like yours. That finds the other photographers. Search for companies like Help Scout and the top results are Front, Freshdesk, Gorgias and Zendesk: all competitors.
 
-Wingman looks for that shape on purpose, and flags look-alikes instead of ranking them.
+## What Wingman does
 
-## What it does
+Give it a company. It works out what that company sells and who buys it, then returns 10 companies that sell something different to those same buyers. Each pick comes with a one-line reason and the exact sentence it is based on, so you can check it instead of trusting a score. Look-alikes are flagged as competitors instead of recommended.
+
+![Help Scout: searching for similar companies finds competitors, Wingman finds real partners](docs/compare.png)
+
+Click any quote and it lights up in that company's description.
+
+![A quote highlighted in the company description](docs/evidence.png)
+
+## Does it work?
+
+I took 10 real companies and collected the partners each one lists on its own website (154 in total). Then I hid those lists and asked both approaches for 10 suggestions per company.
+
+| | Real partners found | Competitors suggested |
+| --- | --- | --- |
+| Search for similar companies | 12 of 154 | 25 |
+| Wingman | 56 of 154 | 0 |
+
+Details, per-company numbers and where it falls short are in [Eval](#eval).
+
+## Features
 
 - **Ranks 10 partner candidates** for a company, with a fit score from 0 to 100 and a one-line reason.
 - **Flags** candidates that look close but should not be pitched: `competitor` (substitute product, same buyer) and `wrong_buyer` (complementary product, different buyer). Flagged candidates are listed after the 10, never inside them.
@@ -98,7 +117,7 @@ Numbers come from `results/scoreboard.json`, written by `npm run eval`.
 
 | Recommender | hits@10 | competitors@10 | hallucinated ids | bad quotes |
 | --- | --- | --- | --- | --- |
-| Most similar (naive) | 12 of 154 | 25 | n/a | n/a |
+| Search for similar companies (TF-IDF) | 12 of 154 | 25 | n/a | n/a |
 | Wingman (`claude-opus-5-5`, medium effort) | 56 of 154 | 0 | 0 | 0 |
 
 Per target, real partners found in the top 10 (naive vs Wingman): Help Scout 1 vs 7, Cal.com 0 vs 5, Fathom 2 vs 4, Linear 2 vs 7, Lattice 3 vs 1, Buttondown 0 vs 7, SignNow 0 vs 5, OnPay 0 vs 7, FreeAgent 1 vs 7, Harvest 3 vs 6.

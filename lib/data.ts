@@ -17,7 +17,7 @@ export type Dataset = {
   companies: Company[];
   labels: Label[];
   targets: Company[];
-  pool: Company[];
+  candidatesFor: (target: Company) => Company[];
   byId: Map<CompanyId, Company>;
 };
 
@@ -31,7 +31,8 @@ export function loadData(): Dataset {
     companies,
     labels,
     targets: companies.filter((c) => c.role === "target"),
-    pool: companies.filter((c) => c.role === "pool"),
+    // Targets list each other as partners, so every company except the target itself is a candidate.
+    candidatesFor: (target) => companies.filter((c) => c.id !== target.id),
     byId: new Map(companies.map((c) => [c.id, c])),
   };
   return cached;

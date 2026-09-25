@@ -1,0 +1,1694 @@
+[
+  {
+    "target": "c034",
+    "candidate": "c116",
+    "label": "partner",
+    "source_url": "https://lattice.com/integrations",
+    "fetched_at": "2026-09-25T18:28:18Z",
+    "evidence": "HRIS | BambooHR | false",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c034",
+    "candidate": "c148",
+    "label": "partner",
+    "source_url": "https://lattice.com/integrations",
+    "fetched_at": "2026-09-25T18:28:18Z",
+    "evidence": "HRIS | Gusto | false",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c034",
+    "candidate": "c177",
+    "label": "partner",
+    "source_url": "https://lattice.com/integrations",
+    "fetched_at": "2026-09-25T18:28:18Z",
+    "evidence": "HRIS | Humaans | false",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c034",
+    "candidate": "c027",
+    "label": "partner",
+    "source_url": "https://lattice.com/integrations",
+    "fetched_at": "2026-09-25T18:28:18Z",
+    "evidence": "HRIS | Namely | false",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c034",
+    "candidate": "c171",
+    "label": "partner",
+    "source_url": "https://lattice.com/integrations",
+    "fetched_at": "2026-09-25T18:28:18Z",
+    "evidence": "HRIS | Personio | false",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c034",
+    "candidate": "c159",
+    "label": "partner",
+    "source_url": "https://lattice.com/integrations",
+    "fetched_at": "2026-09-25T18:28:18Z",
+    "evidence": "Single Sign-On | Jumpcloud | false",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c034",
+    "candidate": "c134",
+    "label": "partner",
+    "source_url": "https://lattice.com/integrations",
+    "fetched_at": "2026-09-25T18:28:18Z",
+    "evidence": "Single Sign-On | Okta | false",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c034",
+    "candidate": "c164",
+    "label": "partner",
+    "source_url": "https://lattice.com/integrations",
+    "fetched_at": "2026-09-25T18:28:18Z",
+    "evidence": "Single Sign-On | OneLogin | false",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c034",
+    "candidate": "c176",
+    "label": "partner",
+    "source_url": "https://lattice.com/integrations",
+    "fetched_at": "2026-09-25T18:28:18Z",
+    "evidence": "MCP | Glean | false",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c034",
+    "candidate": "c099",
+    "label": "partner",
+    "source_url": "https://lattice.com/integrations",
+    "fetched_at": "2026-09-25T18:28:18Z",
+    "evidence": "HRIS | TriNet | false",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c034",
+    "candidate": "c002",
+    "label": "partner",
+    "source_url": "https://lattice.com/integrations",
+    "fetched_at": "2026-09-25T18:28:18Z",
+    "evidence": "HRIS | UKG | false",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c034",
+    "candidate": "c140",
+    "label": "partner",
+    "source_url": "https://lattice.com/integrations",
+    "fetched_at": "2026-09-25T18:28:18Z",
+    "evidence": "Productivity | Jira | true",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c034",
+    "candidate": "c102",
+    "label": "competitor",
+    "source_url": "https://lattice.com/compare",
+    "fetched_at": "2026-09-25T18:30:58Z",
+    "evidence": "Culture Amp ... Learn why scaling teams prefer Lattice to power their people strategies over Culture Amp.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c034",
+    "candidate": "c167",
+    "label": "competitor",
+    "source_url": "https://lattice.com/compare",
+    "fetched_at": "2026-09-25T18:30:58Z",
+    "evidence": "Leapsome ... Learn why over 5,000 strategic HR teams use the Lattice People Platform over Leapsome to power their employees and their performance.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c034",
+    "candidate": "c162",
+    "label": "competitor",
+    "source_url": "https://lattice.com/compare",
+    "fetched_at": "2026-09-25T18:30:58Z",
+    "evidence": "15Five ... Learn why scaling teams prefer Lattice to power their people strategies over 15Five.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c034",
+    "candidate": "c174",
+    "label": "competitor",
+    "source_url": "https://lattice.com/compare",
+    "fetched_at": "2026-09-25T18:30:58Z",
+    "evidence": "PerformYard ... Learn why teams prefer Lattice to power their people strategies over PerformYard.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c034",
+    "candidate": "c058",
+    "label": "competitor",
+    "source_url": "https://lattice.com/compare",
+    "fetched_at": "2026-09-25T18:30:58Z",
+    "evidence": "Paylocity ... Learn why strategic HR teams choose Lattice over Paylocity to drive the efficiency and productivity of their people.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c019",
+    "candidate": "c015",
+    "label": "partner",
+    "source_url": "https://usefathom.com/integrations",
+    "fetched_at": "2026-09-25T18:28:18Z",
+    "evidence": "Bloggi | Cal.com | Calendly",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c019",
+    "candidate": "c138",
+    "label": "partner",
+    "source_url": "https://usefathom.com/integrations",
+    "fetched_at": "2026-09-25T18:28:18Z",
+    "evidence": "Cal.com | Calendly | Carrd",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c019",
+    "candidate": "c064",
+    "label": "partner",
+    "source_url": "https://usefathom.com/integrations",
+    "fetched_at": "2026-09-25T18:28:18Z",
+    "evidence": "Calendly | Carrd | Discourse",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c019",
+    "candidate": "c052",
+    "label": "partner",
+    "source_url": "https://usefathom.com/integrations",
+    "fetched_at": "2026-09-25T18:28:18Z",
+    "evidence": "Carrd | Discourse | Docusaurus",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c019",
+    "candidate": "c003",
+    "label": "partner",
+    "source_url": "https://usefathom.com/integrations",
+    "fetched_at": "2026-09-25T18:28:18Z",
+    "evidence": "Ember.js | Framer | Gatsby",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c019",
+    "candidate": "c141",
+    "label": "partner",
+    "source_url": "https://usefathom.com/integrations",
+    "fetched_at": "2026-09-25T18:28:18Z",
+    "evidence": "Gatsby | Ghost | G",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c019",
+    "candidate": "c157",
+    "label": "partner",
+    "source_url": "https://usefathom.com/integrations",
+    "fetched_at": "2026-09-25T18:28:18Z",
+    "evidence": "G | GoHighLevel | Google Tag Manager",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c019",
+    "candidate": "c025",
+    "label": "partner",
+    "source_url": "https://usefathom.com/integrations",
+    "fetched_at": "2026-09-25T18:28:18Z",
+    "evidence": "Jekyll | Kit | M",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c019",
+    "candidate": "c029",
+    "label": "partner",
+    "source_url": "https://usefathom.com/integrations",
+    "fetched_at": "2026-09-25T18:28:18Z",
+    "evidence": "Magento | Mintlify | Next.js",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c019",
+    "candidate": "c146",
+    "label": "partner",
+    "source_url": "https://usefathom.com/integrations",
+    "fetched_at": "2026-09-25T18:28:18Z",
+    "evidence": "Remix | SavvyCal | Shopify",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c019",
+    "candidate": "c050",
+    "label": "partner",
+    "source_url": "https://usefathom.com/integrations",
+    "fetched_at": "2026-09-25T18:28:18Z",
+    "evidence": "SvelteKit | Transistor.fm | </>",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c019",
+    "candidate": "c143",
+    "label": "partner",
+    "source_url": "https://usefathom.com/integrations",
+    "fetched_at": "2026-09-25T18:28:18Z",
+    "evidence": "Vue.js | Webflow | Wix",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c019",
+    "candidate": "c032",
+    "label": "competitor",
+    "source_url": "https://usefathom.com/features/vs-google-analytics",
+    "fetched_at": "2026-09-25T18:48:01Z",
+    "evidence": "A simpler alternative to Google Analytics - Fathom Analytics",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c019",
+    "candidate": "c180",
+    "label": "competitor",
+    "source_url": "https://usefathom.com/features/vs-matomo",
+    "fetched_at": "2026-09-25T18:48:01Z",
+    "evidence": "Why Fathom Analytics is a great Matomo alternative",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c019",
+    "candidate": "c077",
+    "label": "competitor",
+    "source_url": "https://usefathom.com/features/vs-cloudflare-web-analytics",
+    "fetched_at": "2026-09-25T18:48:01Z",
+    "evidence": "Compare Cloudflare web analytics to Fathom Analytics | Cloudflare launched their web analytics at the end of 2020. They offer privacy-first, lightweight and simple website analytics, and their analytic",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c071",
+    "candidate": "c019",
+    "label": "partner",
+    "source_url": "https://buttondown.com/features/integrations",
+    "fetched_at": "2026-09-25T18:28:19Z",
+    "evidence": "Analytics | Fathom | Track your archive traffic with simple, privacy-focused analytics.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c071",
+    "candidate": "c064",
+    "label": "partner",
+    "source_url": "https://buttondown.com/features/integrations",
+    "fetched_at": "2026-09-25T18:28:19Z",
+    "evidence": "Carrd | Collect newsletter subscribers from your Carrd site.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c071",
+    "candidate": "c003",
+    "label": "partner",
+    "source_url": "https://buttondown.com/features/integrations",
+    "fetched_at": "2026-09-25T18:28:19Z",
+    "evidence": "Framer | Embed a Buttondown subscribe form in your Framer site.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c071",
+    "candidate": "c050",
+    "label": "partner",
+    "source_url": "https://buttondown.com/features/integrations",
+    "fetched_at": "2026-09-25T18:28:19Z",
+    "evidence": "Transistor | Share your latest podcast episode with your subscribers with Buttondown",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c071",
+    "candidate": "c143",
+    "label": "partner",
+    "source_url": "https://buttondown.com/features/integrations",
+    "fetched_at": "2026-09-25T18:28:19Z",
+    "evidence": "Webflow | Collect newsletter subscribers from your Webflow site.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c071",
+    "candidate": "c091",
+    "label": "partner",
+    "source_url": "https://buttondown.com/features/integrations",
+    "fetched_at": "2026-09-25T18:28:19Z",
+    "evidence": "Popular | Stripe | Accept payments and run a paid newsletter with Stripe.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c071",
+    "candidate": "c005",
+    "label": "partner",
+    "source_url": "https://buttondown.com/features/integrations",
+    "fetched_at": "2026-09-25T18:28:19Z",
+    "evidence": "and third-party tools like | Zapier | , you can connect to hundreds more.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c071",
+    "candidate": "c013",
+    "label": "partner",
+    "source_url": "https://buttondown.com/features/integrations",
+    "fetched_at": "2026-09-25T18:28:19Z",
+    "evidence": "Plausible | Track your archive traffic with privacy-focused analytics.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c071",
+    "candidate": "c111",
+    "label": "partner",
+    "source_url": "https://buttondown.com/features/integrations",
+    "fetched_at": "2026-09-25T18:28:19Z",
+    "evidence": "Simple Analytics | Track your archive traffic with privacy-first analytics.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c071",
+    "candidate": "c088",
+    "label": "partner",
+    "source_url": "https://buttondown.com/features/integrations",
+    "fetched_at": "2026-09-25T18:28:19Z",
+    "evidence": "Umami | Analyze your archive traffic with a single line of code.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c071",
+    "candidate": "c069",
+    "label": "partner",
+    "source_url": "https://buttondown.com/features/integrations",
+    "fetched_at": "2026-09-25T18:28:19Z",
+    "evidence": "Duda | Collect newsletter subscribers from a contact form on your Duda site.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c071",
+    "candidate": "c025",
+    "label": "competitor",
+    "source_url": "https://buttondown.com/alternatives",
+    "fetched_at": "2026-09-25T18:30:52Z",
+    "evidence": "If you're looking to have these sorts of workflows where you need branching logic, retries, and so on, check out | Kit",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c071",
+    "candidate": "c060",
+    "label": "competitor",
+    "source_url": "https://buttondown.com/alternatives",
+    "fetched_at": "2026-09-25T18:30:52Z",
+    "evidence": "Other options | We've also created a full list of alternatives to other email newsletter tools: | Audienceful ... AWeber | Beehiiv | Benchmark",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c071",
+    "candidate": "c137",
+    "label": "competitor",
+    "source_url": "https://buttondown.com/alternatives",
+    "fetched_at": "2026-09-25T18:30:52Z",
+    "evidence": "Other options | We've also created a full list of alternatives to other email newsletter tools: | Audienceful ... Elemailer | EmailOctopus | Emma",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c071",
+    "candidate": "c073",
+    "label": "competitor",
+    "source_url": "https://buttondown.com/alternatives",
+    "fetched_at": "2026-09-25T18:30:52Z",
+    "evidence": "If you want to use software that you can host yourself and audit the source code, we'd recommend checking out | Listmonk",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c071",
+    "candidate": "c014",
+    "label": "competitor",
+    "source_url": "https://buttondown.com/alternatives",
+    "fetched_at": "2026-09-25T18:30:52Z",
+    "evidence": "Bento | really shines here.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c008",
+    "candidate": "c028",
+    "label": "partner",
+    "source_url": "https://www.helpscout.com/apps/",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "Link Linear issues to conversations without leaving Help Scout",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c008",
+    "candidate": "c091",
+    "label": "partner",
+    "source_url": "https://www.helpscout.com/apps/",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "Solo AI | Stripe | Supademo",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c008",
+    "candidate": "c005",
+    "label": "partner",
+    "source_url": "https://www.helpscout.com/apps/",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "Wufoo | Zapier | Zengine",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c008",
+    "candidate": "c009",
+    "label": "partner",
+    "source_url": "https://www.helpscout.com/apps/",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "ActiveCampaign | Aircall | AppFollow",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c008",
+    "candidate": "c132",
+    "label": "partner",
+    "source_url": "https://www.helpscout.com/apps/",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "Churn Buster | ChurnZero | CircleLoop",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c008",
+    "candidate": "c103",
+    "label": "partner",
+    "source_url": "https://www.helpscout.com/apps/",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "Churn Buster | ChurnZero | CircleLoop | Close | CloudTalk",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c008",
+    "candidate": "c169",
+    "label": "partner",
+    "source_url": "https://www.helpscout.com/apps/",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "Close | CloudTalk | Constant Contact",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c008",
+    "candidate": "c056",
+    "label": "partner",
+    "source_url": "https://www.helpscout.com/apps/",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "Cyfe | Databox | Elevio",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c008",
+    "candidate": "c149",
+    "label": "partner",
+    "source_url": "https://www.helpscout.com/apps/",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "FullContact | FullStory | Geckoboard",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c008",
+    "candidate": "c156",
+    "label": "partner",
+    "source_url": "https://www.helpscout.com/apps/",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "FullStory | Geckoboard | PLUS",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c008",
+    "candidate": "c125",
+    "label": "partner",
+    "source_url": "https://www.helpscout.com/apps/",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "Jira | JustCall | KISSmetrics",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c008",
+    "candidate": "c070",
+    "label": "partner",
+    "source_url": "https://www.helpscout.com/apps/",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "MySQL | Nicereply | Numerics",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c008",
+    "candidate": "c080",
+    "label": "partner",
+    "source_url": "https://www.helpscout.com/apps/",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "Paperform | Pipedrive | Plecto",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c008",
+    "candidate": "c163",
+    "label": "partner",
+    "source_url": "https://www.helpscout.com/apps/",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "Kaizen | Klaviyo | LemonStand",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c008",
+    "candidate": "c140",
+    "label": "partner",
+    "source_url": "https://www.helpscout.com/apps/",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "PLUS | Jira | JustCall",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c008",
+    "candidate": "c048",
+    "label": "partner",
+    "source_url": "https://www.helpscout.com/apps/",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "AppFollow | Asana | Better Reports",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c008",
+    "candidate": "c095",
+    "label": "partner",
+    "source_url": "https://www.helpscout.com/apps/",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "Campaign Monitor | Capsule | Carrick",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c008",
+    "candidate": "c130",
+    "label": "partner",
+    "source_url": "https://www.helpscout.com/apps/",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "WordPress | Wufoo | Zapier",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c008",
+    "candidate": "c100",
+    "label": "partner",
+    "source_url": "https://www.helpscout.com/apps/",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "Heymarket | Highrise | Hively",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c008",
+    "candidate": "c042",
+    "label": "partner",
+    "source_url": "https://www.helpscout.com/apps/",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "Pipedrive | Plecto | Process Street",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c008",
+    "candidate": "c098",
+    "label": "competitor",
+    "source_url": "https://www.helpscout.com/compare/zendesk/",
+    "fetched_at": "2026-09-25T18:48:01Z",
+    "evidence": "Help Scout vs. Zendesk feature comparison | Help Scout vs. Zendesk customer ratings on G2.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c008",
+    "candidate": "c112",
+    "label": "competitor",
+    "source_url": "https://www.helpscout.com/compare/freshdesk/",
+    "fetched_at": "2026-09-25T18:48:01Z",
+    "evidence": "Help Scout vs. Freshdesk Omni: Feature comparison | Help Scout vs. Freshdesk customer ratings on",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c008",
+    "candidate": "c012",
+    "label": "competitor",
+    "source_url": "https://www.helpscout.com/compare/gorgias/",
+    "fetched_at": "2026-09-25T18:48:02Z",
+    "evidence": "Help Scout vs. Gorgias: Pricing comparison | Most customer support software offers user-based pricing. With",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c008",
+    "candidate": "c104",
+    "label": "competitor",
+    "source_url": "https://www.helpscout.com/compare/frontapp/",
+    "fetched_at": "2026-09-25T18:48:02Z",
+    "evidence": "Help Scout vs. Front: Feature comparison | Ratings for Help Scout's and Front's features on",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c028",
+    "candidate": "c176",
+    "label": "partner",
+    "source_url": "https://linear.app/integrations",
+    "fetched_at": "2026-09-25T18:28:18Z",
+    "evidence": "Glean | By | Glean | Search Linear for instant insights",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c028",
+    "candidate": "c005",
+    "label": "partner",
+    "source_url": "https://linear.app/integrations",
+    "fetched_at": "2026-09-25T18:28:18Z",
+    "evidence": "Zapier | By | Linear | Build custom automations to create or update Linear issues",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c028",
+    "candidate": "c098",
+    "label": "partner",
+    "source_url": "https://linear.app/integrations",
+    "fetched_at": "2026-09-25T18:28:18Z",
+    "evidence": "Zendesk | By | Linear | Keep a tight feedback loop with customers and streamline bug reports",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c028",
+    "candidate": "c104",
+    "label": "partner",
+    "source_url": "https://linear.app/integrations",
+    "fetched_at": "2026-09-25T18:28:18Z",
+    "evidence": "Front | By | Linear | Keep a tight feedback loop with customers and streamline bug reports",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c028",
+    "candidate": "c041",
+    "label": "partner",
+    "source_url": "https://linear.app/integrations",
+    "fetched_at": "2026-09-25T18:28:18Z",
+    "evidence": "Sentry Agent | By | Sentry | Resolve Linear Issues with Seer by Sentry",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c028",
+    "candidate": "c113",
+    "label": "partner",
+    "source_url": "https://linear.app/integrations",
+    "fetched_at": "2026-09-25T18:28:18Z",
+    "evidence": "Datadog | By | Datadog | Create Linear issues from Datadog Cases and Monitors",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c028",
+    "candidate": "c035",
+    "label": "partner",
+    "source_url": "https://linear.app/integrations",
+    "fetched_at": "2026-09-25T18:28:18Z",
+    "evidence": "incident.io | By | incident.io | Manage incidents and triage responsibility directly in Linear",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c028",
+    "candidate": "c031",
+    "label": "partner",
+    "source_url": "https://linear.app/integrations",
+    "fetched_at": "2026-09-25T18:28:18Z",
+    "evidence": "Honeybadger | By | Honeybadger | Manage Honeybadger errors via Linear issues",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c028",
+    "candidate": "c001",
+    "label": "partner",
+    "source_url": "https://linear.app/integrations",
+    "fetched_at": "2026-09-25T18:28:18Z",
+    "evidence": "Jam | By | Jam.dev | Create Linear issues with all the details developers need to resolve bugs faster",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c028",
+    "candidate": "c093",
+    "label": "partner",
+    "source_url": "https://linear.app/integrations",
+    "fetched_at": "2026-09-25T18:28:18Z",
+    "evidence": "Raycast | By | Raycast | Create, search, and modify your issues from anywhere",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c028",
+    "candidate": "c063",
+    "label": "partner",
+    "source_url": "https://linear.app/integrations",
+    "fetched_at": "2026-09-25T18:28:18Z",
+    "evidence": "Vanta | By | Vanta | Automate compliance. Simplify security. Demonstrate trust.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c028",
+    "candidate": "c115",
+    "label": "partner",
+    "source_url": "https://linear.app/integrations",
+    "fetched_at": "2026-09-25T18:28:18Z",
+    "evidence": "Drata | By | Drata | Simplify risk and managing frameworks like SOC 2, ISO 27001, PCI and more",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c028",
+    "candidate": "c145",
+    "label": "partner",
+    "source_url": "https://linear.app/integrations",
+    "fetched_at": "2026-09-25T18:28:18Z",
+    "evidence": "Retool | By | Retool | Create, update, and analyze Linear issues in custom internal tools",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c028",
+    "candidate": "c030",
+    "label": "partner",
+    "source_url": "https://linear.app/integrations",
+    "fetched_at": "2026-09-25T18:28:18Z",
+    "evidence": "Jellyfish | By | Jellyfish | Developer productivity insights and AI impact signals in one dashboard",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c028",
+    "candidate": "c087",
+    "label": "partner",
+    "source_url": "https://linear.app/integrations",
+    "fetched_at": "2026-09-25T18:28:18Z",
+    "evidence": "Attio | By | Attio | Add customer requests and issues, plus sync customer details, directly from Attio",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c028",
+    "candidate": "c107",
+    "label": "partner",
+    "source_url": "https://linear.app/integrations",
+    "fetched_at": "2026-09-25T18:28:18Z",
+    "evidence": "Miro | By | Miro | Import, create and manage issues directly in Miro",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c028",
+    "candidate": "c140",
+    "label": "competitor",
+    "source_url": "https://linear.app/switch",
+    "fetched_at": "2026-09-25T18:30:52Z",
+    "evidence": "Average increased based on data from companies with 50+ employees migrating from Jira, Asana, and GitHub Issues.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c028",
+    "candidate": "c048",
+    "label": "competitor",
+    "source_url": "https://linear.app/switch",
+    "fetched_at": "2026-09-25T18:30:52Z",
+    "evidence": "Average increased based on data from companies with 50+ employees migrating from Jira, Asana, and GitHub Issues.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c096",
+    "candidate": "c091",
+    "label": "partner",
+    "source_url": "https://www.freeagent.com/integrations/",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "Stripe enables you to easily take credit and debit card payments from your customers.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c096",
+    "candidate": "c005",
+    "label": "partner",
+    "source_url": "https://www.freeagent.com/integrations/",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "Zapier syncs your FreeAgent data to web services that you and your team use daily.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c096",
+    "candidate": "c129",
+    "label": "partner",
+    "source_url": "https://www.freeagent.com/integrations/",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "Control spending through Pleo company cards, expenses and reimbursements.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c096",
+    "candidate": "c038",
+    "label": "partner",
+    "source_url": "https://www.freeagent.com/integrations/",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "Capium is an all-in-one accounting and tax software for accountants and their practices.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c096",
+    "candidate": "c181",
+    "label": "partner",
+    "source_url": "https://www.freeagent.com/integrations/",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "TaxCalc is tax return and accountancy software for practices of all sizes.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c096",
+    "candidate": "c006",
+    "label": "partner",
+    "source_url": "https://www.freeagent.com/integrations/",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "GoSimpleTax simplifies Self Assessment with easy-to-use tax filing software.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c096",
+    "candidate": "c057",
+    "label": "partner",
+    "source_url": "https://www.freeagent.com/integrations/",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "Chaser allows you to schedule and track receivables, and chase unpaid invoices.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c096",
+    "candidate": "c095",
+    "label": "partner",
+    "source_url": "https://www.freeagent.com/integrations/",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "Capsule syncs your contacts and helps you keep track of your customers.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c096",
+    "candidate": "c037",
+    "label": "partner",
+    "source_url": "https://www.freeagent.com/integrations/",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "Schedule work, create reports and track timesheets with Commusoft synced to FreeAgent.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c096",
+    "candidate": "c072",
+    "label": "partner",
+    "source_url": "https://www.freeagent.com/integrations/",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "Dext enables you to capture and sync receipts in any format.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c096",
+    "candidate": "c089",
+    "label": "partner",
+    "source_url": "https://www.freeagent.com/integrations/",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "Datamolino automates data entry and categorisation of bills, invoices and bank statements.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c096",
+    "candidate": "c119",
+    "label": "partner",
+    "source_url": "https://www.freeagent.com/integrations/",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "Power up your checkout and simplify orders with SumUp. | Synchronise WooCommerce orders to create invoices in FreeAgent automatically.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c096",
+    "candidate": "c036",
+    "label": "partner",
+    "source_url": "https://www.freeagent.com/integrations/",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "Use Satago’s business finance and credit control tools to help you get paid on time.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c096",
+    "candidate": "c016",
+    "label": "partner",
+    "source_url": "https://www.freeagent.com/integrations/",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "Basecamp imports your contacts and projects into FreeAgent quickly and easily.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c096",
+    "candidate": "c076",
+    "label": "competitor",
+    "source_url": "https://www.freeagent.com/features/competitors/",
+    "fetched_at": "2026-09-25T18:31:27Z",
+    "evidence": "how it compares to other software. | Try FreeAgent | Select competitor: | Xero | QuickBooks | Sage",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c096",
+    "candidate": "c026",
+    "label": "competitor",
+    "source_url": "https://www.freeagent.com/features/competitors/",
+    "fetched_at": "2026-09-25T18:31:27Z",
+    "evidence": "how it compares to other software. | Try FreeAgent | Select competitor: | Xero | QuickBooks | Sage",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c096",
+    "candidate": "c173",
+    "label": "competitor",
+    "source_url": "https://www.freeagent.com/features/competitors/",
+    "fetched_at": "2026-09-25T18:31:27Z",
+    "evidence": "how it compares to other software. | Try FreeAgent | Select competitor: | Xero | QuickBooks | Sage",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c015",
+    "candidate": "c019",
+    "label": "partner",
+    "source_url": "https://cal.com/apps",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "Details | Fathom | Fathom Analytics provides simple, privacy-focused website analytics. We're a GDPR-compliant, Google Analytics alternative.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c015",
+    "candidate": "c028",
+    "label": "partner",
+    "source_url": "https://cal.com/apps",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "Details | Linear | Linear is a better way to build products. Connect your calendar to automate your status",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c015",
+    "candidate": "c003",
+    "label": "partner",
+    "source_url": "https://cal.com/apps",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "Details | Framer | Add Cal.com to Framer, the design tool for websites. Design freely, publish fast, and scale with CMS, SEO, analytics, and more.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c015",
+    "candidate": "c032",
+    "label": "partner",
+    "source_url": "https://cal.com/apps",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "Details | Google Analytics | Google Analytics is a web analytics service offered by Google that tracks and reports website traffic, currently as a platform inside the Google Marketing Platform brand.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c015",
+    "candidate": "c180",
+    "label": "partner",
+    "source_url": "https://cal.com/apps",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "Details | Matomo | Google Analytics alternative that protects your data and your customers' privacy",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c015",
+    "candidate": "c091",
+    "label": "partner",
+    "source_url": "https://cal.com/apps",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "Details | Stripe | A Saas company a payment processing software, and application programming interfaces for e-commerce websites and mobile applications.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c015",
+    "candidate": "c005",
+    "label": "partner",
+    "source_url": "https://cal.com/apps",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "Details | Zapier | Workflow automation for everyone. Use the Cal.com Zapier app to automate your workflows when a booking is created, rescheduled, cancelled or when a meeting ends.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c015",
+    "candidate": "c013",
+    "label": "partner",
+    "source_url": "https://cal.com/apps",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "Details | Plausible | Simple, privacy-friendly Google Analytics alternative.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c015",
+    "candidate": "c088",
+    "label": "partner",
+    "source_url": "https://cal.com/apps",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "Details | Umami | Umami makes it easy to collect, analyze, and understand your web data ,  while maintaining visitor privacy and data ownership.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c015",
+    "candidate": "c103",
+    "label": "partner",
+    "source_url": "https://cal.com/apps",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "Details | Close.com | Close is the inside sales CRM of choice for startups and SMBs. Make more calls, send more emails and close more deals starting today.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c015",
+    "candidate": "c093",
+    "label": "partner",
+    "source_url": "https://cal.com/apps",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "Details | Raycast | Quickly share your Cal.com meeting links with Raycast",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c015",
+    "candidate": "c087",
+    "label": "partner",
+    "source_url": "https://cal.com/apps",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "Details | Attio | Sync your Cal.com bookings and meetings directly into Attio. Use the Cal.com Attio integration to automatically keep your CRM up to date with your scheduling activity.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c015",
+    "candidate": "c066",
+    "label": "partner",
+    "source_url": "https://cal.com/apps",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "Details | Riverside | Your online recording studio. The easiest way to record podcasts and videos in studio quality from anywhere. All from the browser.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c015",
+    "candidate": "c136",
+    "label": "partner",
+    "source_url": "https://cal.com/apps",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "Details | Whereby | Whereby makes it super simple for collaborating teams to jump on a video call.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c015",
+    "candidate": "c101",
+    "label": "partner",
+    "source_url": "https://cal.com/apps",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "Details | Retell AI | Supercharge your Call Operations with AI",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c015",
+    "candidate": "c046",
+    "label": "partner",
+    "source_url": "https://cal.com/apps",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "Details | Deel | Connect your Deel workspace to sync ooo with your time-off policies.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c015",
+    "candidate": "c024",
+    "label": "partner",
+    "source_url": "https://cal.com/apps",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "Details | Granola | The AI notepad for people in back-to-back meetings for MacOS",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c015",
+    "candidate": "c118",
+    "label": "partner",
+    "source_url": "https://cal.com/apps",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "Details | Dub | Dub is the modern link attribution platform for you to create short links, track conversion analytics, and run affiliate programs.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c015",
+    "candidate": "c039",
+    "label": "partner",
+    "source_url": "https://cal.com/apps",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "Details | Vimcal | The world's fastest calendar, beautifully designed for a remote world",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c015",
+    "candidate": "c016",
+    "label": "partner",
+    "source_url": "https://cal.com/apps",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "Details | Basecamp3 | Basecamp puts everything you need to get work done in one place. It’s the calm, organized way to manage projects, work with clients, and communicate company-wide.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c015",
+    "candidate": "c138",
+    "label": "competitor",
+    "source_url": "https://cal.com/calcom-vs-calendly",
+    "fetched_at": "2026-09-25T18:31:51Z",
+    "evidence": "Switch from Calendly - We'll Credit Your Plan | Cal.com",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c015",
+    "candidate": "c179",
+    "label": "competitor",
+    "source_url": "https://cal.com/blog/why-choose-calcom-over-chili-piper",
+    "fetched_at": "2026-09-25T18:32:30Z",
+    "evidence": "Cal.com vs. Chili Piper (2026): A Full Comparison",
+    "fetch_method": "webfetch"
+  },
+  {
+    "target": "c015",
+    "candidate": "c097",
+    "label": "competitor",
+    "source_url": "https://cal.com/blog/acuity-scheduling-vs-cal.com",
+    "fetched_at": "2026-09-25T18:32:30Z",
+    "evidence": "Acuity vs Cal.com: Which is The Best Meeting Management Software?",
+    "fetch_method": "webfetch"
+  },
+  {
+    "target": "c078",
+    "candidate": "c008",
+    "label": "partner",
+    "source_url": "https://www.signnow.com/integrations",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "Learn more | Help Scout | Delight your customers and make it easy to work with your team by connecting airSlate SignNow with Help Scout. Each time a template-based document is updated, Zapier will ema",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c078",
+    "candidate": "c027",
+    "label": "partner",
+    "source_url": "https://www.signnow.com/integrations",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "Learn more | Namely | airSlate SignNow’s integration for Namely would be the excellent solution for a seamless workflow. Now you don’t need to have to switch from a single program to another in an eff",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c078",
+    "candidate": "c134",
+    "label": "partner",
+    "source_url": "https://www.signnow.com/integrations",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "Learn more | Okta | airSlate SignNow for Okta provides you with an eSigning instrument inside of your common electronic platform and streamlines your company workflow. Fill out, e-sign and ask for ele",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c078",
+    "candidate": "c164",
+    "label": "partner",
+    "source_url": "https://www.signnow.com/integrations",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "Learn more | OneLogin | airSlate SignNow’s integration for OneLogin is definitely the excellent option for a seamless workflow. Now you don’t need to have to switch from a single system to a different",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c078",
+    "candidate": "c140",
+    "label": "partner",
+    "source_url": "https://www.signnow.com/integrations",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "Learn more | Atlassian JIRA | Make use of the airSlate SignNow integration for Atlassian JIRA to make your forms fillable devoid of leaving your account. This cloud-based platform makes it possible fo",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c078",
+    "candidate": "c076",
+    "label": "partner",
+    "source_url": "https://www.signnow.com/integrations",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "Learn more | Xero | Get your Xero invoices signed in minutes. Connect airSlate SignNow with Xero and turn your invoices into fillable documents, where you can automatically map data from fields and se",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c078",
+    "candidate": "c080",
+    "label": "partner",
+    "source_url": "https://www.signnow.com/integrations",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "Learn more | Pipedrive | Send documents for signing each time a new deal is created in Pipedrive.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c078",
+    "candidate": "c047",
+    "label": "partner",
+    "source_url": "https://www.signnow.com/integrations",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "Learn more | Box | E-sign, deliver, manage, and automatically transfer signed documents to Box’s cloud storage.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c078",
+    "candidate": "c059",
+    "label": "partner",
+    "source_url": "https://www.signnow.com/integrations",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "Learn more | Plumsail Documents | Enhance Plumsail processes with the airSlate SignNow delivery. Generate documents in Plumsail and quickly send them for signing with airSlate SignNow. Collect signatu",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c078",
+    "candidate": "c094",
+    "label": "partner",
+    "source_url": "https://www.signnow.com/integrations",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "Learn more | Jitterbit | Drive innovation with streamlined eSignature workflows.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c078",
+    "candidate": "c065",
+    "label": "partner",
+    "source_url": "https://www.signnow.com/integrations",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "Learn more | 1Password | Save time logging into your airSlate SignNow account from any device.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c078",
+    "candidate": "c165",
+    "label": "partner",
+    "source_url": "https://www.signnow.com/integrations",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "Install now | ServiceNow | Easily prepare, sign, track, and manage vendor contracts and agreements without leaving ServiceNow.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c078",
+    "candidate": "c160",
+    "label": "partner",
+    "source_url": "https://www.signnow.com/integrations",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "Learn more | Trainerize | airSlate SignNow for Trainerize allows you to collect eSignatures without manually adding a client to airSlate SignNow. Get electronically signed responses for PARQs and liab",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c078",
+    "candidate": "c130",
+    "label": "partner",
+    "source_url": "https://www.signnow.com/integrations",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "Learn more | Wufoo | Request signatures from new Wufoo entries using airSlate SignNow’s easy-to-use eSignature solution.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c078",
+    "candidate": "c100",
+    "label": "partner",
+    "source_url": "https://www.signnow.com/integrations",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "Learn more | Highrise | Send documents for signing to new Highrise contacts.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c078",
+    "candidate": "c166",
+    "label": "partner",
+    "source_url": "https://www.signnow.com/integrations",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "Learn more | PaperWise | Integrate eSignature workflows into your business processes.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c078",
+    "candidate": "c011",
+    "label": "partner",
+    "source_url": "https://www.signnow.com/integrations",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "Install now | Autodesk BIM 360 | Accelerate your construction projects with fast and intuitive eSignature workflows.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c078",
+    "candidate": "c061",
+    "label": "partner",
+    "source_url": "https://www.signnow.com/integrations",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "Install now | Procore | Arrange your document management by integrating Procore with airSlate SignNow’s complete digital signature solution.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c078",
+    "candidate": "c120",
+    "label": "partner",
+    "source_url": "https://www.signnow.com/integrations",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "Learn more | Buildium | airSlate SignNow’s integration for Buildium would be the excellent solution for a seamless workflow. Now you do not need to switch from a single system to another to be able to",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c078",
+    "candidate": "c005",
+    "label": "partner",
+    "source_url": "https://www.signnow.com/integrations",
+    "fetched_at": "2026-09-25T18:28:59Z",
+    "evidence": "Learn more | Zapier | Easily automate eSignature workflows by connecting airSlate SignNow to Zapier.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c078",
+    "candidate": "c004",
+    "label": "competitor",
+    "source_url": "https://www.signnow.com/alternative",
+    "fetched_at": "2026-09-25T18:30:59Z",
+    "evidence": "DocuSign | Switch from DocuSign to signNow to generate an unlimited number of document templates.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c078",
+    "candidate": "c092",
+    "label": "competitor",
+    "source_url": "https://www.signnow.com/alternative",
+    "fetched_at": "2026-09-25T18:30:59Z",
+    "evidence": "PandaDoc | Replace PandaDoc with signNow to close deals in seconds on any device, even while offline.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c078",
+    "candidate": "c053",
+    "label": "competitor",
+    "source_url": "https://www.signnow.com/alternative",
+    "fetched_at": "2026-09-25T18:30:59Z",
+    "evidence": "SignEasy | Guarantee absolute security for all your saved documents online. Each...",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c078",
+    "candidate": "c055",
+    "label": "competitor",
+    "source_url": "https://www.signnow.com/alternative",
+    "fetched_at": "2026-09-25T18:30:59Z",
+    "evidence": "Signable | Sign documents, calculate values, collect payments & securely store documents with signNow.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c083",
+    "candidate": "c076",
+    "label": "partner",
+    "source_url": "https://onpay.com/app-directory/category/all/",
+    "fetched_at": "2026-09-25T18:30:05Z",
+    "evidence": "Xero | Small business accounting made easy.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c083",
+    "candidate": "c090",
+    "label": "partner",
+    "source_url": "https://onpay.com/app-directory/category/all/",
+    "fetched_at": "2026-09-25T18:30:05Z",
+    "evidence": "Vestwell | Powering retirement plans for over 350,000 businesses nationwide",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c083",
+    "candidate": "c126",
+    "label": "partner",
+    "source_url": "https://onpay.com/app-directory/category/all/",
+    "fetched_at": "2026-09-25T18:30:05Z",
+    "evidence": "Betterment at Work | A modern 401(k) built for small and medium-sized businesses.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c083",
+    "candidate": "c128",
+    "label": "partner",
+    "source_url": "https://onpay.com/app-directory/category/all/",
+    "fetched_at": "2026-09-25T18:30:05Z",
+    "evidence": "Traliant | Take compliance training from boring to brilliant.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c083",
+    "candidate": "c068",
+    "label": "partner",
+    "source_url": "https://onpay.com/app-directory/category/all/",
+    "fetched_at": "2026-09-25T18:30:05Z",
+    "evidence": "ZenBusiness | Business Is Complicated. We Make It Easy with Personalized Services, AI Tools & Support.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c083",
+    "candidate": "c117",
+    "label": "partner",
+    "source_url": "https://onpay.com/app-directory/category/all/",
+    "fetched_at": "2026-09-25T18:30:05Z",
+    "evidence": "PosterElite | Labor law poster compliance for the hybrid workplace.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c083",
+    "candidate": "c114",
+    "label": "partner",
+    "source_url": "https://onpay.com/app-directory/category/all/",
+    "fetched_at": "2026-09-25T18:30:05Z",
+    "evidence": "Pilot | Get outsourced finance and operations support designed for startups, including bookkeeping, CFO, and COO services.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c083",
+    "candidate": "c021",
+    "label": "partner",
+    "source_url": "https://onpay.com/app-directory/category/all/",
+    "fetched_at": "2026-09-25T18:30:05Z",
+    "evidence": "Ramp | Business cards that provide spend visibility and control.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c083",
+    "candidate": "c084",
+    "label": "partner",
+    "source_url": "https://onpay.com/app-directory/category/all/",
+    "fetched_at": "2026-09-25T18:30:05Z",
+    "evidence": "Checkr | Checkr powers the fastest, fairest background checks for businesses of all sizes.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c083",
+    "candidate": "c010",
+    "label": "partner",
+    "source_url": "https://onpay.com/app-directory/category/all/",
+    "fetched_at": "2026-09-25T18:30:05Z",
+    "evidence": "$200 credit | JazzHR | A powerful, user-friendly applicant tracking system to help you find and hire the best talent, fast.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c083",
+    "candidate": "c085",
+    "label": "partner",
+    "source_url": "https://onpay.com/app-directory/category/all/",
+    "fetched_at": "2026-09-25T18:30:05Z",
+    "evidence": "10% off your first year | Middesk | Simplify state and local tax accounts when you add employees in any state.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c083",
+    "candidate": "c131",
+    "label": "partner",
+    "source_url": "https://onpay.com/app-directory/category/all/",
+    "fetched_at": "2026-09-25T18:30:05Z",
+    "evidence": "Deputy | Schedule staff with ease, control labor costs, and simplify timesheets.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c083",
+    "candidate": "c148",
+    "label": "competitor",
+    "source_url": "https://onpay.com/payroll/best-payroll-services/",
+    "fetched_at": "2026-09-25T18:30:07Z",
+    "evidence": "Here’s how the premium companies compare: | OnPay | Gusto | Paychex Flex | Run by ADP | QuickBooks Payroll",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c083",
+    "candidate": "c018",
+    "label": "competitor",
+    "source_url": "https://onpay.com/payroll/best-payroll-services/",
+    "fetched_at": "2026-09-25T18:30:07Z",
+    "evidence": "Here’s how the premium companies compare: | OnPay | Gusto | Paychex Flex | Run by ADP | QuickBooks Payroll",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c083",
+    "candidate": "c170",
+    "label": "competitor",
+    "source_url": "https://onpay.com/payroll/best-payroll-services/",
+    "fetched_at": "2026-09-25T18:30:07Z",
+    "evidence": "Here’s how the premium companies compare: | OnPay | Gusto | Paychex Flex | Run by ADP | QuickBooks Payroll",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c168",
+    "candidate": "c028",
+    "label": "partner",
+    "source_url": "https://www.getharvest.com/integrations",
+    "fetched_at": "2026-09-25T18:30:23Z",
+    "evidence": "Linear | Track time to Harvest without leaving Linear",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c168",
+    "candidate": "c091",
+    "label": "partner",
+    "source_url": "https://www.getharvest.com/integrations",
+    "fetched_at": "2026-09-25T18:30:23Z",
+    "evidence": "Stripe | Receive invoice payments online by credit card or ACH payment.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c168",
+    "candidate": "c005",
+    "label": "partner",
+    "source_url": "https://www.getharvest.com/integrations",
+    "fetched_at": "2026-09-25T18:30:23Z",
+    "evidence": "Zapier | Connect Harvest to 1,000+ apps with automated workflows using Zapier.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c168",
+    "candidate": "c056",
+    "label": "partner",
+    "source_url": "https://www.getharvest.com/integrations",
+    "fetched_at": "2026-09-25T18:30:23Z",
+    "evidence": "Databox | Combine data from Harvest and other tools to create custom KPI dashboards.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c168",
+    "candidate": "c098",
+    "label": "partner",
+    "source_url": "https://www.getharvest.com/integrations",
+    "fetched_at": "2026-09-25T18:30:23Z",
+    "evidence": "Zendesk | A professional help desk tool where you can track time spent on tickets for billing.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c168",
+    "candidate": "c140",
+    "label": "partner",
+    "source_url": "https://www.getharvest.com/integrations",
+    "fetched_at": "2026-09-25T18:30:23Z",
+    "evidence": "Jira | Track time right from the issue and project tracking software Jira.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c168",
+    "candidate": "c048",
+    "label": "partner",
+    "source_url": "https://www.getharvest.com/integrations",
+    "fetched_at": "2026-09-25T18:30:23Z",
+    "evidence": "Asana | Track time right from your Asana tasks without switching to Harvest.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c168",
+    "candidate": "c076",
+    "label": "partner",
+    "source_url": "https://www.getharvest.com/integrations",
+    "fetched_at": "2026-09-25T18:30:23Z",
+    "evidence": "Xero | Copy Harvest invoices and payments to this accounting app, eliminating double entry.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c168",
+    "candidate": "c026",
+    "label": "partner",
+    "source_url": "https://www.getharvest.com/integrations",
+    "fetched_at": "2026-09-25T18:30:23Z",
+    "evidence": "QuickBooks Online | Copy Harvest invoices and recorded payments right into this accounting tool.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c168",
+    "candidate": "c046",
+    "label": "partner",
+    "source_url": "https://www.getharvest.com/integrations",
+    "fetched_at": "2026-09-25T18:30:23Z",
+    "evidence": "Deel | Transfer timesheets from Harvest to Deel with ease.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c168",
+    "candidate": "c016",
+    "label": "partner",
+    "source_url": "https://www.getharvest.com/integrations",
+    "fetched_at": "2026-09-25T18:30:23Z",
+    "evidence": "Basecamp | Track time from your to-dos with a Harvest browser extension.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c168",
+    "candidate": "c022",
+    "label": "partner",
+    "source_url": "https://www.getharvest.com/integrations",
+    "fetched_at": "2026-09-25T18:30:23Z",
+    "evidence": "ClickUp | Hassle-free time tracking synced to every task on the productivity platform, ClickUp.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c168",
+    "candidate": "c105",
+    "label": "partner",
+    "source_url": "https://www.getharvest.com/integrations",
+    "fetched_at": "2026-09-25T18:30:23Z",
+    "evidence": "Parakeeto | Create estimates in seconds using your Harvest data.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c168",
+    "candidate": "c020",
+    "label": "partner",
+    "source_url": "https://www.getharvest.com/integrations",
+    "fetched_at": "2026-09-25T18:30:23Z",
+    "evidence": "Klipfolio | Include your Harvest data in your Klipfolio dashboards.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c168",
+    "candidate": "c042",
+    "label": "partner",
+    "source_url": "https://www.getharvest.com/integrations",
+    "fetched_at": "2026-09-25T18:30:23Z",
+    "evidence": "Plecto | Create real-time dashboards with your Harvest data.",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c168",
+    "candidate": "c054",
+    "label": "partner",
+    "source_url": "https://www.getharvest.com/integrations",
+    "fetched_at": "2026-09-25T18:30:23Z",
+    "evidence": "Coupler.io | Export Harvest data to Google Sheets, Excel, and BigQuery",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c168",
+    "candidate": "c045",
+    "label": "partner",
+    "source_url": "https://www.getharvest.com/integrations",
+    "fetched_at": "2026-09-25T18:30:23Z",
+    "evidence": "BugHerd | Start and stop timers, and automatically add time to timesheets in Harvest",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c168",
+    "candidate": "c175",
+    "label": "competitor",
+    "source_url": "https://www.getharvest.com/resources/harvest-vs-toggl",
+    "fetched_at": "2026-09-25T18:32:11Z",
+    "evidence": "Harvest vs Toggl Track: Which Time Tracker Is Right for You? [2025]",
+    "fetch_method": "curl"
+  },
+  {
+    "target": "c168",
+    "candidate": "c142",
+    "label": "competitor",
+    "source_url": "https://www.getharvest.com/resources/harvest-vs-clockify",
+    "fetched_at": "2026-09-25T18:32:12Z",
+    "evidence": "Harvest vs Clockify: Which Time Tracker Is Right for You? [2025]",
+    "fetch_method": "curl"
+  }
+]

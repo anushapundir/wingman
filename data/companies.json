@@ -1,0 +1,1269 @@
+[
+  {
+    "id": "c001",
+    "name": "Jam",
+    "domain": "jam.dev",
+    "role": "pool",
+    "description_anon": "[company] is a screen recorder for software teams. Capture bugs, feedback, and ideas with available console logs, network requests, device details, and user events. Quickly record bugs, issues, and ideas with all the technical context teammates and AI agents need to move work forward."
+  },
+  {
+    "id": "c002",
+    "name": "UKG",
+    "domain": "ukg.com",
+    "role": "pool",
+    "description_anon": "Simplify HR, payroll, and workforce management with the workforce intelligence platform built for modern operations. Make better workforce decisions with people-first AI, streamlined HR processes, and payroll clarity. Empower your frontline and optimize every shift with people-first AI and real-time insights."
+  },
+  {
+    "id": "c003",
+    "name": "Framer",
+    "domain": "framer.com",
+    "role": "pool",
+    "description_anon": "Go from idea to launch with an agent that designs and builds on the canvas. Keep each change editable, with hosting, security, analytics, CMS, and SEO built in. [company] is the design agent for every step from idea to launch."
+  },
+  {
+    "id": "c004",
+    "name": "DocuSign",
+    "domain": "docusign.com",
+    "role": "pool",
+    "description_anon": "Create, commit to, and manage your agreements all in one platform with [company]. Electronically sign for free. Get signatures from anywhere, using almost any device. Finalize agreements faster with collaborative commenting, shared templates, and delivery in the apps your signers already use."
+  },
+  {
+    "id": "c005",
+    "name": "Zapier",
+    "domain": "zapier.com",
+    "role": "pool",
+    "description_anon": "Build and scale AI workflows and agents across 9,000+ apps with [company], the most connected AI orchestration platform. Trusted by 3 million+ businesses. No-code automation across 9,000+ apps. Do-it-yourself automation for workflows."
+  },
+  {
+    "id": "c006",
+    "name": "GoSimpleTax",
+    "domain": "gosimpletax.com",
+    "role": "pool",
+    "description_anon": "[company] is a highly awarded online tax return and self assessment software. File your self assessment tax return online to HMRC with little hassle. Simple, straightforward and designed to save you time and money, [company] is a fully HMRC-recognised online tax software for anyone who needs to file a Self Assessment tax return."
+  },
+  {
+    "id": "c007",
+    "name": "Samsara",
+    "domain": "samsara.com",
+    "role": "pool",
+    "description_anon": "[company]'s connected operations platform helps 20,000+ operations improve safety, cut costs, and run smarter, built with operators. The platform built with operators and trusted to perform. Improve safety, lower costs, and transform your operations."
+  },
+  {
+    "id": "c008",
+    "name": "Help Scout",
+    "domain": "helpscout.com",
+    "role": "target",
+    "description_anon": "[company] delivers all the features you need to deliver exceptional support at a fraction of the cost of other customer service platforms. [company] brings context, collaboration, and AI inside the flow of support, so your team can make fast, exceptional service the standard."
+  },
+  {
+    "id": "c009",
+    "name": "Aircall",
+    "domain": "aircall.io",
+    "role": "pool",
+    "description_anon": "AI-powered customer communications platform to unify channels, automate tasks, and provide insights. Integrate with CRM and helpdesk. Native integrations with CRM, help desk, and business tools automatically sync conversations and customer data across your systems."
+  },
+  {
+    "id": "c010",
+    "name": "JazzHR",
+    "domain": "jazzhr.com",
+    "role": "pool",
+    "description_anon": "[company] is powerful, user-friendly, and affordable recruiting software built to help small to medium-sized businesses hire smarter and faster. [company] helps small businesses hire faster with easy-to-use recruiting software built to streamline everything from job posting to offer letters."
+  },
+  {
+    "id": "c011",
+    "name": "Autodesk",
+    "domain": "autodesk.com",
+    "role": "pool",
+    "description_anon": "[company] is a leader in 3D design, engineering and entertainment software. We help people imagine, design, and create a better world. [company] for small business: discover our affordable 2D drafting, 3D modeling, and 3D printing software."
+  },
+  {
+    "id": "c012",
+    "name": "Gorgias",
+    "domain": "gorgias.com",
+    "role": "pool",
+    "description_anon": "Drive more sales and automate support with AI Agent, Helpdesk integrated to your stack, Chat, FAQ and more. Trusted by top 17,000 brands. Conversations that drive revenue, not just resolutions. Bring your support team, customer data, workflows, and AI Agent together in one platform built for every stage of the customer journey."
+  },
+  {
+    "id": "c013",
+    "name": "Plausible",
+    "domain": "plausible.io",
+    "role": "pool",
+    "description_anon": "[company] is a lightweight and open-source [company] alternative. Your website data is 100% yours and the privacy of your visitors is respected. Get all the important stats on one single page. No training necessary."
+  },
+  {
+    "id": "c014",
+    "name": "Bento",
+    "domain": "bentonow.com",
+    "role": "pool",
+    "description_anon": "[company]: email marketing and deliverability. Email marketing for serious senders who make money off email. Catch mistakes before you send, control the pace, and check live delivery data. [company] is built to ensure that every send feels calm, safe, and lands where you want it."
+  },
+  {
+    "id": "c015",
+    "name": "Cal.com",
+    "domain": "cal.com",
+    "role": "target",
+    "description_anon": "A fully customizable scheduling software for individuals, businesses taking calls and developers building scheduling platforms where users meet users. Larger teams scheduling for more control and security. Build your own integrations with our public API. Use our react atoms to add scheduling to your app."
+  },
+  {
+    "id": "c016",
+    "name": "Basecamp",
+    "domain": "basecamp.com",
+    "role": "pool",
+    "description_anon": "Trusted by millions, [company] puts everything you need to get work done in one place. It's the calm, organized way to manage projects, work with clients, and communicate company-wide. [company] is project management without all the nonsense. Rock solid and famously easy to use."
+  },
+  {
+    "id": "c017",
+    "name": "SevenRooms",
+    "domain": "sevenrooms.com",
+    "role": "pool",
+    "description_anon": "Grow your hospitality business with an all-in-one marketing and operations platform that has built-in guest analytics, integrations and more. [company] helps restaurants increase sales, delight guests and keep them coming back, automatically."
+  },
+  {
+    "id": "c018",
+    "name": "Paychex",
+    "domain": "paychex.com",
+    "role": "pool",
+    "description_anon": "[company] has HR and Payroll solutions to fit the needs of any size business. Let [company] help you take your business where it needs to go. Better payroll, better savings."
+  },
+  {
+    "id": "c019",
+    "name": "Fathom Analytics",
+    "domain": "usefathom.com",
+    "role": "target",
+    "description_anon": "Privacy-focused website analytics from a sustainable company. A GDPR compliant, [company] alternative. Our lightweight script loads without holding up your page. It loads from all over the world, from the place closest to the person visiting your site."
+  },
+  {
+    "id": "c020",
+    "name": "Klipfolio",
+    "domain": "klipfolio.com",
+    "role": "pool",
+    "description_anon": "[company] is a complete dashboard solution that automates data retrieval and offers limitless dashboard presentation and distribution options, all with the power and familiarity of spreadsheets. Connect to hundreds of services and APIs directly and build highly customizable dashboards and reports for your team and clients."
+  },
+  {
+    "id": "c021",
+    "name": "Ramp",
+    "domain": "ramp.com",
+    "role": "pool",
+    "description_anon": "Make expense management easy with [company]'s spend management platform. Combine global corporate cards, travel, expenses and accounts payable to automate finance operations and improve efficiency. One platform for all of finance. Agents for every workflow, working 24/7."
+  },
+  {
+    "id": "c022",
+    "name": "ClickUp",
+    "domain": "clickup.com",
+    "role": "pool",
+    "description_anon": "Our mission is to make the world more productive. To do this, we built the everything app for work: Tasks, Docs, Goals, and Chat. All apps, AI agents, and humans in [company]. 100+ products to replace fragmented software and maximize human productivity."
+  },
+  {
+    "id": "c023",
+    "name": "Entrata",
+    "domain": "entrata.com",
+    "role": "pool",
+    "description_anon": "[company] is the operating system for Autonomous Property Management, unifying leasing, payments, renewals, and resident experience, with AI embedded across workflows to execute operations within your guardrails and drive portfolio performance."
+  },
+  {
+    "id": "c024",
+    "name": "Granola",
+    "domain": "granola.ai",
+    "role": "pool",
+    "description_anon": "The AI notepad for back-to-back meetings. Notes, actions and memory. Without a meeting bot. The AI notepad for people in back-to-back meetings. AI chat that already knows what you're working on."
+  },
+  {
+    "id": "c025",
+    "name": "Kit",
+    "domain": "kit.com",
+    "role": "pool",
+    "description_anon": "[company] (formerly [company]) is the creator-first email marketing and newsletter platform. Grow your audience, automate campaigns, and sell without burnout. [company] is the email marketing platform that helps you grow your list, find your highest-value subscribers, and earn more from every send."
+  },
+  {
+    "id": "c026",
+    "name": "QuickBooks",
+    "domain": "quickbooks.intuit.com",
+    "role": "pool",
+    "description_anon": "Organize and manage your business with the #1 rated solution. Fast and easy setup. Join 7 million businesses already using [company]. Create invoices that customers can pay online right away. Connect your bank, credit card, and other accounts to import expenses."
+  },
+  {
+    "id": "c027",
+    "name": "Namely",
+    "domain": "namely.com",
+    "role": "pool",
+    "description_anon": "Manage your people more efficiently and accurately with [company]'s Human Capital Management (HCM) platform and managed services. Power-up payroll, compliance, benefits, and analytics with an all-in-one HCM solution. Access dedicated HR consulting, compliance, and handbook support."
+  },
+  {
+    "id": "c028",
+    "name": "Linear",
+    "domain": "linear.app",
+    "role": "target",
+    "description_anon": "Purpose-built for planning and building products with AI agents. The product development system for teams and agents. A new species of product tool. Purpose-built for modern teams with AI workflows at its core, [company] sets a new standard for planning and building products."
+  },
+  {
+    "id": "c029",
+    "name": "Mintlify",
+    "domain": "mintlify.com",
+    "role": "pool",
+    "description_anon": "The knowledge platform built for agents. Self-updating documentation for startups, enterprises, and agents. The knowledge infrastructure agents build on. Collaborate with your team and agents. Build on top of your existing setup. Join 20,000+ of the world's most ambitious companies building for agents."
+  },
+  {
+    "id": "c030",
+    "name": "Jellyfish",
+    "domain": "jellyfish.co",
+    "role": "pool",
+    "description_anon": "[company] is the intelligence platform for AI-Integrated engineering, helping R&D teams understand impact, adopt best practices, and make smarter decisions. [company] turns your developer tool data into productivity insights that help R&D drive measurable impact in the AI era."
+  },
+  {
+    "id": "c031",
+    "name": "Honeybadger",
+    "domain": "honeybadger.io",
+    "role": "pool",
+    "description_anon": "Real-time error tracking, APM and logging for your favorite stack. Helps developers find and fix issues faster. Get started for free. [company] combines the best of error tracking and application monitoring in one simple interface, helping you respond quickly and fix issues in record time."
+  },
+  {
+    "id": "c032",
+    "name": "Google Analytics",
+    "domain": "marketingplatform.google.com",
+    "role": "pool",
+    "description_anon": "Introducing [company], a unified marketing and analytics platform for smarter marketing measurement and better results. Get free tools to make the most of your marketing, from site and app analytics to intuitive testing and more. Understand your customers so you can deliver better experiences."
+  },
+  {
+    "id": "c033",
+    "name": "Bloomerang",
+    "domain": "bloomerang.co",
+    "role": "pool",
+    "description_anon": "Boost donations and deepen connections. [company]'s fundraising tools and CRM help you acquire and manage donors and volunteers effectively. [company]'s Giving Platform brings fundraising, CRM, volunteer engagement, and donor intelligence together so your team can see what matters, act faster, and grow stronger supporter relationships."
+  },
+  {
+    "id": "c034",
+    "name": "Lattice",
+    "domain": "lattice.com",
+    "role": "target",
+    "description_anon": "Join 5,000+ forward-thinking teams using [company]'s HR and AI tools to manage people and performance, all on one trusted platform. [company] is your team's daily destination for work, combining the best people and AI tools to help employees grow, managers lead, and companies succeed."
+  },
+  {
+    "id": "c035",
+    "name": "incident.io",
+    "domain": "incident.io",
+    "role": "pool",
+    "description_anon": "[company] is a software reliability platform unifying on-call, agentic root cause analysis, incident response, and status pages, helping teams resolve issues faster. Our goal is to support humans and an agent working together, from the moment an alert fires all the way through to resolution."
+  },
+  {
+    "id": "c036",
+    "name": "Satago",
+    "domain": "satago.com",
+    "role": "pool",
+    "description_anon": "[company] helps you avoid credit risks, improve debtor management, save time and stress on chasing payment and access invoice finance when you need it, all in one platform. Seamlessly connect your accounting software via API, and start taking complete control of your business cash flow."
+  },
+  {
+    "id": "c037",
+    "name": "Commusoft",
+    "domain": "commusoft.co.uk",
+    "role": "pool",
+    "description_anon": "Boost productivity and unlock more revenue for your commercial service business with [company]'s field service management software. Stop chasing debt and start getting paid: download our customisable email templates and optimise communication with your customers."
+  },
+  {
+    "id": "c038",
+    "name": "Capium",
+    "domain": "capium.com",
+    "role": "pool",
+    "description_anon": "Revolutionise your practice with [company]'s cloud-based accountancy software. Designed for efficiency, security, and simplicity, it's the integrated solution to smart, streamlined accounting. Fully integrated accountancy software that works for you."
+  },
+  {
+    "id": "c039",
+    "name": "Vimcal",
+    "domain": "vimcal.com",
+    "role": "pool",
+    "description_anon": "[company] is the world's fastest calendar, beautifully designed for people who have too many meetings. Drag to share availabilities, schedule across time zones, and see all your Outlook and [company] calendars in one view."
+  },
+  {
+    "id": "c040",
+    "name": "Blackbaud",
+    "domain": "blackbaud.com",
+    "role": "pool",
+    "description_anon": "[company] delivers AI-powered software for nonprofits, education, foundations, and companies, helping organizations drive greater social impact. Disconnected, generic tools slow you down. Get ahead with the leading software for nonprofits, education and social impact teams."
+  },
+  {
+    "id": "c041",
+    "name": "Sentry",
+    "domain": "sentry.io",
+    "role": "pool",
+    "description_anon": "Application performance monitoring for developers and software teams to see errors clearer, solve issues faster and continue learning continuously. Code breaks, fix it faster. Application monitoring software considered \"not bad\" by millions of developers. Catch critical issues before you merge and fix them when they hit prod."
+  },
+  {
+    "id": "c042",
+    "name": "Plecto",
+    "domain": "plecto.com",
+    "role": "pool",
+    "description_anon": "[company] is the ultimate motivational KPI management tool for boosting support and sales teams' performance, combining KPI visualization with employee engagement. Your team won't achieve goals if they can't see them. Visualize your team's KPIs in real time on TV dashboards in the office."
+  },
+  {
+    "id": "c043",
+    "name": "Mews",
+    "domain": "mews.com",
+    "role": "pool",
+    "description_anon": "[company] is a cloud-based hospitality management software trusted by 15,000+ properties to automate operations, boost revenue and power the guest experience. The operating system for modern hotels. Power your entire business on one operating system."
+  },
+  {
+    "id": "c044",
+    "name": "Cloudbeds",
+    "domain": "cloudbeds.com",
+    "role": "pool",
+    "description_anon": "[company] powers the world's most ambitious hotels. Best Hospitality Management Software, Top Channel Manager, Top PMS, and more. Not your average PMS. The growth engine built for your ambition. Flexible solutions to run and grow the business you want, on your terms."
+  },
+  {
+    "id": "c045",
+    "name": "BugHerd",
+    "domain": "bugherd.com",
+    "role": "pool",
+    "description_anon": "[company] makes it easy for clients to give website feedback and bug reports. Clients just point-click-comment. Your clients can just point, click and comment on a live website. [company] grabs the screenshot, captures technical details, and creates a task for your team to manage."
+  },
+  {
+    "id": "c046",
+    "name": "Deel",
+    "domain": "deel.com",
+    "role": "pool",
+    "description_anon": "Hire, pay, and manage teams in 150+ countries with [company]. Run global payroll, ensure compliance, and streamline HR operations, all on one powerful platform. Trusted by 40,000+ companies from startups to enterprise."
+  },
+  {
+    "id": "c047",
+    "name": "Box",
+    "domain": "box.com",
+    "role": "pool",
+    "description_anon": "Intelligent Content Management makes it easy to automate workflows, collaborate internally and externally, and protect your sensitive data, all on one platform. Your business lives in content, unleash it with the new [company]. Deploy AI agents with confidence."
+  },
+  {
+    "id": "c048",
+    "name": "Asana",
+    "domain": "asana.com",
+    "role": "pool",
+    "description_anon": "Work management software for teams and AI agents. Plan, automate, and execute critical workflows together. A neural network of everything your company is doing, every person, task, project, goal, and dependency connected, so humans and agents always know who is doing what, by when."
+  },
+  {
+    "id": "c049",
+    "name": "SimplePractice",
+    "domain": "simplepractice.com",
+    "role": "pool",
+    "description_anon": "Get the #1 HIPAA-compliant EHR and practice management software. Join 250,000+ therapists, health and wellness professionals. Our EHR software includes integrated telehealth, a robust template library, and helpful insurance tools, making it easy for you to manage your practice while caring for clients."
+  },
+  {
+    "id": "c050",
+    "name": "Transistor",
+    "domain": "transistor.fm",
+    "role": "pool",
+    "description_anon": "Upload once and distribute your video and audio podcast to Apple Podcasts, Spotify, YouTube, and more. Unlimited shows, detailed analytics, free podcast website, and real human support. Host unlimited shows on one account. Host and distribute video podcasts. Create a private podcast for your team."
+  },
+  {
+    "id": "c051",
+    "name": "Rentvine",
+    "domain": "rentvine.com",
+    "role": "pool",
+    "description_anon": "Trust accounting that closes in hours. AI built into maintenance, leasing, and vendor bills, not bolted on. Support that actually answers. [company] is the leader in trust accounting among property management software providers. [company] offers dedicated owner, tenant, vendor, and applicant portals."
+  },
+  {
+    "id": "c052",
+    "name": "Discourse",
+    "domain": "discourse.org",
+    "role": "pool",
+    "description_anon": "[company] is the customizable, scalable community platform powering more than 22,000 communities that create knowledge through conversation. One platform, any community. Reduce support costs for your organization by enabling your users to support each other and easily find answers."
+  },
+  {
+    "id": "c053",
+    "name": "SignEasy",
+    "domain": "signeasy.com",
+    "role": "pool",
+    "description_anon": "[company]'s Intelligent Contract Management platform lets you eSign, store, search, and manage contracts in one place. Trusted by 48,000+ businesses. Go beyond eSignatures with repository, AI insights, and renewal reminders. Collect legally binding signatures from anywhere, on any device."
+  },
+  {
+    "id": "c054",
+    "name": "Coupler.io",
+    "domain": "coupler.io",
+    "role": "pool",
+    "description_anon": "[company] is a data integration platform and AI analytics. Collect, organize, and visualize data from your marketing, sales, finance, and other apps. Build insightful reports and stand out as a data-driven expert. Ask anything. Your data answers immediately."
+  },
+  {
+    "id": "c055",
+    "name": "Signable",
+    "domain": "signable.co.uk",
+    "role": "pool",
+    "description_anon": "[company]'s electronic signature software helps you send legally binding and secure documents online in seconds. Secure electronic signatures to send, sign, and track documents, all in one place. Track every step, from sending to signature, with a clear audit trail."
+  },
+  {
+    "id": "c056",
+    "name": "Databox",
+    "domain": "databox.com",
+    "role": "pool",
+    "description_anon": "[company] is the agentic analytics platform that brings performance data, business context, and AI workflows together, so your team or agents act faster. Bring connected data, governed metrics, business contexts, and AI together in one platform. Ask questions and get trusted answers from live data."
+  },
+  {
+    "id": "c057",
+    "name": "Chaser",
+    "domain": "chaserhq.com",
+    "role": "pool",
+    "description_anon": "Automate invoice reminders, get paid faster and maintain great customer relationships. Automate receivables and forecast cash flow with confidence. Connect your accounting or financial system in just a few clicks. Reduce manual chasing and free up your team's time. Recover late payments from delinquent customers."
+  },
+  {
+    "id": "c058",
+    "name": "Paylocity",
+    "domain": "paylocity.com",
+    "role": "pool",
+    "description_anon": "[company] unifies HR, Finance, and IT on one HCM platform, so you can stop piecing systems together and start moving forward together. From growing teams to established enterprises, [company] is built for you. Streamline and automate, attract and retain talent, and build culture and connection."
+  },
+  {
+    "id": "c059",
+    "name": "Plumsail",
+    "domain": "plumsail.com",
+    "role": "pool",
+    "description_anon": "[company] automates document generation, web forms, and customer support for Microsoft 365 and SharePoint, helping teams save time and cut manual work. Create documents from templates, collect eSignatures, upload to the cloud or send by e-mail."
+  },
+  {
+    "id": "c060",
+    "name": "Beehiiv",
+    "domain": "beehiiv.com",
+    "role": "pool",
+    "description_anon": "Create, grow, and monetize your newsletter with easy-to-use newsletter tools. Build email newsletters and websites without any coding. The all-in-one platform helping the world's best newsletters publish, grow and earn. Our built-in ad network does the selling for you, connecting your content with global brands."
+  },
+  {
+    "id": "c061",
+    "name": "Procore",
+    "domain": "procore.com",
+    "role": "pool",
+    "description_anon": "[company]'s construction management platform connects the site and the office. Gain the real-time visibility needed to deliver quality projects on time. [company] acquires DroneDeploy to bring visual intelligence to every jobsite."
+  },
+  {
+    "id": "c062",
+    "name": "Canvas LMS",
+    "domain": "instructure.com",
+    "role": "pool",
+    "description_anon": "Empower learning with [company]'s LMS and edtech solutions for K-12, higher education, and businesses. [company] is greater than the sum of its parts: it's where the best edtech, the best partners, and the best community unite."
+  },
+  {
+    "id": "c063",
+    "name": "Vanta",
+    "domain": "vanta.com",
+    "role": "pool",
+    "description_anon": "[company] automates the complex and time-consuming process of SOC 2, HIPAA, ISO 27001, PCI, and GDPR compliance certification. Automate your security monitoring in weeks instead of months. SOC 2, ISO 27001, HIPAA, and 35+ frameworks, automated and continuously monitored."
+  },
+  {
+    "id": "c064",
+    "name": "Carrd",
+    "domain": "carrd.co",
+    "role": "pool",
+    "description_anon": "A free platform for building simple, fully responsive one-page sites for pretty much anything. Whether it's a personal profile, a landing page to capture emails, or something a bit more elaborate, [company] has you covered. Simple, responsive, and totally free."
+  },
+  {
+    "id": "c065",
+    "name": "1Password",
+    "domain": "1password.com",
+    "role": "pool",
+    "description_anon": "Protect passwords and secrets, manage app access, and secure AI tools with [company]. Easy to adopt from growing teams to enterprise. Visibility and control for humans and AI agents, built on the most trusted vault for identities, credentials, and secrets."
+  },
+  {
+    "id": "c066",
+    "name": "Riverside",
+    "domain": "riverside.fm",
+    "role": "pool",
+    "description_anon": "[company] is your online studio for high-quality podcast and video recording and editing. Powered by AI, built for human conversations. Get started for free. 4K video and audio recorder. AI, text-based video editor. Podcast publishing and analytics. Create and send newsletters."
+  },
+  {
+    "id": "c067",
+    "name": "PracticePanther",
+    "domain": "practicepanther.com",
+    "role": "pool",
+    "description_anon": "Learn how [company]'s law practice management software can automate your firm processes, billing, time tracking and more. Manage your entire firm in one platform: case management, calendaring, client communication, billing, and payments, all seamlessly connected to boost efficiency and improve cash flow."
+  },
+  {
+    "id": "c068",
+    "name": "ZenBusiness",
+    "domain": "zenbusiness.com",
+    "role": "pool",
+    "description_anon": "Confidently build and plan your business idea or start an LLC today for $0 plus state fees with personalized [company] guidance and expert support. Confidently launch your business and stay protected as it grows with AI guidance and expert support."
+  },
+  {
+    "id": "c069",
+    "name": "Duda",
+    "domain": "duda.co",
+    "role": "pool",
+    "description_anon": "Build, get found, and convert with [company]. Scale your business with an AI-powered platform purpose-built for creating high-ranking client websites that drive results. Help your clients get discovered, convert customers, and grow faster."
+  },
+  {
+    "id": "c070",
+    "name": "Nicereply",
+    "domain": "nicereply.com",
+    "role": "pool",
+    "description_anon": "Collect immediate customer feedback with the [company] CX management platform. Use one-click CSAT, CES and NPS surveys and increase the volume of insights you receive. Set up once, collect forever."
+  },
+  {
+    "id": "c071",
+    "name": "Buttondown",
+    "domain": "buttondown.com",
+    "role": "target",
+    "description_anon": "[company] is the last email platform you'll migrate to. We're focused on your success, not on bleeding you dry. We prioritize our product roadmap from our customer feedback, not our own agenda. We use [company] for our own mailing lists. As a small, independent business, we want [company] to be our life's work."
+  },
+  {
+    "id": "c072",
+    "name": "Dext",
+    "domain": "dext.com",
+    "role": "pool",
+    "description_anon": "Stop spending hours on bookkeeping admin. [company] AI Bookkeeping software automatically captures receipts and invoices and extracts data with 99.9% accuracy. With [company], every expense is automatically categorised and submitted to your accounting software, ready for you to work your magic."
+  },
+  {
+    "id": "c073",
+    "name": "Listmonk",
+    "domain": "listmonk.app",
+    "role": "pool",
+    "description_anon": "Self-hosted newsletter and mailing list manager. Send e-mail campaigns and transactional e-mails. High performance and features packed into one app. Manage millions of subscribers across single and double opt-in lists. Query and segment subscribers with SQL expressions."
+  },
+  {
+    "id": "c074",
+    "name": "ShipBob",
+    "domain": "shipbob.com",
+    "role": "pool",
+    "description_anon": "Ecommerce fulfillment across all channels. [company] empowers businesses to scale, offer 2-day shipping, and manage inventory and shipments. Join industry-leaders who have partnered with [company] to power their order fulfillment."
+  },
+  {
+    "id": "c075",
+    "name": "Limble",
+    "domain": "limblecmms.com",
+    "role": "pool",
+    "description_anon": "[company] is a modern Asset Management platform. Simplify work orders, keep assets running smoothly, and increase productivity across every site. Assign, complete, and track work orders from anywhere. Unplanned downtime costs 10x more than preventive maintenance."
+  },
+  {
+    "id": "c076",
+    "name": "Xero",
+    "domain": "xero.com",
+    "role": "pool",
+    "description_anon": "[company] software for small businesses connects you to your bank, accountant, bookkeeper, and other business apps. Manage all your accounting needs in one place. Simplify and streamline your billing process. Get paid up to 2x faster by accepting online payments. All your bills, in one place."
+  },
+  {
+    "id": "c077",
+    "name": "Cloudflare",
+    "domain": "cloudflare.com",
+    "role": "pool",
+    "description_anon": "Welcome to [company], powering the next generation of applications. One platform for your apps, agents, and workforce. Build, secure, and scale without managing infrastructure. Security, connectivity, and code run in 335+ cities around the world, within 50ms of 95% of the world's population."
+  },
+  {
+    "id": "c078",
+    "name": "airSlate SignNow",
+    "domain": "signnow.com",
+    "role": "target",
+    "description_anon": "Sign documents with [company]'s legally-binding eSignature trusted by millions. Enjoy a seamless online signature experience anytime, anywhere, on any device. Deliver a seamless eSignature experience from any website, CRM, or custom app. Organize documents in groups and automatically route them to recipients in a role-based order."
+  },
+  {
+    "id": "c079",
+    "name": "Cvent",
+    "domain": "cvent.com",
+    "role": "pool",
+    "description_anon": "[company] provides software to planners for event management, marketing and attendee engagement, and also helps hotels win business through our sourcing platforms. Where organizers run their best events and hospitality wins more MICE business."
+  },
+  {
+    "id": "c080",
+    "name": "Pipedrive",
+    "domain": "pipedrive.com",
+    "role": "pool",
+    "description_anon": "[company] is the easy-to-use, #1 user-rated CRM tool. Get more qualified leads and grow your business with our sales CRM. Meet [company]: our new built-in meeting intelligence tool. Full access. No credit card required. Used by over 100,000 companies."
+  },
+  {
+    "id": "c081",
+    "name": "Housecall Pro",
+    "domain": "housecallpro.com",
+    "role": "pool",
+    "description_anon": "[company] is a top-rated software solution for home service businesses. Over 200,000 field service professionals trust [company]. Everything to run and grow your business. Grow revenue, save time, and build a winning reputation. From the first call to the final payment, every day runs like your smoothest day."
+  },
+  {
+    "id": "c082",
+    "name": "Shopmonkey",
+    "domain": "shopmonkey.io",
+    "role": "pool",
+    "description_anon": "Smart and simple repair shop management software that does it all. Invoices, POS system, CRM, inventory, scheduling, and more. The auto shop software that combines your hustle and craftsmanship with efficiency and profit."
+  },
+  {
+    "id": "c083",
+    "name": "OnPay",
+    "domain": "onpay.com",
+    "role": "target",
+    "description_anon": "Simplify your payroll services, taxes, HR and benefits. [company]'s top-rated online payroll services bring it all together. [company] pairs intuitive software with 35+ years of payroll expertise so you can run payroll in minutes, stay compliant, and get expert human help when you need it."
+  },
+  {
+    "id": "c084",
+    "name": "Checkr",
+    "domain": "checkr.com",
+    "role": "pool",
+    "description_anon": "The AI-powered verification platform for high-stakes decisions. Fast, accurate background checks at scale. Your hiring decisions are only as good as the data behind them. [company] combines AI with human experts to ensure your reports are accurate, fast, and compliant every time."
+  },
+  {
+    "id": "c085",
+    "name": "Middesk",
+    "domain": "middesk.com",
+    "role": "pool",
+    "description_anon": "[company] is the business intelligence platform for verification, fraud, and credit risk. Onboarding that runs itself, from application to ongoing monitoring. The business infrastructure platform to accelerate formation, onboarding, and growth."
+  },
+  {
+    "id": "c086",
+    "name": "NexHealth",
+    "domain": "nexhealth.com",
+    "role": "pool",
+    "description_anon": "[company] connects every step of the patient journey to your practice management system so that the patient shows up ready. Get new appointments and fill last minute openings. Automate texts and emails to fit your workflow. Never scan paper forms again."
+  },
+  {
+    "id": "c087",
+    "name": "Attio",
+    "domain": "attio.com",
+    "role": "pool",
+    "description_anon": "The system for revenue teams to build pipeline, accelerate deals, and grow accounts around the clock. [company] is the CRM that builds pipeline, advances deals, and grows accounts around the clock. Welcome to agentic revenue."
+  },
+  {
+    "id": "c088",
+    "name": "Umami",
+    "domain": "umami.is",
+    "role": "pool",
+    "description_anon": "[company]: privacy-first analytics platform. [company] is the open-source, privacy-first analytics platform. Understand traffic, campaigns, behavior, conversions, and revenue in one privacy-first, open-source analytics platform. Self-host or use [company]. No cookies required."
+  },
+  {
+    "id": "c089",
+    "name": "Datamolino",
+    "domain": "datamolino.com",
+    "role": "pool",
+    "description_anon": "[company] automatically extracts and processes data from bills, invoices, receipts, and bank statements, saving your time and effort. Route every bill and receipt for sign-off before it reaches your accounting software, without paying for a separate tool."
+  },
+  {
+    "id": "c090",
+    "name": "Vestwell",
+    "domain": "vestwell.com",
+    "role": "pool",
+    "description_anon": "Power workplace retirement and savings on one modern platform: 401(k)s, education, and emergency savings with payroll sync across 190+ providers. Retirement plans have moved from friction to frictionless. A streamlined 401(k) plan with simplified compliance and maximized contributions."
+  },
+  {
+    "id": "c091",
+    "name": "Stripe",
+    "domain": "stripe.com",
+    "role": "pool",
+    "description_anon": "[company] is a financial services platform that helps all types of businesses accept payments, build flexible billing models and manage money movement. Grow your business with the most comprehensive set of payments and financial tools."
+  },
+  {
+    "id": "c092",
+    "name": "PandaDoc",
+    "domain": "pandadoc.com",
+    "role": "pool",
+    "description_anon": "[company] streamlines proposals, quotes and other business document workflows, trusted by 50K+ clients. From creation to e-sign and beyond, [company] gives your team the tools to stay ahead of every stage of the deal. A 360-degree document management solution that helps your teams get more done, faster."
+  },
+  {
+    "id": "c093",
+    "name": "Raycast",
+    "domain": "raycast.com",
+    "role": "pool",
+    "description_anon": "Your shortcut to everything. A collection of powerful productivity tools all within an extendable launcher. Fast, ergonomic and reliable. It's not about saving time. It's about feeling like you're never wasting it. Create, search and modify your issues without leaving your keyboard."
+  },
+  {
+    "id": "c094",
+    "name": "Jitterbit",
+    "domain": "jitterbit.com",
+    "role": "pool",
+    "description_anon": "Ignite business productivity with data orchestration, iPaaS, workflow automation, and low-code app development solutions, all on one unified platform. [company] AI bundles bring together intelligent automation and agentic AI for secure, scalable AI deployment with expert support."
+  },
+  {
+    "id": "c095",
+    "name": "Capsule",
+    "domain": "capsulecrm.com",
+    "role": "pool",
+    "description_anon": "Simple yet powerful CRM. Join over 10,000 global businesses and discover an easier way to manage contacts, sales and grow lasting relationships. Most CRMs make you choose between simple and powerful. [company] was built so you don't have to."
+  },
+  {
+    "id": "c096",
+    "name": "FreeAgent",
+    "domain": "freeagent.com",
+    "role": "target",
+    "description_anon": "If you're starting out, rapidly growing or running a well-oiled machine, [company] gives you confidence in your numbers and streamlines admin so you can make it count. We have detailed help articles, guides, and webinar recordings, plus a UK-based support team ready to help you if you get stuck."
+  },
+  {
+    "id": "c097",
+    "name": "Acuity Scheduling",
+    "domain": "acuityscheduling.com",
+    "role": "pool",
+    "description_anon": "[company] is an appointment booking software and a scheduling app, offering scheduling automation and full customization. Book appointments, take payments, and automate the busywork, so you can deliver standout service every time."
+  },
+  {
+    "id": "c098",
+    "name": "Zendesk",
+    "domain": "zendesk.com",
+    "role": "pool",
+    "description_anon": "Move beyond deflection with AI agents that resolve issues from start to finish. Improve service quality, speed and scale. Deliver faster, higher quality resolutions with the only AI-first service platform. Manage and resolve customer enquiries across all channels in one place."
+  },
+  {
+    "id": "c099",
+    "name": "TriNet",
+    "domain": "trinet.com",
+    "role": "pool",
+    "description_anon": "[company] provides businesses with HR solutions including payroll, benefits, risk management and compliance, all in one place. Incredible starts here. Full-service HR solution for payroll, benefits and more. AI in HR: how AI innovation is empowering small and medium businesses."
+  },
+  {
+    "id": "c100",
+    "name": "Highrise",
+    "domain": "highrisehq.com",
+    "role": "pool",
+    "description_anon": "Simple CRM software. Track leads. Manage follow-ups. Instant setup. Zero learning curve. As of August 20, 2018, we're no longer accepting new signups for [company]. For the 10,000+ businesses that rely on [company] every day, we'll continue to make sure [company] is secure, reliable, and fast."
+  },
+  {
+    "id": "c101",
+    "name": "Retell AI",
+    "domain": "retellai.com",
+    "role": "pool",
+    "description_anon": "Deploy AI voice agents in minutes with 95.7% workflow accuracy, benchmarked ahead of 6 platforms. Build, deploy, and manage next-generation AI voice agents that sound human, execute tasks, and scale effortlessly."
+  },
+  {
+    "id": "c102",
+    "name": "Culture Amp",
+    "domain": "cultureamp.com",
+    "role": "pool",
+    "description_anon": "Empower your teams and fuel positive change with performance, development, and employee engagement tools, all in one intuitive employee experience platform. Understand your employees and focus your action plans. All the tools you need to build happy, high performing teams."
+  },
+  {
+    "id": "c103",
+    "name": "Close",
+    "domain": "close.com",
+    "role": "pool",
+    "description_anon": "[company] is the CRM with a built-in AI teammate that works with your team to call leads, qualify prospects, book meetings, and keep your CRM up to date automatically, so you can focus on selling."
+  },
+  {
+    "id": "c104",
+    "name": "Front",
+    "domain": "front.com",
+    "role": "pool",
+    "description_anon": "Deliver exceptional service at scale with [company], the modern CX platform combining client communication, automation, and analytics for customer-first teams. Customer service platform, powered by AI, designed for humans. Built for operations, inbound sales, account management, and customer success."
+  },
+  {
+    "id": "c105",
+    "name": "Parakeeto",
+    "domain": "parakeeto.com",
+    "role": "pool",
+    "description_anon": "The Agency CFO firm built for agency profitability. [company] combines financial leadership and operational depth to help digital and creative agencies measure and improve their margins. [company] specializes in agencies, so you can take back control, know where the money is going, and understand what to do next."
+  },
+  {
+    "id": "c106",
+    "name": "Planning Center",
+    "domain": "planningcenter.com",
+    "role": "pool",
+    "description_anon": "Organize ministries, coordinate events, plan services, communicate with your team, and connect your congregation with integrated church management software. [company] is the flexible system that brings ministry details together. Made for churches of every kind and size."
+  },
+  {
+    "id": "c107",
+    "name": "Miro",
+    "domain": "miro.com",
+    "role": "pool",
+    "description_anon": "Speed up product development from ideation to launch. Align teams, break tool silos and ship what customers need in one AI-powered visual platform. The Intelligent Canvas where your team and agents think, plan, and build together."
+  },
+  {
+    "id": "c108",
+    "name": "CompanyCam",
+    "domain": "companycam.com",
+    "role": "pool",
+    "description_anon": "Capture work, track job progress, and stay connected from the field to the office with photo documentation and AI tools that keep work moving. Take job site photos and videos, and use AI to add even more context with just your voice. Keep it all organized with unlimited cloud-based storage."
+  },
+  {
+    "id": "c109",
+    "name": "Cin7",
+    "domain": "cin7.com",
+    "role": "pool",
+    "description_anon": "Inventory management software and small business ERP. Streamline your inventory management with [company]. [company] integrates seamlessly with over 700 app partners from one central platform. Moving off spreadsheets, multichannel selling, and ERP for small business: manage all channels from one place and manage your entire supply chain."
+  },
+  {
+    "id": "c110",
+    "name": "project44",
+    "domain": "project44.com",
+    "role": "pool",
+    "description_anon": "The AI-powered Decision Intelligence Platform for the modern supply chain. Gain control with smart, intuitive solutions, powered by Supply Chain AI. Decision Intelligence that orchestrates AI agents to detect, decide, and act in real time. The world's most complex supply chains run on [company]."
+  },
+  {
+    "id": "c111",
+    "name": "Simple Analytics",
+    "domain": "simpleanalytics.com",
+    "role": "pool",
+    "description_anon": "Run [company] alongside [company] to compare observed website traffic. Measure traffic without relying on Consent Mode modeling. [company] gives you an independent, observed dataset to compare with [company], even when visitors reject consent."
+  },
+  {
+    "id": "c112",
+    "name": "Freshdesk",
+    "domain": "freshdesk.com",
+    "role": "pool",
+    "description_anon": "Boost agent productivity and deliver seamless customer experiences with [company], an AI-powered customer service solution with omnichannel ticketing and automated workflows. From your first AI agent to AI across customer service. Trusted by 50,000+ businesses worldwide."
+  },
+  {
+    "id": "c113",
+    "name": "Datadog",
+    "domain": "datadoghq.com",
+    "role": "pool",
+    "description_anon": "See metrics from all of your apps, tools and services in one place with [company]'s cloud monitoring as a service solution. End-to-end, simplified visibility into your stack's health and performance."
+  },
+  {
+    "id": "c114",
+    "name": "Pilot",
+    "domain": "pilot.com",
+    "role": "pool",
+    "description_anon": "Get expert bookkeeping, CFO, and tax services tailored for startups and small businesses. We handle bookkeeping, tax, and advisory work for startups and small businesses. It's 50/50 people and software: smart tools for instant insights, expert people for strategic guidance."
+  },
+  {
+    "id": "c115",
+    "name": "Drata",
+    "domain": "drata.com",
+    "role": "pool",
+    "description_anon": "[company]'s AI-native compliance automation and agentic trust management platform powers GRC and assurance (GRC +A) for startups, mid-size businesses, and enterprises. Leverage autonomous AI agents to automate compliance, manage internal and third-party risk, and continuously prove your security posture."
+  },
+  {
+    "id": "c116",
+    "name": "BambooHR",
+    "domain": "bamboohr.com",
+    "role": "pool",
+    "description_anon": "[company] makes it easy to simplify HR, with award-winning solutions for everything from hire to retire. From HR platform to HR partner with [company]. [company] doesn't just suggest the next step, it completes routine work and brings you in when human judgment matters."
+  },
+  {
+    "id": "c117",
+    "name": "PosterElite",
+    "domain": "posterelite.com",
+    "role": "pool",
+    "description_anon": "Federal, state, and local regulations require employers to place certain labor law posters in the workplace. Labor law posters change frequently, and most employers can't keep up. Partner with [company] and help your clients put labor law poster compliance on autopilot."
+  },
+  {
+    "id": "c118",
+    "name": "Dub",
+    "domain": "dub.co",
+    "role": "pool",
+    "description_anon": "[company] is the modern link attribution platform for short links, conversion tracking, and affiliate programs. All-in-one partner management platform for building profitable affiliate and referral programs. Understand exactly how your marketing drives revenue with [company]'s powerful attribution engine."
+  },
+  {
+    "id": "c119",
+    "name": "SumUp",
+    "domain": "sumup.com",
+    "role": "pool",
+    "description_anon": "Millions of small businesses use [company] for affordable and easy to use payment solutions. Start accepting payments with [company]. Discover POS systems, card readers and tools for your business. No contracts, no hidden fees."
+  },
+  {
+    "id": "c120",
+    "name": "Buildium",
+    "domain": "buildium.com",
+    "role": "pool",
+    "description_anon": "Property management software built to keep property managers ahead of what's next. Control day-to-day tasks, offer top app experiences, and uncover new revenue. Automate repetitive work, move faster with sharper insights, and give your property management business the headroom to grow."
+  },
+  {
+    "id": "c121",
+    "name": "Fieldwire",
+    "domain": "fieldwire.com",
+    "role": "pool",
+    "description_anon": "Deliver projects faster with [company]. Track tasks, update drawings, and reduce costly rework, trusted by owners, GCs, and subcontractors on 4M+ projects. Assign tasks, work from up-to-date drawings, and align the field and office, all from any device."
+  },
+  {
+    "id": "c122",
+    "name": "Katana",
+    "domain": "katanamrp.com",
+    "role": "pool",
+    "description_anon": "Optimize operations with [company], the cloud-based inventory management software designed for real-time production and material tracking. One shared system for stock, orders, and production, built for product businesses selling across multiple channels and locations."
+  },
+  {
+    "id": "c123",
+    "name": "Guesty",
+    "domain": "guesty.com",
+    "role": "pool",
+    "description_anon": "[company] is the AI-powered vacation rental software for short-term rental operators, from solo hosts to large portfolios. Manage reservations from multiple channels within a single calendar. Offer your guests a customized app for a seamless experience."
+  },
+  {
+    "id": "c124",
+    "name": "AppFolio",
+    "domain": "appfolio.com",
+    "role": "pool",
+    "description_anon": "Ditch yesterday's property management software. Learn how the [company] Performance Platform helps you deliver more value for residents, owners, and investors. Happy residents. Impressed clients. Thriving teams. [company] is a workflow automation engine that standardizes processes, increases efficiency, and guides teams to consistently achieve high performance."
+  },
+  {
+    "id": "c125",
+    "name": "JustCall",
+    "domain": "justcall.io",
+    "role": "pool",
+    "description_anon": "[company] is the AI-powered phone and SMS platform built for sales and support teams. Automate calls, texts, and follow-ups with 100+ integrations. Trusted by 6,000+ businesses. Resolve calls, qualify leads, and route smarter, 24x7."
+  },
+  {
+    "id": "c126",
+    "name": "Betterment",
+    "domain": "betterment.com",
+    "role": "pool",
+    "description_anon": "[company] can help grow your money by making saving and investing easy. Invest in a tailored portfolio, set buckets for your goals, and earn rewards. Investing and saving shouldn't take over your life. [company] automates the work for you."
+  },
+  {
+    "id": "c127",
+    "name": "MaintainX",
+    "domain": "getmaintainx.com",
+    "role": "pool",
+    "description_anon": "[company] is a CMMS and EAM platform that helps industrial teams reduce downtime, improve efficiency, and optimize asset performance with AI insights. The industry's leading maintenance and asset management platform. Create, assign, and track work orders across all sites."
+  },
+  {
+    "id": "c128",
+    "name": "Traliant",
+    "domain": "traliant.com",
+    "role": "pool",
+    "description_anon": "Discover [company]'s innovative online compliance training solutions for organizations, including workplace discrimination, sexual harassment training, and diversity training. Reinventing HR compliance training: from courses employees dread into award-winning learning experiences that reduce workforce risk."
+  },
+  {
+    "id": "c129",
+    "name": "Pleo",
+    "domain": "pleo.io",
+    "role": "pool",
+    "description_anon": "The business expenses solution that empowers your people to do more. Join the thousands of companies that trust [company] to make paying for stuff at work easier. From the first card tap to final reconciliation, [company] gives you total control over company spend."
+  },
+  {
+    "id": "c130",
+    "name": "Wufoo",
+    "domain": "wufoo.com",
+    "role": "pool",
+    "description_anon": "[company]'s online form builder helps you create custom forms in minutes. Use [company] to create registration forms, application forms, surveys, contact forms, payment forms and more. Easily create the forms you need to collect data, files and payments without writing code."
+  },
+  {
+    "id": "c131",
+    "name": "Deputy",
+    "domain": "deputy.com",
+    "role": "pool",
+    "description_anon": "[company] is easy-to-use employee scheduling, HR, AI labor forecasting and payroll software. Create scalable, efficient scheduling processes around your SOPs. Stay audit-ready and reduce risk with tools to automate key compliance requirements, like breaks, Fair Workweek, overtime, and custom pay rules."
+  },
+  {
+    "id": "c132",
+    "name": "ChurnZero",
+    "domain": "churnzero.com",
+    "role": "pool",
+    "description_anon": "Deliver digital first customer success with [company] software that helps businesses improve the customer experience and drive revenue. [company] Agents automate the tasks that slow you down, execute on every risk and opportunity, and personalize interactions at scale."
+  },
+  {
+    "id": "c133",
+    "name": "Tekmetric",
+    "domain": "tekmetric.com",
+    "role": "pool",
+    "description_anon": "[company] is the industry-leading auto repair software built for shops of all sizes. Estimates, payments, marketing and more in one platform. With [company], you get a lifelong partner and the means to become better every single day."
+  },
+  {
+    "id": "c134",
+    "name": "Okta",
+    "domain": "okta.com",
+    "role": "pool",
+    "description_anon": "The [company] and [company] Platforms enable secure access, authentication, and automation, putting identity at the heart of business security and growth. Our platforms secure all types of identity from AI agents to your customers, employees, and partners."
+  },
+  {
+    "id": "c135",
+    "name": "Olo",
+    "domain": "olo.com",
+    "role": "pool",
+    "description_anon": "Drive revenue and streamline operations with [company]'s restaurant technology platform. Scale integrated digital ordering, catering, payments, marketing and loyalty. [company] powers the full guest journey, online ordering, payments, delivery, catering, loyalty, marketing, and more, with a unified platform built for restaurant brands."
+  },
+  {
+    "id": "c136",
+    "name": "Whereby",
+    "domain": "whereby.com",
+    "role": "pool",
+    "description_anon": "Host quick instant meetings or embed video calls into your platform with [company]'s video conferencing API and SDK. [company] has proven to be a dependable part of the telehealth experience for our customers and the people they serve."
+  },
+  {
+    "id": "c137",
+    "name": "EmailOctopus",
+    "domain": "emailoctopus.com",
+    "role": "pool",
+    "description_anon": "Manage and email your subscribers for a fraction of the cost with [company]. Create emails that feel like you, not a template. Get started in minutes, no credit card required."
+  },
+  {
+    "id": "c138",
+    "name": "Calendly",
+    "domain": "calendly.com",
+    "role": "pool",
+    "description_anon": "[company] connects and simplifies all of the work around meetings, from scheduling, payments, and meeting prep to notetaking, contact management, and follow-up. Introducing the new [company], built to handle all of the work around meetings."
+  },
+  {
+    "id": "c139",
+    "name": "Memberful",
+    "domain": "memberful.com",
+    "role": "pool",
+    "description_anon": "Build a membership that's truly yours. Sell subscriptions, share content, and connect with your audience, all on your own website or app. We help creators, publishers, and communities launch beautiful paid memberships without sacrificing ownership."
+  },
+  {
+    "id": "c140",
+    "name": "Jira",
+    "domain": "atlassian.com",
+    "role": "pool",
+    "description_anon": "[company] unites every team with [company], [company], [company], and [company] AI agents; one connected platform for planning, tracking, and delivering work. The teamwork platform for the AI era. In [company], teams and AI agents plan, execute, and deliver outcomes together."
+  },
+  {
+    "id": "c141",
+    "name": "Ghost",
+    "domain": "ghost.org",
+    "role": "pool",
+    "description_anon": "Beautiful, modern publishing with email newsletters and paid subscriptions built-in. Used by Platformer, 404Media, Lever News, Tangle, The Browser, and thousands more. Built for writers, journalists, local news and new media outlets."
+  },
+  {
+    "id": "c142",
+    "name": "Clockify",
+    "domain": "clockify.me",
+    "role": "pool",
+    "description_anon": "Time tracking software used by millions. [company] is a time tracker and timesheet app that lets you track work hours across projects. Track time using a timer, timesheet, or kiosk, with reports, rates, scheduling, time off, approvals, expenses, and invoicing."
+  },
+  {
+    "id": "c143",
+    "name": "Webflow",
+    "domain": "webflow.com",
+    "role": "pool",
+    "description_anon": "Design, build, optimize, and rank in AI search, all in [company]. Enterprise-grade security, CMS, hosting, and AEO built in. Trusted by over 300k teams. [company] gives every team the tools to build, manage, and grow a website that drives real revenue."
+  },
+  {
+    "id": "c144",
+    "name": "Tebra",
+    "domain": "tebra.com",
+    "role": "pool",
+    "description_anon": "Practice management software that connects EHR, billing, scheduling, and reputation tools in one smart platform, designed for patient care. Manage claims, eligibility, and denials with integrated medical billing. Collect patient payments with online pay, card-on-file, and automated statements."
+  },
+  {
+    "id": "c145",
+    "name": "Retool",
+    "domain": "retool.com",
+    "role": "pool",
+    "description_anon": "Build, deploy, and manage internal tools with [company]'s unified engine. Connect to any database, API, or LLM. Leverage AI throughout your business. Use our MCP server or CLI to build an app and deploy it here within your governed [company] environment."
+  },
+  {
+    "id": "c146",
+    "name": "SavvyCal",
+    "domain": "savvycal.com",
+    "role": "pool",
+    "description_anon": "The fresh way to find a time to meet. You'll love it for the flexible controls to keep your calendar sane. They'll love it for the ultra-convenient booking experience. Host your scheduling links on your own custom domain, for a professional white-labeled booking experience."
+  },
+  {
+    "id": "c147",
+    "name": "Veeva Systems",
+    "domain": "veeva.com",
+    "role": "pool",
+    "description_anon": "[company] delivers the industry cloud for life sciences with applications, agents, data, and consulting. Committed to innovation, product excellence, and customer success, [company] serves more than 1,500 customers, ranging from the world's largest pharmaceutical companies to emerging biotechs."
+  },
+  {
+    "id": "c148",
+    "name": "Gusto",
+    "domain": "gusto.com",
+    "role": "pool",
+    "description_anon": "[company] offers fully integrated online HR services: payroll, benefits and everything else. Hire, pay, and grow like a pro. Run payroll in five minutes flat. Even with a complex team, we'll get your people paid quickly, or even automatically. And we'll file taxes, help with compliance, and identify tax credits that save you money."
+  },
+  {
+    "id": "c149",
+    "name": "FullStory",
+    "domain": "fullstory.com",
+    "role": "pool",
+    "description_anon": "[company] helps companies understand and improve how humans and AI agents interact with digital experiences. It automatically captures every user interaction, giving businesses and their AI agents the context they need to spot problems, anticipate customer and employee needs, and fix friction points before they compound."
+  },
+  {
+    "id": "c150",
+    "name": "PowerSchool",
+    "domain": "powerschool.com",
+    "role": "pool",
+    "description_anon": "Power stronger schools with the world's most comprehensive K-12 software. [company] unifies the education ecosystem from home to central office. The K-12 Connected Operating System. More products. More connections. More power where it matters."
+  },
+  {
+    "id": "c151",
+    "name": "Tulip",
+    "domain": "tulip.co",
+    "role": "pool",
+    "description_anon": "[company] is a composable, AI-native platform manufacturers use to build and connect solutions to improve production tracking, quality, traceability, and more. The platform where your people, machines, and agents work together."
+  },
+  {
+    "id": "c152",
+    "name": "Onfleet",
+    "domain": "onfleet.com",
+    "role": "pool",
+    "description_anon": "Optimize your dispatch and effortlessly manage your routes with [company], the #1 last-mile delivery software for couriers and delivery businesses. Route planning and fleet management leader. More delivery volume, more providers, more customer expectations."
+  },
+  {
+    "id": "c153",
+    "name": "Mindbody",
+    "domain": "mindbodyonline.com",
+    "role": "pool",
+    "description_anon": "Fuel the growth of your business with [company]'s all-in-one software, the only platform powered by 20+ years of experience in fitness, beauty, and wellness. Built to run your business, so it doesn't run you."
+  },
+  {
+    "id": "c154",
+    "name": "UpKeep",
+    "domain": "upkeep.com",
+    "role": "pool",
+    "description_anon": "[company] CMMS Software helps maintenance teams manage work orders, assets, and preventive tasks efficiently from any device. Work orders and asset history from a phone. Your source for tools, webinars, guides and more."
+  },
+  {
+    "id": "c155",
+    "name": "Flexport",
+    "domain": "flexport.com",
+    "role": "pool",
+    "description_anon": "Ship smarter with [company]. AI-powered logistics for the real world. Save up to 10% on global logistics with our AI-enabled freight forwarding, customs brokerage, and fulfillment services. Quote, book, and track ocean, air, and ground in one place."
+  },
+  {
+    "id": "c156",
+    "name": "Geckoboard",
+    "domain": "geckoboard.com",
+    "role": "pool",
+    "description_anon": "[company] turns live data from HubSpot, [company], Salesforce and 90+ tools into real-time KPI dashboards your whole team can see on TVs, Slack, Microsoft Teams, email and mobile. Free 14-day trial."
+  },
+  {
+    "id": "c157",
+    "name": "GoHighLevel",
+    "domain": "gohighlevel.com",
+    "role": "pool",
+    "description_anon": "[company] is the all-in-one sales and marketing platform that agencies can white-label and resell to their clients. We're in the business of helping you grow your business. [company] is the AI-powered operating system powering the growth of businesses around the world."
+  },
+  {
+    "id": "c158",
+    "name": "ServiceTitan",
+    "domain": "servicetitan.com",
+    "role": "pool",
+    "description_anon": "Our all-in-one software is built for home and commercial contractors to keep all their service visits and construction projects running smoothly. The #1 software for commercial and residential trades. Build professional, branded proposals with ease. Set your service agreements to autopilot."
+  },
+  {
+    "id": "c159",
+    "name": "JumpCloud",
+    "domain": "jumpcloud.com",
+    "role": "pool",
+    "description_anon": "[company] makes it simple to manage Windows, Apple, Linux, and Android devices and to deliver secure access with SSO, MFA, Zero Trust, RADIUS, and more. Agentic IAM: see every agent, govern every identity. Safely connect agents to infrastructure, apps, and enterprise data."
+  },
+  {
+    "id": "c160",
+    "name": "Trainerize",
+    "domain": "trainerize.com",
+    "role": "pool",
+    "description_anon": "[company] is a personal training software that helps you deliver customized fitness programs, track client progress, and grow your fitness business. The #1 coaching app to better engage your clients."
+  },
+  {
+    "id": "c161",
+    "name": "Benchling",
+    "domain": "benchling.com",
+    "role": "pool",
+    "description_anon": "[company] is a cloud-based platform for biotechnology research and development and the only biology-first platform for scientific data, collaboration, and insights. AI for every scientist. The AI Scientist connects predictive models, structured data, and wet lab execution into a single loop."
+  },
+  {
+    "id": "c162",
+    "name": "15Five",
+    "domain": "15five.com",
+    "role": "pool",
+    "description_anon": "[company] is the performance management platform that creates effective managers, highly engaged employees, and top-performing organizations. [company] brings real work history and context into the performance review, so managers write better reviews, have better conversations, and help employees grow."
+  },
+  {
+    "id": "c163",
+    "name": "Klaviyo",
+    "domain": "klaviyo.com",
+    "role": "pool",
+    "description_anon": "[company] unifies AI-powered email marketing and SMS to drive growth, retention, and measurable results. Build personalised, omnichannel experiences across WhatsApp, ecommerce, and more with [company] Agents. Grow lasting relationships with AI agents that know your brand, customers, and how to deliver remarkable experiences autonomously."
+  },
+  {
+    "id": "c164",
+    "name": "OneLogin",
+    "domain": "onelogin.com",
+    "role": "pool",
+    "description_anon": "Secure your workforce, customers, and partner data with our modern IAM platform at a price that works with your budget. Single Sign On (SSO), Multi-Factor Authentication (MFA) and identity lifecycle management that offers a secure identity foundation at a price that works for your budget."
+  },
+  {
+    "id": "c165",
+    "name": "ServiceNow",
+    "domain": "servicenow.com",
+    "role": "pool",
+    "description_anon": "Streamline your enterprise workflows with the [company] AI Platform, empowering both customers and employees in every corner of your business. Take action with autonomous AI agents that work for you. Transform service management for productivity and ROI."
+  },
+  {
+    "id": "c166",
+    "name": "PaperWise",
+    "domain": "paperwise.com",
+    "role": "pool",
+    "description_anon": "Transform your business with [company], the all-in-one process automation platform automating your recurring and manual business processes. [company] by [company] brings harmony to businesses' document management while seamlessly orchestrating your most important workflows."
+  },
+  {
+    "id": "c167",
+    "name": "Leapsome",
+    "domain": "leapsome.com",
+    "role": "pool",
+    "description_anon": "Discover the ultimate HR software platform your team will love. Streamline your processes and boost productivity. Employee records, onboarding, documents, absences, time tracking, and payroll prep, compliant by default. Agents run the steps in between, so admin runs on autopilot while your team decides."
+  },
+  {
+    "id": "c168",
+    "name": "Harvest",
+    "domain": "getharvest.com",
+    "role": "target",
+    "description_anon": "Time tracking and management software with powerful easy reporting and streamlined online invoicing. Loved by 73,000 businesses. Over 70,000 companies use [company] to turn tracked hours into paid invoices. Log hours your way, on any device."
+  },
+  {
+    "id": "c169",
+    "name": "CloudTalk",
+    "domain": "cloudtalk.io",
+    "role": "pool",
+    "description_anon": "Make and receive calls using powerful call center software connected to your favourite business tools. Every call answered, 24/7. By your team, or by AI. Smart routing, outbound dialers and AI voice agents, on the same queues, the same integrations, the same local numbers in 160+ countries."
+  },
+  {
+    "id": "c170",
+    "name": "ADP",
+    "domain": "adp.com",
+    "role": "pool",
+    "description_anon": "[company] offers industry-leading online payroll and HR solutions, plus tax, compliance, benefit administration and more. Fast, easy, accurate payroll and tax, so you can save time and money. From recruitment to retirement, getting the very best out of your people."
+  },
+  {
+    "id": "c171",
+    "name": "Personio",
+    "domain": "personio.com",
+    "role": "pool",
+    "description_anon": "Championing every side of HR's evolution. Add the tools you need to scale. Run payroll with accurate, connected data. Solutions tailored to your team's scale. Trusted by HR teams across Europe. Get the most out of [company]."
+  },
+  {
+    "id": "c172",
+    "name": "FieldEdge",
+    "domain": "fieldedge.com",
+    "role": "pool",
+    "description_anon": "[company] provides efficient ways to track customers, dispatches, service history, and more with our field service management software. Scale with confidence. Trusted by SMB and mid-market service leaders in HVAC, plumbing, and electrical."
+  },
+  {
+    "id": "c173",
+    "name": "Sage",
+    "domain": "sage.com",
+    "role": "pool",
+    "description_anon": "Whether you're starting up or managing an enterprise, [company] Business Cloud has trusted, innovative solutions for managing your money, accounting, payroll, people, payments, and so much more. Learn how thousands of businesses like yours are using [company] solutions to enhance productivity, save time, and drive revenue growth."
+  },
+  {
+    "id": "c174",
+    "name": "PerformYard",
+    "domain": "performyard.com",
+    "role": "pool",
+    "description_anon": "[company] is the AI performance management platform trusted by thousands of HR teams. Run reviews, track goals, collect feedback, and measure engagement, from one system. Run a high-performance culture: reviews, meetings, goals, engagement."
+  },
+  {
+    "id": "c175",
+    "name": "Toggl",
+    "domain": "toggl.com",
+    "role": "pool",
+    "description_anon": "The best time tracker and capacity planning software. Track employee time, plan capacity, manage tasks and projects, and calculate profitability. Try for free. Automated time tracking, online work timer, timesheet reports, integrations, invoicing, time off management, and time reporting and analytics."
+  },
+  {
+    "id": "c176",
+    "name": "Glean",
+    "domain": "glean.com",
+    "role": "pool",
+    "description_anon": "[company] is the Enterprise AI platform connected to your enterprise's data. Find, create, and automate anything. Complete context that makes AI work at enterprise scale. See how teams are deploying agents and building AI-native workflows to run real work."
+  },
+  {
+    "id": "c177",
+    "name": "Humaans",
+    "domain": "humaans.io",
+    "role": "pool",
+    "description_anon": "Discover [company], the AI-powered HR platform for global teams. Automate onboarding, manage global data, and drive people operations with ease. The best-in-class system of record for all your people data. Agentic AI: AI Agents for your existing HRIS."
+  },
+  {
+    "id": "c178",
+    "name": "Vagaro",
+    "domain": "vagaro.com",
+    "role": "pool",
+    "description_anon": "Find your next salon, spa, or fitness professional. Read and post reviews. Schedule an online appointment 24/7 for haircuts, coloring, nail care, skin care, massage, makeup, personal trainers, yoga, Pilates and more."
+  },
+  {
+    "id": "c179",
+    "name": "Chili Piper",
+    "domain": "chilipiper.com",
+    "role": "pool",
+    "description_anon": "Turn visitors into pipeline with AI agents that qualify, route, and schedule meetings before and after the form fill. Most visitors leave without converting. [company] identifies who they are, engages them before they go, qualifies them and converts them for you."
+  },
+  {
+    "id": "c180",
+    "name": "Matomo",
+    "domain": "matomo.org",
+    "role": "pool",
+    "description_anon": "Popular analytics tools can miss up to 40% of traffic. [company] delivers accurate, GDPR-compliant analytics with full data ownership in a platform teams can set up in minutes. Make decisions based on complete, reliable data. No sampling and fewer blind spots from consent banners or blockers."
+  },
+  {
+    "id": "c181",
+    "name": "TaxCalc",
+    "domain": "taxcalc.com",
+    "role": "pool",
+    "description_anon": "[company] is award-winning accounting software trusted by 12,000+ UK accounting firms. Manage tax, accounts production, and practice management in one place. Prepare, review, and file tax returns with less manual work and fewer disconnected processes."
+  }
+]

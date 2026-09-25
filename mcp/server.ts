@@ -61,10 +61,10 @@ server.registerTool(
         const { target, pool } = await discover(url);
         return text({ target: target.domain, ...named(await rank(recommender, target, pool), pool) });
       }
-      const { companies, pool } = loadData();
+      const { companies, candidatesFor } = loadData();
       const target = companies.find((c) => c.id === targetId && c.role === "target");
       if (!target) return fail(`Unknown target: ${targetId}`);
-      return text({ target: target.name, ...named(await rank(recommender, target, pool), companies) });
+      return text({ target: target.name, ...named(await rank(recommender, target, candidatesFor(target)), companies) });
     } catch (err) {
       return fail(err instanceof Error ? err.message : String(err));
     }

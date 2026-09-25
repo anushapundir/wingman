@@ -1,0 +1,872 @@
+{
+  "c008": {
+    "baseline": {
+      "recommendations": [
+        {
+          "candidateId": "c104",
+          "rank": 1,
+          "fit": 26,
+          "reason": "Most similar description (score 0.26)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c112",
+          "rank": 2,
+          "fit": 16,
+          "reason": "Most similar description (score 0.16)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c137",
+          "rank": 3,
+          "fit": 13,
+          "reason": "Most similar description (score 0.13)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c012",
+          "rank": 4,
+          "fit": 11,
+          "reason": "Most similar description (score 0.11)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c098",
+          "rank": 5,
+          "fit": 11,
+          "reason": "Most similar description (score 0.11)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c172",
+          "rank": 6,
+          "fit": 11,
+          "reason": "Most similar description (score 0.11)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c056",
+          "rank": 7,
+          "fit": 9,
+          "reason": "Most similar description (score 0.09)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c097",
+          "rank": 8,
+          "fit": 9,
+          "reason": "Most similar description (score 0.09)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c052",
+          "rank": 9,
+          "fit": 9,
+          "reason": "Most similar description (score 0.09)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c037",
+          "rank": 10,
+          "fit": 8,
+          "reason": "Most similar description (score 0.08)",
+          "flags": [],
+          "evidence": []
+        }
+      ],
+      "problems": []
+    }
+  },
+  "c015": {
+    "baseline": {
+      "recommendations": [
+        {
+          "candidateId": "c097",
+          "rank": 1,
+          "fit": 20,
+          "reason": "Most similar description (score 0.20)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c131",
+          "rank": 2,
+          "fit": 15,
+          "reason": "Most similar description (score 0.15)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c146",
+          "rank": 3,
+          "fit": 11,
+          "reason": "Most similar description (score 0.11)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c052",
+          "rank": 4,
+          "fit": 11,
+          "reason": "Most similar description (score 0.11)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c125",
+          "rank": 5,
+          "fit": 11,
+          "reason": "Most similar description (score 0.11)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c082",
+          "rank": 6,
+          "fit": 9,
+          "reason": "Most similar description (score 0.09)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c036",
+          "rank": 7,
+          "fit": 9,
+          "reason": "Most similar description (score 0.09)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c142",
+          "rank": 8,
+          "fit": 9,
+          "reason": "Most similar description (score 0.09)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c138",
+          "rank": 9,
+          "fit": 9,
+          "reason": "Most similar description (score 0.09)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c134",
+          "rank": 10,
+          "fit": 8,
+          "reason": "Most similar description (score 0.08)",
+          "flags": [],
+          "evidence": []
+        }
+      ],
+      "problems": []
+    }
+  },
+  "c019": {
+    "baseline": {
+      "recommendations": [
+        {
+          "candidateId": "c013",
+          "rank": 1,
+          "fit": 22,
+          "reason": "Most similar description (score 0.22)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c088",
+          "rank": 2,
+          "fit": 13,
+          "reason": "Most similar description (score 0.13)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c180",
+          "rank": 3,
+          "fit": 11,
+          "reason": "Most similar description (score 0.11)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c032",
+          "rank": 4,
+          "fit": 7,
+          "reason": "Most similar description (score 0.07)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c076",
+          "rank": 5,
+          "fit": 6,
+          "reason": "Most similar description (score 0.06)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c064",
+          "rank": 6,
+          "fit": 6,
+          "reason": "Most similar description (score 0.06)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c143",
+          "rank": 7,
+          "fit": 5,
+          "reason": "Most similar description (score 0.05)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c077",
+          "rank": 8,
+          "fit": 5,
+          "reason": "Most similar description (score 0.05)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c048",
+          "rank": 9,
+          "fit": 4,
+          "reason": "Most similar description (score 0.04)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c139",
+          "rank": 10,
+          "fit": 4,
+          "reason": "Most similar description (score 0.04)",
+          "flags": [],
+          "evidence": []
+        }
+      ],
+      "problems": []
+    }
+  },
+  "c028": {
+    "baseline": {
+      "recommendations": [
+        {
+          "candidateId": "c140",
+          "rank": 1,
+          "fit": 16,
+          "reason": "Most similar description (score 0.16)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c107",
+          "rank": 2,
+          "fit": 15,
+          "reason": "Most similar description (score 0.15)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c029",
+          "rank": 3,
+          "fit": 13,
+          "reason": "Most similar description (score 0.13)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c176",
+          "rank": 4,
+          "fit": 12,
+          "reason": "Most similar description (score 0.12)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c022",
+          "rank": 5,
+          "fit": 12,
+          "reason": "Most similar description (score 0.12)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c080",
+          "rank": 6,
+          "fit": 11,
+          "reason": "Most similar description (score 0.11)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c069",
+          "rank": 7,
+          "fit": 11,
+          "reason": "Most similar description (score 0.11)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c122",
+          "rank": 8,
+          "fit": 9,
+          "reason": "Most similar description (score 0.09)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c150",
+          "rank": 9,
+          "fit": 9,
+          "reason": "Most similar description (score 0.09)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c047",
+          "rank": 10,
+          "fit": 8,
+          "reason": "Most similar description (score 0.08)",
+          "flags": [],
+          "evidence": []
+        }
+      ],
+      "problems": []
+    }
+  },
+  "c034": {
+    "baseline": {
+      "recommendations": [
+        {
+          "candidateId": "c162",
+          "rank": 1,
+          "fit": 22,
+          "reason": "Most similar description (score 0.22)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c177",
+          "rank": 2,
+          "fit": 18,
+          "reason": "Most similar description (score 0.18)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c102",
+          "rank": 3,
+          "fit": 14,
+          "reason": "Most similar description (score 0.14)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c002",
+          "rank": 4,
+          "fit": 11,
+          "reason": "Most similar description (score 0.11)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c171",
+          "rank": 5,
+          "fit": 10,
+          "reason": "Most similar description (score 0.10)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c143",
+          "rank": 6,
+          "fit": 10,
+          "reason": "Most similar description (score 0.10)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c174",
+          "rank": 7,
+          "fit": 10,
+          "reason": "Most similar description (score 0.10)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c046",
+          "rank": 8,
+          "fit": 10,
+          "reason": "Most similar description (score 0.10)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c042",
+          "rank": 9,
+          "fit": 9,
+          "reason": "Most similar description (score 0.09)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c114",
+          "rank": 10,
+          "fit": 9,
+          "reason": "Most similar description (score 0.09)",
+          "flags": [],
+          "evidence": []
+        }
+      ],
+      "problems": []
+    }
+  },
+  "c071": {
+    "baseline": {
+      "recommendations": [
+        {
+          "candidateId": "c147",
+          "rank": 1,
+          "fit": 11,
+          "reason": "Most similar description (score 0.11)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c146",
+          "rank": 2,
+          "fit": 10,
+          "reason": "Most similar description (score 0.10)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c104",
+          "rank": 3,
+          "fit": 9,
+          "reason": "Most similar description (score 0.09)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c137",
+          "rank": 4,
+          "fit": 9,
+          "reason": "Most similar description (score 0.09)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c044",
+          "rank": 5,
+          "fit": 8,
+          "reason": "Most similar description (score 0.08)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c014",
+          "rank": 6,
+          "fit": 8,
+          "reason": "Most similar description (score 0.08)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c073",
+          "rank": 7,
+          "fit": 8,
+          "reason": "Most similar description (score 0.08)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c132",
+          "rank": 8,
+          "fit": 7,
+          "reason": "Most similar description (score 0.07)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c012",
+          "rank": 9,
+          "fit": 7,
+          "reason": "Most similar description (score 0.07)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c015",
+          "rank": 10,
+          "fit": 6,
+          "reason": "Most similar description (score 0.06)",
+          "flags": [],
+          "evidence": []
+        }
+      ],
+      "problems": []
+    }
+  },
+  "c078": {
+    "baseline": {
+      "recommendations": [
+        {
+          "candidateId": "c055",
+          "rank": 1,
+          "fit": 24,
+          "reason": "Most similar description (score 0.24)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c053",
+          "rank": 2,
+          "fit": 15,
+          "reason": "Most similar description (score 0.15)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c123",
+          "rank": 3,
+          "fit": 10,
+          "reason": "Most similar description (score 0.10)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c004",
+          "rank": 4,
+          "fit": 10,
+          "reason": "Most similar description (score 0.10)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c112",
+          "rank": 5,
+          "fit": 9,
+          "reason": "Most similar description (score 0.09)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c146",
+          "rank": 6,
+          "fit": 8,
+          "reason": "Most similar description (score 0.08)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c089",
+          "rank": 7,
+          "fit": 7,
+          "reason": "Most similar description (score 0.07)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c043",
+          "rank": 8,
+          "fit": 7,
+          "reason": "Most similar description (score 0.07)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c168",
+          "rank": 9,
+          "fit": 6,
+          "reason": "Most similar description (score 0.06)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c121",
+          "rank": 10,
+          "fit": 6,
+          "reason": "Most similar description (score 0.06)",
+          "flags": [],
+          "evidence": []
+        }
+      ],
+      "problems": []
+    }
+  },
+  "c083": {
+    "baseline": {
+      "recommendations": [
+        {
+          "candidateId": "c148",
+          "rank": 1,
+          "fit": 28,
+          "reason": "Most similar description (score 0.28)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c099",
+          "rank": 2,
+          "fit": 23,
+          "reason": "Most similar description (score 0.23)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c018",
+          "rank": 3,
+          "fit": 18,
+          "reason": "Most similar description (score 0.18)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c027",
+          "rank": 4,
+          "fit": 18,
+          "reason": "Most similar description (score 0.18)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c170",
+          "rank": 5,
+          "fit": 18,
+          "reason": "Most similar description (score 0.18)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c002",
+          "rank": 6,
+          "fit": 17,
+          "reason": "Most similar description (score 0.17)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c171",
+          "rank": 7,
+          "fit": 15,
+          "reason": "Most similar description (score 0.15)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c046",
+          "rank": 8,
+          "fit": 13,
+          "reason": "Most similar description (score 0.13)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c153",
+          "rank": 9,
+          "fit": 13,
+          "reason": "Most similar description (score 0.13)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c167",
+          "rank": 10,
+          "fit": 12,
+          "reason": "Most similar description (score 0.12)",
+          "flags": [],
+          "evidence": []
+        }
+      ],
+      "problems": []
+    }
+  },
+  "c096": {
+    "baseline": {
+      "recommendations": [
+        {
+          "candidateId": "c042",
+          "rank": 1,
+          "fit": 11,
+          "reason": "Most similar description (score 0.11)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c170",
+          "rank": 2,
+          "fit": 8,
+          "reason": "Most similar description (score 0.08)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c092",
+          "rank": 3,
+          "fit": 8,
+          "reason": "Most similar description (score 0.08)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c008",
+          "rank": 4,
+          "fit": 7,
+          "reason": "Most similar description (score 0.07)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c173",
+          "rank": 5,
+          "fit": 7,
+          "reason": "Most similar description (score 0.07)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c072",
+          "rank": 6,
+          "fit": 6,
+          "reason": "Most similar description (score 0.06)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c167",
+          "rank": 7,
+          "fit": 6,
+          "reason": "Most similar description (score 0.06)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c171",
+          "rank": 8,
+          "fit": 5,
+          "reason": "Most similar description (score 0.05)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c058",
+          "rank": 9,
+          "fit": 5,
+          "reason": "Most similar description (score 0.05)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c068",
+          "rank": 10,
+          "fit": 5,
+          "reason": "Most similar description (score 0.05)",
+          "flags": [],
+          "evidence": []
+        }
+      ],
+      "problems": []
+    }
+  },
+  "c168": {
+    "baseline": {
+      "recommendations": [
+        {
+          "candidateId": "c142",
+          "rank": 1,
+          "fit": 16,
+          "reason": "Most similar description (score 0.16)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c175",
+          "rank": 2,
+          "fit": 16,
+          "reason": "Most similar description (score 0.16)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c095",
+          "rank": 3,
+          "fit": 14,
+          "reason": "Most similar description (score 0.14)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c072",
+          "rank": 4,
+          "fit": 11,
+          "reason": "Most similar description (score 0.11)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c053",
+          "rank": 5,
+          "fit": 8,
+          "reason": "Most similar description (score 0.08)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c080",
+          "rank": 6,
+          "fit": 8,
+          "reason": "Most similar description (score 0.08)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c026",
+          "rank": 7,
+          "fit": 7,
+          "reason": "Most similar description (score 0.07)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c005",
+          "rank": 8,
+          "fit": 7,
+          "reason": "Most similar description (score 0.07)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c010",
+          "rank": 9,
+          "fit": 7,
+          "reason": "Most similar description (score 0.07)",
+          "flags": [],
+          "evidence": []
+        },
+        {
+          "candidateId": "c046",
+          "rank": 10,
+          "fit": 7,
+          "reason": "Most similar description (score 0.07)",
+          "flags": [],
+          "evidence": []
+        }
+      ],
+      "problems": []
+    }
+  }
+}

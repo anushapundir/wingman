@@ -79,7 +79,7 @@ The UI reads `results/rankings.json`, so once eval results are committed it work
 
 ## Eval
 
-Each target company has labelled partners and competitors in `data/labels.json`, taken from public partner and integration pages. Both recommenders rank the same closed pool of anonymized companies.
+Each target company has labelled partners and competitors in `data/labels.json`, taken from public partner and integration pages. There are 10 targets and 181 companies, with 154 partner labels and 34 competitor labels. Sources for every label are in `data/SOURCES.md`. Both recommenders rank every other company in the set, anonymized.
 
 - **hits@10**: labelled partners in the top 10.
 - **competitors@10**: labelled competitors in the top 10.
@@ -94,7 +94,7 @@ Numbers come from `results/scoreboard.json`, written by `npm run eval`.
 
 | Recommender | hits@10 | competitors@10 | hallucinated ids | bad quotes |
 | --- | --- | --- | --- | --- |
-| Most similar (naive) | not run yet | not run yet | n/a | n/a |
+| Most similar (naive) | 12 of 154 | 25 | n/a | n/a |
 | Wingman | not run yet | not run yet | not run yet | not run yet |
 
 ### Caveats

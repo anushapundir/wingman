@@ -1,0 +1,145 @@
+{
+  "baseline": {
+    "status": "ran",
+    "model": "tf-idf",
+    "aggregate": {
+      "targets": 10,
+      "hitsAt10": 12,
+      "competitorsAt10": 25,
+      "partnersAvailable": 154,
+      "partnerRecall": 0.07792207792207792,
+      "hallucinatedIds": 0,
+      "badQuotes": 0,
+      "flagged": {
+        "competitor": 0,
+        "wrong_buyer": 0
+      }
+    },
+    "perTarget": [
+      {
+        "targetId": "c008",
+        "hitsAt10": 1,
+        "competitorsAt10": 4,
+        "partnersAvailable": 20,
+        "hallucinatedIds": 0,
+        "badQuotes": 0,
+        "flagged": {
+          "competitor": 0,
+          "wrong_buyer": 0
+        }
+      },
+      {
+        "targetId": "c015",
+        "hitsAt10": 0,
+        "competitorsAt10": 2,
+        "partnersAvailable": 20,
+        "hallucinatedIds": 0,
+        "badQuotes": 0,
+        "flagged": {
+          "competitor": 0,
+          "wrong_buyer": 0
+        }
+      },
+      {
+        "targetId": "c019",
+        "hitsAt10": 2,
+        "competitorsAt10": 3,
+        "partnersAvailable": 12,
+        "hallucinatedIds": 0,
+        "badQuotes": 0,
+        "flagged": {
+          "competitor": 0,
+          "wrong_buyer": 0
+        }
+      },
+      {
+        "targetId": "c028",
+        "hitsAt10": 2,
+        "competitorsAt10": 1,
+        "partnersAvailable": 16,
+        "hallucinatedIds": 0,
+        "badQuotes": 0,
+        "flagged": {
+          "competitor": 0,
+          "wrong_buyer": 0
+        }
+      },
+      {
+        "targetId": "c034",
+        "hitsAt10": 3,
+        "competitorsAt10": 3,
+        "partnersAvailable": 12,
+        "hallucinatedIds": 0,
+        "badQuotes": 0,
+        "flagged": {
+          "competitor": 0,
+          "wrong_buyer": 0
+        }
+      },
+      {
+        "targetId": "c071",
+        "hitsAt10": 0,
+        "competitorsAt10": 3,
+        "partnersAvailable": 11,
+        "hallucinatedIds": 0,
+        "badQuotes": 0,
+        "flagged": {
+          "competitor": 0,
+          "wrong_buyer": 0
+        }
+      },
+      {
+        "targetId": "c078",
+        "hitsAt10": 0,
+        "competitorsAt10": 3,
+        "partnersAvailable": 20,
+        "hallucinatedIds": 0,
+        "badQuotes": 0,
+        "flagged": {
+          "competitor": 0,
+          "wrong_buyer": 0
+        }
+      },
+      {
+        "targetId": "c083",
+        "hitsAt10": 0,
+        "competitorsAt10": 3,
+        "partnersAvailable": 12,
+        "hallucinatedIds": 0,
+        "badQuotes": 0,
+        "flagged": {
+          "competitor": 0,
+          "wrong_buyer": 0
+        }
+      },
+      {
+        "targetId": "c096",
+        "hitsAt10": 1,
+        "competitorsAt10": 1,
+        "partnersAvailable": 14,
+        "hallucinatedIds": 0,
+        "badQuotes": 0,
+        "flagged": {
+          "competitor": 0,
+          "wrong_buyer": 0
+        }
+      },
+      {
+        "targetId": "c168",
+        "hitsAt10": 3,
+        "competitorsAt10": 2,
+        "partnersAvailable": 17,
+        "hallucinatedIds": 0,
+        "badQuotes": 0,
+        "flagged": {
+          "competitor": 0,
+          "wrong_buyer": 0
+        }
+      }
+    ]
+  },
+  "wingman": {
+    "status": "not_run",
+    "reason": "ANTHROPIC_API_KEY not set"
+  }
+}

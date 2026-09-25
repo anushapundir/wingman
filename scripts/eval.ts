@@ -22,7 +22,7 @@ function load() {
   }
 }
 
-const { targets: allTargets, pool, labels } = load();
+const { targets: allTargets, candidatesFor, labels } = load();
 const onlyIdx = process.argv.indexOf("--only");
 const only = onlyIdx === -1 ? undefined : process.argv[onlyIdx + 1];
 const targets = only ? allTargets.filter((t) => t.id === only) : allTargets;
@@ -42,8 +42,8 @@ async function runAll(rank: (t: Company) => Promise<Ranking>, model: string) {
   return { run, rankings };
 }
 
-const baseline = await runAll(async (t) => ({ recommendations: await baselineRecommend(t, pool), problems: [] }), "tf-idf");
-const agent = hasAgentKey ? await runAll((t) => rankWithAgent(t, pool), env.WINGMAN_MODEL) : null;
+const baseline = await runAll(async (t) => ({ recommendations: await baselineRecommend(t, candidatesFor(t)), problems: [] }), "tf-idf");
+const agent = hasAgentKey ? await runAll((t) => rankWithAgent(t, candidatesFor(t)), env.WINGMAN_MODEL) : null;
 
 const fmt = (name: string, run: Run) =>
   run.status === "not_run"

@@ -69,7 +69,7 @@ npm run find -- acme.com          # live mode from the terminal
 npm run mcp                       # MCP server over stdio
 ```
 
-The UI reads `results/rankings.json`, which is committed, so it works without a key. Live mode needs one.
+The UI reads `results/rankings.json`, so once eval results are committed it works without a key. Live mode needs one.
 
 | Variable | Required | What it does |
 | --- | --- | --- |
@@ -112,8 +112,7 @@ Tools: `list_targets`, `recommend_partners` (`targetId` or `url`, plus `recommen
   "mcpServers": {
     "wingman": {
       "command": "npm",
-      "args": ["run", "--silent", "mcp"],
-      "cwd": "/path/to/wingman",
+      "args": ["--prefix", "/path/to/wingman", "run", "--silent", "mcp"],
       "env": { "ANTHROPIC_API_KEY": "..." }
     }
   }

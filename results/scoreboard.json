@@ -139,7 +139,142 @@
     ]
   },
   "wingman": {
-    "status": "not_run",
-    "reason": "ANTHROPIC_API_KEY not set"
+    "status": "ran",
+    "model": "claude-opus-5-5",
+    "aggregate": {
+      "targets": 10,
+      "hitsAt10": 56,
+      "competitorsAt10": 0,
+      "partnersAvailable": 154,
+      "partnerRecall": 0.36363636363636365,
+      "hallucinatedIds": 0,
+      "badQuotes": 0,
+      "flagged": {
+        "competitor": 46,
+        "wrong_buyer": 9
+      }
+    },
+    "perTarget": [
+      {
+        "targetId": "c008",
+        "hitsAt10": 7,
+        "competitorsAt10": 0,
+        "partnersAvailable": 20,
+        "hallucinatedIds": 0,
+        "badQuotes": 0,
+        "flagged": {
+          "competitor": 4,
+          "wrong_buyer": 1
+        }
+      },
+      {
+        "targetId": "c015",
+        "hitsAt10": 5,
+        "competitorsAt10": 0,
+        "partnersAvailable": 20,
+        "hallucinatedIds": 0,
+        "badQuotes": 0,
+        "flagged": {
+          "competitor": 4,
+          "wrong_buyer": 2
+        }
+      },
+      {
+        "targetId": "c019",
+        "hitsAt10": 4,
+        "competitorsAt10": 0,
+        "partnersAvailable": 12,
+        "hallucinatedIds": 0,
+        "badQuotes": 0,
+        "flagged": {
+          "competitor": 5,
+          "wrong_buyer": 0
+        }
+      },
+      {
+        "targetId": "c028",
+        "hitsAt10": 7,
+        "competitorsAt10": 0,
+        "partnersAvailable": 16,
+        "hallucinatedIds": 0,
+        "badQuotes": 0,
+        "flagged": {
+          "competitor": 5,
+          "wrong_buyer": 0
+        }
+      },
+      {
+        "targetId": "c034",
+        "hitsAt10": 1,
+        "competitorsAt10": 0,
+        "partnersAvailable": 12,
+        "hallucinatedIds": 0,
+        "badQuotes": 0,
+        "flagged": {
+          "competitor": 5,
+          "wrong_buyer": 2
+        }
+      },
+      {
+        "targetId": "c071",
+        "hitsAt10": 7,
+        "competitorsAt10": 0,
+        "partnersAvailable": 11,
+        "hallucinatedIds": 0,
+        "badQuotes": 0,
+        "flagged": {
+          "competitor": 7,
+          "wrong_buyer": 0
+        }
+      },
+      {
+        "targetId": "c078",
+        "hitsAt10": 5,
+        "competitorsAt10": 0,
+        "partnersAvailable": 20,
+        "hallucinatedIds": 0,
+        "badQuotes": 0,
+        "flagged": {
+          "competitor": 5,
+          "wrong_buyer": 0
+        }
+      },
+      {
+        "targetId": "c083",
+        "hitsAt10": 7,
+        "competitorsAt10": 0,
+        "partnersAvailable": 12,
+        "hallucinatedIds": 0,
+        "badQuotes": 0,
+        "flagged": {
+          "competitor": 5,
+          "wrong_buyer": 1
+        }
+      },
+      {
+        "targetId": "c096",
+        "hitsAt10": 7,
+        "competitorsAt10": 0,
+        "partnersAvailable": 14,
+        "hallucinatedIds": 0,
+        "badQuotes": 0,
+        "flagged": {
+          "competitor": 4,
+          "wrong_buyer": 2
+        }
+      },
+      {
+        "targetId": "c168",
+        "hitsAt10": 6,
+        "competitorsAt10": 0,
+        "partnersAvailable": 17,
+        "hallucinatedIds": 0,
+        "badQuotes": 0,
+        "flagged": {
+          "competitor": 2,
+          "wrong_buyer": 1
+        }
+      }
+    ]
   }
 }

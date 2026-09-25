@@ -95,7 +95,16 @@ Numbers come from `results/scoreboard.json`, written by `npm run eval`.
 | Recommender | hits@10 | competitors@10 | hallucinated ids | bad quotes |
 | --- | --- | --- | --- | --- |
 | Most similar (naive) | 12 of 154 | 25 | n/a | n/a |
-| Wingman | not run yet | not run yet | not run yet | not run yet |
+| Wingman (`claude-opus-5-5`, medium effort) | 56 of 154 | 0 | 0 | 0 |
+
+Per target, real partners found in the top 10 (naive vs Wingman): Help Scout 1 vs 7, Cal.com 0 vs 5, Fathom 2 vs 4, Linear 2 vs 7, Lattice 3 vs 1, Buttondown 0 vs 7, SignNow 0 vs 5, OnPay 0 vs 7, FreeAgent 1 vs 7, Harvest 3 vs 6.
+
+### What the eval found
+
+- **Similar is not the same as partner.** The naive list put 25 labelled competitors into its top 10s. For Help Scout, four of its top five are direct competitors (Front, Freshdesk, Gorgias, Zendesk).
+- **Wingman misses the systems you plug into.** Lattice is the one target where it did worse than naive (1 vs 3). Lattice's listed partners are mostly HR systems of record and single sign-on (BambooHR, Personio, Okta, OneLogin). Wingman picked tools sold to the same HR buyer, like recruiting and background checks, and missed the infrastructure a performance tool integrates with.
+- **The partner and competitor line is blurry.** Wingman flagged 6 labelled partners as competitors, for example Miro for Linear and Humaans for Lattice. Some of these overlap for real; the label says only that they appear on the partner page.
+- **competitors@10 is 0 partly by design.** Wingman flagged 46 look-alikes as competitors instead of ranking them, and flagged picks sit outside the top 10.
 
 ### Caveats
 
@@ -122,6 +131,7 @@ Tools: `list_targets`, `recommend_partners` (`targetId` or `url`, plus `recommen
 ## What I'd build next
 
 - **Measure discovery.** Hold out known partners, run live mode on the target, and check whether web search surfaces them at all.
+- **Integration partners as their own kind.** Ask separately for "systems this product plugs into" (HRIS, SSO, CRM), the gap the Lattice result shows.
 - **Richer profiles.** Pull pricing, integrations and docs pages as well as the homepage, so the buyer is inferred from more than marketing copy.
 - **Mutual fit.** Score the pair in both directions. A partnership only happens if the other side wants it too.
 - **Feedback loop.** Let a user mark picks as good or bad and feed those back in as labels.

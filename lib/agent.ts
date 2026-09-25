@@ -1,5 +1,6 @@
 import Anthropic from "@anthropic-ai/sdk";
 import { z } from "zod";
+import { zodOutputFormat } from "@anthropic-ai/sdk/helpers/zod";
 import { env } from "./env";
 import { checkOutput } from "./score";
 import { FLAGS, FLAG_IDS, type Company, type Ranking, type Recommender } from "./types";
@@ -30,12 +31,6 @@ const AgentOutput = z.object({
     .describe("Ten recommended partners, best first, then any flagged companies."),
 });
 
-const TOOL: Anthropic.Tool = {
-  name: "recommend_partners",
-  description: "Record the target profile and the partner picks.",
-  input_schema: { ...z.toJSONSchema(AgentOutput), type: "object" },
-};
-
 const SYSTEM = `You find partnership candidates for a company (the target). Company names are hidden; you see only ids and descriptions.
 
 A good partner sells to the same buyer as the target but sells a different, complementary product, so the two can integrate, co-sell or refer customers. A company that looks similar is often a competitor, not a partner.
@@ -59,19 +54,15 @@ let client: Anthropic | undefined;
 export const anthropic = () => (client ??= new Anthropic({ apiKey: env.ANTHROPIC_API_KEY }));
 
 export async function rankWithAgent(target: Company, pool: Company[]): Promise<Ranking> {
-  const res = await anthropic().messages.create({
+  const res = await anthropic().messages.parse({
     model: env.WINGMAN_MODEL,
-    max_tokens: 8000,
-    // Forced tool choice and thinking don't mix; the tool call is the whole answer.
-    thinking: { type: "disabled" },
+    max_tokens: 16000,
+    output_config: { effort: "medium", format: zodOutputFormat(AgentOutput) },
     system: SYSTEM,
-    tools: [TOOL],
-    tool_choice: { type: "tool", name: TOOL.name },
     messages: [{ role: "user", content: renderPrompt(target, pool) }],
   });
-  const call = res.content.find((b) => b.type === "tool_use");
-  if (!call) throw new Error(`No ${TOOL.name} call for ${target.id} (stop_reason: ${res.stop_reason})`);
-  const out = AgentOutput.parse(call.input);
+  const out = res.parsed_output;
+  if (!out) throw new Error(`No parsed output for ${target.id} (stop_reason: ${res.stop_reason})`);
   return { ...checkOutput(out.picks, target, pool), profile: out.profile };
 }
 

@@ -84,6 +84,228 @@
         }
       ],
       "problems": []
+    },
+    "wingman": {
+      "recommendations": [
+        {
+          "candidateId": "c070",
+          "fit": 90,
+          "reason": "CSAT, CES and NPS surveys measure the support interactions the target handles, a natural integration.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c070",
+              "quote": "Use one-click CSAT, CES and NPS surveys"
+            },
+            {
+              "companyId": "c008",
+              "quote": "deliver exceptional support"
+            }
+          ],
+          "rank": 1
+        },
+        {
+          "candidateId": "c052",
+          "fit": 87,
+          "reason": "A community platform for peer-to-peer self-service deflects tickets alongside the target's helpdesk.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c052",
+              "quote": "Reduce support costs for your organization by enabling your users to support each other"
+            }
+          ],
+          "rank": 2
+        },
+        {
+          "candidateId": "c125",
+          "fit": 85,
+          "reason": "A phone and SMS platform for support teams adds voice channels that feed the target's helpdesk.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c125",
+              "quote": "AI-powered phone and SMS platform built for sales and support teams"
+            }
+          ],
+          "rank": 3
+        },
+        {
+          "candidateId": "c169",
+          "fit": 83,
+          "reason": "Call center software that connects to business tools complements a text-centric support platform.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c169",
+              "quote": "call center software connected to your favourite business tools"
+            }
+          ],
+          "rank": 4
+        },
+        {
+          "candidateId": "c042",
+          "fit": 80,
+          "reason": "A KPI visualization tool built for support teams can display the target's service metrics.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c042",
+              "quote": "boosting support and sales teams' performance"
+            }
+          ],
+          "rank": 5
+        },
+        {
+          "candidateId": "c029",
+          "fit": 78,
+          "reason": "A knowledge and documentation platform supplies the help content that support agents and AI rely on.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c029",
+              "quote": "Self-updating documentation for startups, enterprises, and agents."
+            }
+          ],
+          "rank": 6
+        },
+        {
+          "candidateId": "c101",
+          "fit": 75,
+          "reason": "AI voice agents extend the target's AI support into automated phone resolution.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c101",
+              "quote": "Build, deploy, and manage next-generation AI voice agents"
+            }
+          ],
+          "rank": 7
+        },
+        {
+          "candidateId": "c132",
+          "fit": 72,
+          "reason": "Customer success software serves the same post-sale customer teams, making co-selling and data sharing natural.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c132",
+              "quote": "digital first customer success"
+            }
+          ],
+          "rank": 8
+        },
+        {
+          "candidateId": "c149",
+          "fit": 70,
+          "reason": "Captured user interaction data gives support agents context on customer friction.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c149",
+              "quote": "automatically captures every user interaction"
+            },
+            {
+              "companyId": "c008",
+              "quote": "brings context, collaboration, and AI inside the flow of support"
+            }
+          ],
+          "rank": 9
+        },
+        {
+          "candidateId": "c156",
+          "fit": 66,
+          "reason": "Real-time KPI dashboards pulling from many tools can surface helpdesk metrics for support managers.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c156",
+              "quote": "real-time KPI dashboards your whole team can see"
+            }
+          ],
+          "rank": 10
+        },
+        {
+          "candidateId": "c012",
+          "fit": 10,
+          "reason": "Sells a helpdesk with an AI agent to support teams, substituting for the target.",
+          "flags": [
+            "competitor"
+          ],
+          "evidence": [
+            {
+              "companyId": "c012",
+              "quote": "automate support with AI Agent, Helpdesk"
+            }
+          ],
+          "rank": 11
+        },
+        {
+          "candidateId": "c112",
+          "fit": 10,
+          "reason": "An AI-powered customer service solution with omnichannel ticketing directly substitutes for the target.",
+          "flags": [
+            "competitor"
+          ],
+          "evidence": [
+            {
+              "companyId": "c112",
+              "quote": "AI-powered customer service solution with omnichannel ticketing"
+            }
+          ],
+          "rank": 12
+        },
+        {
+          "candidateId": "c098",
+          "fit": 10,
+          "reason": "An AI-first service platform that manages customer enquiries across channels competes directly.",
+          "flags": [
+            "competitor"
+          ],
+          "evidence": [
+            {
+              "companyId": "c098",
+              "quote": "the only AI-first service platform"
+            }
+          ],
+          "rank": 13
+        },
+        {
+          "candidateId": "c104",
+          "fit": 10,
+          "reason": "A customer service platform for customer-first teams competes directly with the target.",
+          "flags": [
+            "competitor"
+          ],
+          "evidence": [
+            {
+              "companyId": "c104",
+              "quote": "Customer service platform, powered by AI, designed for humans."
+            }
+          ],
+          "rank": 14
+        },
+        {
+          "candidateId": "c031",
+          "fit": 20,
+          "reason": "Error tracking complements support escalations but is sold to developers rather than support teams.",
+          "flags": [
+            "wrong_buyer"
+          ],
+          "evidence": [
+            {
+              "companyId": "c031",
+              "quote": "Helps developers find and fix issues faster."
+            }
+          ],
+          "rank": 15
+        }
+      ],
+      "problems": [],
+      "profile": {
+        "sells": "An affordable customer service/helpdesk platform that brings context, collaboration, and AI into the support workflow.",
+        "buyer": "Customer support and service leaders at businesses running support teams."
+      }
     }
   },
   "c015": {
@@ -171,6 +393,243 @@
         }
       ],
       "problems": []
+    },
+    "wingman": {
+      "recommendations": [
+        {
+          "candidateId": "c136",
+          "fit": 90,
+          "reason": "A video conferencing API and SDK completes booked meetings and suits developers who also embed scheduling into their platforms.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c136",
+              "quote": "embed video calls into your platform with [company]'s video conferencing API and SDK"
+            },
+            {
+              "companyId": "c015",
+              "quote": "developers building scheduling platforms where users meet users"
+            }
+          ],
+          "rank": 1
+        },
+        {
+          "candidateId": "c005",
+          "fit": 86,
+          "reason": "A no-code automation platform connects booking events to thousands of apps, which extends the target's integrations.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c005",
+              "quote": "No-code automation across 9,000+ apps."
+            },
+            {
+              "companyId": "c015",
+              "quote": "Build your own integrations with our public API."
+            }
+          ],
+          "rank": 2
+        },
+        {
+          "candidateId": "c091",
+          "fit": 82,
+          "reason": "Payments infrastructure lets businesses charge for booked calls and appeals to developers building platforms.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c091",
+              "quote": "helps all types of businesses accept payments"
+            }
+          ],
+          "rank": 3
+        },
+        {
+          "candidateId": "c080",
+          "fit": 80,
+          "reason": "A sales CRM can log meetings booked through the target, a natural integration for businesses taking calls.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c080",
+              "quote": "Get more qualified leads and grow your business with our sales CRM."
+            }
+          ],
+          "rank": 4
+        },
+        {
+          "candidateId": "c024",
+          "fit": 78,
+          "reason": "An AI meeting notepad covers what happens during and after meetings that the target schedules.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c024",
+              "quote": "The AI notepad for back-to-back meetings."
+            }
+          ],
+          "rank": 5
+        },
+        {
+          "candidateId": "c039",
+          "fit": 75,
+          "reason": "A calendar app for people with many meetings pairs naturally with booking links.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c039",
+              "quote": "beautifully designed for people who have too many meetings"
+            }
+          ],
+          "rank": 6
+        },
+        {
+          "candidateId": "c130",
+          "fit": 72,
+          "reason": "A form builder can handle intake and qualification forms before a booking.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c130",
+              "quote": "create registration forms, application forms, surveys, contact forms"
+            }
+          ],
+          "rank": 7
+        },
+        {
+          "candidateId": "c125",
+          "fit": 70,
+          "reason": "A phone and SMS platform for sales and support teams complements businesses taking calls.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c125",
+              "quote": "AI-powered phone and SMS platform built for sales and support teams"
+            }
+          ],
+          "rank": 8
+        },
+        {
+          "candidateId": "c095",
+          "fit": 68,
+          "reason": "A simple CRM for small businesses can sync contacts from booked meetings.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c095",
+              "quote": "an easier way to manage contacts, sales and grow lasting relationships"
+            }
+          ],
+          "rank": 9
+        },
+        {
+          "candidateId": "c004",
+          "fit": 65,
+          "reason": "An e-signature tool lets businesses close agreements after the calls the target books.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c004",
+              "quote": "Electronically sign for free."
+            }
+          ],
+          "rank": 10
+        },
+        {
+          "candidateId": "c097",
+          "fit": 10,
+          "reason": "Appointment booking software with full customization directly substitutes for the target.",
+          "flags": [
+            "competitor"
+          ],
+          "evidence": [
+            {
+              "companyId": "c097",
+              "quote": "appointment booking software and a scheduling app"
+            }
+          ],
+          "rank": 11
+        },
+        {
+          "candidateId": "c146",
+          "fit": 10,
+          "reason": "Its booking links and white-labeled scheduling compete head-on with the target.",
+          "flags": [
+            "competitor"
+          ],
+          "evidence": [
+            {
+              "companyId": "c146",
+              "quote": "Host your scheduling links on your own custom domain"
+            }
+          ],
+          "rank": 12
+        },
+        {
+          "candidateId": "c138",
+          "fit": 15,
+          "reason": "A meeting platform that includes scheduling substitutes for the target's core product.",
+          "flags": [
+            "competitor"
+          ],
+          "evidence": [
+            {
+              "companyId": "c138",
+              "quote": "from scheduling, payments, and meeting prep to notetaking"
+            }
+          ],
+          "rank": 13
+        },
+        {
+          "candidateId": "c179",
+          "fit": 20,
+          "reason": "Its AI agents that qualify and schedule meetings overlap with the target's meeting booking.",
+          "flags": [
+            "competitor"
+          ],
+          "evidence": [
+            {
+              "companyId": "c179",
+              "quote": "qualify, route, and schedule meetings"
+            }
+          ],
+          "rank": 14
+        },
+        {
+          "candidateId": "c178",
+          "fit": 15,
+          "reason": "A consumer marketplace for salon and fitness appointments serves a different buyer.",
+          "flags": [
+            "wrong_buyer"
+          ],
+          "evidence": [
+            {
+              "companyId": "c178",
+              "quote": "Find your next salon, spa, or fitness professional."
+            }
+          ],
+          "rank": 15
+        },
+        {
+          "candidateId": "c086",
+          "fit": 20,
+          "reason": "A patient-journey tool for medical practices serves healthcare providers, a different buyer.",
+          "flags": [
+            "wrong_buyer"
+          ],
+          "evidence": [
+            {
+              "companyId": "c086",
+              "quote": "connects every step of the patient journey to your practice management system"
+            }
+          ],
+          "rank": 16
+        }
+      ],
+      "problems": [],
+      "profile": {
+        "sells": "Customizable, open scheduling software with a public API and embeddable React components for booking meetings.",
+        "buyer": "Individuals and businesses that take calls, larger teams needing control and security, and developers embedding scheduling into their own platforms."
+      }
     }
   },
   "c019": {
@@ -258,6 +717,224 @@
         }
       ],
       "problems": []
+    },
+    "wingman": {
+      "recommendations": [
+        {
+          "candidateId": "c143",
+          "fit": 88,
+          "reason": "Its website builder serves the same site owners and marketers, and privacy analytics could plug into the sites they build.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c143",
+              "quote": "build, manage, and grow a website that drives real revenue"
+            },
+            {
+              "companyId": "c019",
+              "quote": "Privacy-focused website analytics"
+            }
+          ],
+          "rank": 1
+        },
+        {
+          "candidateId": "c003",
+          "fit": 85,
+          "reason": "Its design-to-launch website platform serves the same site owners, so it is a natural integration point for the analytics script.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c003",
+              "quote": "hosting, security, analytics, CMS, and SEO built in"
+            }
+          ],
+          "rank": 2
+        },
+        {
+          "candidateId": "c064",
+          "fit": 80,
+          "reason": "Its simple one-page site builder serves small site owners who need lightweight traffic analytics.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c064",
+              "quote": "building simple, fully responsive one-page sites"
+            }
+          ],
+          "rank": 3
+        },
+        {
+          "candidateId": "c118",
+          "fit": 80,
+          "reason": "Its link attribution and conversion tracking complement traffic analytics for the same marketers.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c118",
+              "quote": "modern link attribution platform for short links, conversion tracking"
+            }
+          ],
+          "rank": 4
+        },
+        {
+          "candidateId": "c141",
+          "fit": 78,
+          "reason": "This independent publishing platform serves writers with websites who want privacy-respecting audience analytics.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c141",
+              "quote": "Beautiful, modern publishing with email newsletters and paid subscriptions built-in."
+            }
+          ],
+          "rank": 5
+        },
+        {
+          "candidateId": "c060",
+          "fit": 76,
+          "reason": "This newsletter and website builder serves creators who need site traffic analytics.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c060",
+              "quote": "Build email newsletters and websites without any coding."
+            }
+          ],
+          "rank": 6
+        },
+        {
+          "candidateId": "c071",
+          "fit": 74,
+          "reason": "This independent, values-aligned email platform shares the target's small-business, ethical audience, which suits co-marketing.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c071",
+              "quote": "As a small, independent business"
+            }
+          ],
+          "rank": 7
+        },
+        {
+          "candidateId": "c069",
+          "fit": 72,
+          "reason": "This platform helps agencies build client websites, and those sites need compliant analytics.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c069",
+              "quote": "creating high-ranking client websites that drive results"
+            }
+          ],
+          "rank": 8
+        },
+        {
+          "candidateId": "c139",
+          "fit": 70,
+          "reason": "This membership platform runs on creators' own websites, where privacy analytics would add value.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c139",
+              "quote": "all on your own website or app"
+            }
+          ],
+          "rank": 9
+        },
+        {
+          "candidateId": "c130",
+          "fit": 68,
+          "reason": "Its form builder is used on the same websites, and form conversions pair with traffic analytics.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c130",
+              "quote": "registration forms, application forms, surveys, contact forms"
+            }
+          ],
+          "rank": 10
+        },
+        {
+          "candidateId": "c013",
+          "fit": 10,
+          "reason": "It is a lightweight, privacy-respecting analytics alternative that directly substitutes for the target.",
+          "flags": [
+            "competitor"
+          ],
+          "evidence": [
+            {
+              "companyId": "c013",
+              "quote": "lightweight and open-source [company] alternative"
+            }
+          ],
+          "rank": 11
+        },
+        {
+          "candidateId": "c088",
+          "fit": 10,
+          "reason": "Its privacy-first, cookieless web analytics compete head-on with the target.",
+          "flags": [
+            "competitor"
+          ],
+          "evidence": [
+            {
+              "companyId": "c088",
+              "quote": "open-source, privacy-first analytics platform"
+            }
+          ],
+          "rank": 12
+        },
+        {
+          "candidateId": "c180",
+          "fit": 10,
+          "reason": "It sells GDPR-compliant website analytics to the same buyer.",
+          "flags": [
+            "competitor"
+          ],
+          "evidence": [
+            {
+              "companyId": "c180",
+              "quote": "accurate, GDPR-compliant analytics with full data ownership"
+            }
+          ],
+          "rank": 13
+        },
+        {
+          "candidateId": "c111",
+          "fit": 15,
+          "reason": "It is an independent website traffic measurement tool, which substitutes for the target's analytics.",
+          "flags": [
+            "competitor"
+          ],
+          "evidence": [
+            {
+              "companyId": "c111",
+              "quote": "compare observed website traffic"
+            }
+          ],
+          "rank": 14
+        },
+        {
+          "candidateId": "c032",
+          "fit": 15,
+          "reason": "It is a site and app analytics platform that competes for the same analytics budget.",
+          "flags": [
+            "competitor"
+          ],
+          "evidence": [
+            {
+              "companyId": "c032",
+              "quote": "from site and app analytics to intuitive testing"
+            }
+          ],
+          "rank": 15
+        }
+      ],
+      "problems": [],
+      "profile": {
+        "sells": "Lightweight, GDPR-compliant, privacy-focused website analytics offered as an alternative to mainstream analytics tools.",
+        "buyer": "Website owners, marketers and developers at small businesses, creators and privacy-conscious organizations running websites."
+      }
     }
   },
   "c028": {
@@ -345,6 +1022,224 @@
         }
       ],
       "problems": []
+    },
+    "wingman": {
+      "recommendations": [
+        {
+          "candidateId": "c031",
+          "fit": 90,
+          "reason": "Error tracking for developers creates issues that flow naturally into the target's planning and build workflow, making it a strong integration partner for the same engineering buyer.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c031",
+              "quote": "Helps developers find and fix issues faster."
+            },
+            {
+              "companyId": "c028",
+              "quote": "The product development system for teams and agents."
+            }
+          ],
+          "rank": 1
+        },
+        {
+          "candidateId": "c001",
+          "fit": 89,
+          "reason": "Bug capture with technical context for software teams and AI agents feeds directly into the target's issue workflow.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c001",
+              "quote": "all the technical context teammates and AI agents need to move work forward"
+            }
+          ],
+          "rank": 2
+        },
+        {
+          "candidateId": "c035",
+          "fit": 85,
+          "reason": "Incident response and on-call tooling for software teams complements product planning, since incidents turn into tracked follow-up work.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c035",
+              "quote": "unifying on-call, agentic root cause analysis, incident response, and status pages"
+            }
+          ],
+          "rank": 3
+        },
+        {
+          "candidateId": "c029",
+          "fit": 84,
+          "reason": "Agent-oriented documentation serves the same AI-forward product teams and pairs knowledge with planning.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c029",
+              "quote": "Collaborate with your team and agents."
+            }
+          ],
+          "rank": 4
+        },
+        {
+          "candidateId": "c041",
+          "fit": 82,
+          "reason": "Application performance monitoring for software teams surfaces issues that become work items in the target.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c041",
+              "quote": "Application performance monitoring for developers and software teams"
+            }
+          ],
+          "rank": 5
+        },
+        {
+          "candidateId": "c030",
+          "fit": 80,
+          "reason": "Engineering intelligence built on developer tool data would ingest the target's data to serve the same R&D leaders.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c030",
+              "quote": "turns your developer tool data into productivity insights"
+            }
+          ],
+          "rank": 6
+        },
+        {
+          "candidateId": "c093",
+          "fit": 78,
+          "reason": "A developer productivity launcher that already supports issue creation is a natural integration surface.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c093",
+              "quote": "Create, search and modify your issues without leaving your keyboard."
+            }
+          ],
+          "rank": 7
+        },
+        {
+          "candidateId": "c149",
+          "fit": 74,
+          "reason": "Captured user-interaction context helps product teams and agents prioritize fixes that are planned in the target.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c149",
+              "quote": "giving businesses and their AI agents the context they need to spot problems"
+            }
+          ],
+          "rank": 8
+        },
+        {
+          "candidateId": "c045",
+          "fit": 70,
+          "reason": "Website feedback and bug reports that automatically create tasks can feed into the target's workflow.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c045",
+              "quote": "creates a task for your team to manage"
+            }
+          ],
+          "rank": 9
+        },
+        {
+          "candidateId": "c113",
+          "fit": 66,
+          "reason": "Cloud monitoring of stack health complements the target for engineering teams that ship products.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c113",
+              "quote": "End-to-end, simplified visibility into your stack's health and performance."
+            }
+          ],
+          "rank": 10
+        },
+        {
+          "candidateId": "c140",
+          "fit": 20,
+          "reason": "This teamwork platform for planning and tracking work with AI agents substitutes directly for the target.",
+          "flags": [
+            "competitor"
+          ],
+          "evidence": [
+            {
+              "companyId": "c140",
+              "quote": "one connected platform for planning, tracking, and delivering work"
+            }
+          ],
+          "rank": 11
+        },
+        {
+          "candidateId": "c048",
+          "fit": 18,
+          "reason": "Work management for teams and AI agents overlaps with the target's core planning use case.",
+          "flags": [
+            "competitor"
+          ],
+          "evidence": [
+            {
+              "companyId": "c048",
+              "quote": "Work management software for teams and AI agents."
+            }
+          ],
+          "rank": 12
+        },
+        {
+          "candidateId": "c107",
+          "fit": 25,
+          "reason": "This AI visual platform for product development from ideation to launch competes for the same planning workflow.",
+          "flags": [
+            "competitor"
+          ],
+          "evidence": [
+            {
+              "companyId": "c107",
+              "quote": "Speed up product development from ideation to launch."
+            }
+          ],
+          "rank": 13
+        },
+        {
+          "candidateId": "c022",
+          "fit": 15,
+          "reason": "This all-in-one work app built around tasks and AI agents replaces project tools like the target.",
+          "flags": [
+            "competitor"
+          ],
+          "evidence": [
+            {
+              "companyId": "c022",
+              "quote": "All apps, AI agents, and humans in [company]."
+            }
+          ],
+          "rank": 14
+        },
+        {
+          "candidateId": "c016",
+          "fit": 12,
+          "reason": "This project management tool substitutes for the target's planning functionality.",
+          "flags": [
+            "competitor"
+          ],
+          "evidence": [
+            {
+              "companyId": "c016",
+              "quote": "[company] is project management without all the nonsense."
+            }
+          ],
+          "rank": 15
+        }
+      ],
+      "problems": [],
+      "profile": {
+        "sells": "An AI-native product development and planning system (issue tracking, roadmaps, project planning) for teams working alongside AI agents.",
+        "buyer": "Product and engineering leaders and teams at software companies, from startups to enterprises."
+      }
     }
   },
   "c034": {
@@ -432,6 +1327,254 @@
         }
       ],
       "problems": []
+    },
+    "wingman": {
+      "recommendations": [
+        {
+          "candidateId": "c010",
+          "fit": 88,
+          "reason": "Recruiting software for SMBs feeds newly hired employees into the target's people and performance platform, making it a natural integration and referral partner for HR buyers.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c010",
+              "quote": "recruiting software built to streamline everything from job posting to offer letters"
+            },
+            {
+              "companyId": "c034",
+              "quote": "HR and AI tools to manage people and performance"
+            }
+          ],
+          "rank": 1
+        },
+        {
+          "candidateId": "c084",
+          "fit": 85,
+          "reason": "Background checks are a pre-hire step bought by the same HR teams, and they complement the target's people platform without overlapping it.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c084",
+              "quote": "Fast, accurate background checks at scale."
+            }
+          ],
+          "rank": 2
+        },
+        {
+          "candidateId": "c090",
+          "fit": 83,
+          "reason": "A 401(k) and workplace savings benefit that syncs with payroll, sold to employers' HR teams, which extends what the target's platform offers employees.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c090",
+              "quote": "Power workplace retirement and savings on one modern platform"
+            }
+          ],
+          "rank": 3
+        },
+        {
+          "candidateId": "c128",
+          "fit": 82,
+          "reason": "HR compliance training for employees complements the target's growth and performance tools and is bought by the same HR leaders.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c128",
+              "quote": "Reinventing HR compliance training"
+            }
+          ],
+          "rank": 4
+        },
+        {
+          "candidateId": "c046",
+          "fit": 80,
+          "reason": "Global payroll and hiring in 150+ countries pairs with the target's people and performance platform for distributed teams, sold to the same HR buyer.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c046",
+              "quote": "Hire, pay, and manage teams in 150+ countries"
+            }
+          ],
+          "rank": 5
+        },
+        {
+          "candidateId": "c083",
+          "fit": 78,
+          "reason": "A payroll-focused service that HR teams run alongside a people and performance platform, which makes integration and co-selling straightforward.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c083",
+              "quote": "run payroll in minutes, stay compliant"
+            }
+          ],
+          "rank": 6
+        },
+        {
+          "candidateId": "c148",
+          "fit": 76,
+          "reason": "SMB payroll and benefits administration complements the target's performance and people tools for the same HR buyer, though it partly overlaps on core HR.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c148",
+              "quote": "Run payroll in five minutes flat."
+            }
+          ],
+          "rank": 7
+        },
+        {
+          "candidateId": "c131",
+          "fit": 74,
+          "reason": "Employee scheduling and labor forecasting for shift workforces complements the target's people and performance tools for operations-heavy HR buyers.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c131",
+              "quote": "easy-to-use employee scheduling, HR, AI labor forecasting and payroll software"
+            }
+          ],
+          "rank": 8
+        },
+        {
+          "candidateId": "c117",
+          "fit": 70,
+          "reason": "A labor law poster compliance service that runs a partner program for serving employers, a good referral fit for the target's HR customers.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c117",
+              "quote": "Partner with [company] and help your clients put labor law poster compliance on autopilot."
+            }
+          ],
+          "rank": 9
+        },
+        {
+          "candidateId": "c142",
+          "fit": 66,
+          "reason": "Time tracking, time off and approvals data can feed the target's people and performance platform for managers and HR.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c142",
+              "quote": "with reports, rates, scheduling, time off, approvals"
+            }
+          ],
+          "rank": 10
+        },
+        {
+          "candidateId": "c174",
+          "fit": 10,
+          "reason": "An AI performance management platform sold to HR teams that substitutes directly for the target's performance tools.",
+          "flags": [
+            "competitor"
+          ],
+          "evidence": [
+            {
+              "companyId": "c174",
+              "quote": "AI performance management platform trusted by thousands of HR teams"
+            }
+          ],
+          "rank": 11
+        },
+        {
+          "candidateId": "c162",
+          "fit": 10,
+          "reason": "A performance management platform for managers and employees that overlaps directly with the target.",
+          "flags": [
+            "competitor"
+          ],
+          "evidence": [
+            {
+              "companyId": "c162",
+              "quote": "the performance management platform that creates effective managers"
+            }
+          ],
+          "rank": 12
+        },
+        {
+          "candidateId": "c102",
+          "fit": 10,
+          "reason": "An employee experience platform with performance and engagement tools that competes with the target.",
+          "flags": [
+            "competitor"
+          ],
+          "evidence": [
+            {
+              "companyId": "c102",
+              "quote": "performance, development, and employee engagement tools"
+            }
+          ],
+          "rank": 13
+        },
+        {
+          "candidateId": "c177",
+          "fit": 12,
+          "reason": "An AI HR platform and people-data system of record that substitutes for the target's HR platform.",
+          "flags": [
+            "competitor"
+          ],
+          "evidence": [
+            {
+              "companyId": "c177",
+              "quote": "the AI-powered HR platform for global teams"
+            }
+          ],
+          "rank": 14
+        },
+        {
+          "candidateId": "c167",
+          "fit": 12,
+          "reason": "All-in-one HR software covering employee records and onboarding that competes with the target.",
+          "flags": [
+            "competitor"
+          ],
+          "evidence": [
+            {
+              "companyId": "c167",
+              "quote": "the ultimate HR software platform your team will love"
+            }
+          ],
+          "rank": 15
+        },
+        {
+          "candidateId": "c030",
+          "fit": 20,
+          "reason": "Productivity insights sold to R&D and engineering leaders rather than HR.",
+          "flags": [
+            "wrong_buyer"
+          ],
+          "evidence": [
+            {
+              "companyId": "c030",
+              "quote": "helping R&D teams understand impact"
+            }
+          ],
+          "rank": 16
+        },
+        {
+          "candidateId": "c042",
+          "fit": 25,
+          "reason": "KPI and engagement dashboards sold to support and sales team leads rather than HR.",
+          "flags": [
+            "wrong_buyer"
+          ],
+          "evidence": [
+            {
+              "companyId": "c042",
+              "quote": "boosting support and sales teams' performance"
+            }
+          ],
+          "rank": 17
+        }
+      ],
+      "problems": [],
+      "profile": {
+        "sells": "An all-in-one HR and AI platform for managing people and performance, used daily by employees, managers and HR.",
+        "buyer": "HR and people-operations leaders at growing companies (thousands of mid-market teams)."
+      }
     }
   },
   "c071": {
@@ -519,6 +1662,254 @@
         }
       ],
       "problems": []
+    },
+    "wingman": {
+      "recommendations": [
+        {
+          "candidateId": "c064",
+          "fit": 88,
+          "reason": "A one-page site builder used for email-capture landing pages feeds new subscribers straight into the target's mailing lists.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c064",
+              "quote": "a landing page to capture emails"
+            },
+            {
+              "companyId": "c071",
+              "quote": "We use [company] for our own mailing lists."
+            }
+          ],
+          "rank": 1
+        },
+        {
+          "candidateId": "c130",
+          "fit": 84,
+          "reason": "An online form builder for signups and surveys is a natural list-growth integration for an email platform.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c130",
+              "quote": "create registration forms, application forms, surveys, contact forms"
+            }
+          ],
+          "rank": 2
+        },
+        {
+          "candidateId": "c005",
+          "fit": 82,
+          "reason": "A no-code automation platform connecting thousands of apps can sync contacts into the target's lists.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c005",
+              "quote": "No-code automation across 9,000+ apps."
+            }
+          ],
+          "rank": 3
+        },
+        {
+          "candidateId": "c139",
+          "fit": 80,
+          "reason": "A membership and subscription platform for creators pairs with email for audience communication.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c139",
+              "quote": "Sell subscriptions, share content, and connect with your audience"
+            }
+          ],
+          "rank": 4
+        },
+        {
+          "candidateId": "c143",
+          "fit": 77,
+          "reason": "A website builder used by marketing teams complements email with signup capture and campaign landing pages.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c143",
+              "quote": "build, manage, and grow a website that drives real revenue"
+            }
+          ],
+          "rank": 5
+        },
+        {
+          "candidateId": "c019",
+          "fit": 75,
+          "reason": "A privacy-focused website analytics tool from an independent company shares the target's values and its small-business buyer.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c019",
+              "quote": "Privacy-focused website analytics from a sustainable company."
+            }
+          ],
+          "rank": 6
+        },
+        {
+          "candidateId": "c118",
+          "fit": 74,
+          "reason": "Link attribution and conversion tracking can measure revenue from email campaign links.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c118",
+              "quote": "short links, conversion tracking, and affiliate programs"
+            }
+          ],
+          "rank": 7
+        },
+        {
+          "candidateId": "c088",
+          "fit": 72,
+          "reason": "Privacy-first analytics that tracks campaigns and conversions complements email sends.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c088",
+              "quote": "Understand traffic, campaigns, behavior, conversions, and revenue"
+            }
+          ],
+          "rank": 8
+        },
+        {
+          "candidateId": "c050",
+          "fit": 70,
+          "reason": "Podcast creators need email lists to reach their audiences, which makes this host a good referral partner.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c050",
+              "quote": "distribute your video and audio podcast to Apple Podcasts, Spotify, YouTube, and more"
+            }
+          ],
+          "rank": 9
+        },
+        {
+          "candidateId": "c091",
+          "fit": 66,
+          "reason": "A payments and billing platform lets email senders monetize their lists, for example through paid products or subscriptions.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c091",
+              "quote": "accept payments, build flexible billing models"
+            }
+          ],
+          "rank": 10
+        },
+        {
+          "candidateId": "c025",
+          "fit": 10,
+          "reason": "This creator email marketing and newsletter platform substitutes directly for the target.",
+          "flags": [
+            "competitor"
+          ],
+          "evidence": [
+            {
+              "companyId": "c025",
+              "quote": "the creator-first email marketing and newsletter platform"
+            }
+          ],
+          "rank": 11
+        },
+        {
+          "candidateId": "c137",
+          "fit": 10,
+          "reason": "It offers low-cost subscriber management and email sending, which directly substitutes for the target.",
+          "flags": [
+            "competitor"
+          ],
+          "evidence": [
+            {
+              "companyId": "c137",
+              "quote": "Manage and email your subscribers for a fraction of the cost"
+            }
+          ],
+          "rank": 12
+        },
+        {
+          "candidateId": "c014",
+          "fit": 10,
+          "reason": "This email marketing and deliverability platform serves the same senders as the target.",
+          "flags": [
+            "competitor"
+          ],
+          "evidence": [
+            {
+              "companyId": "c014",
+              "quote": "email marketing and deliverability"
+            }
+          ],
+          "rank": 13
+        },
+        {
+          "candidateId": "c073",
+          "fit": 10,
+          "reason": "This self-hosted newsletter and mailing list manager substitutes for the target.",
+          "flags": [
+            "competitor"
+          ],
+          "evidence": [
+            {
+              "companyId": "c073",
+              "quote": "Self-hosted newsletter and mailing list manager."
+            }
+          ],
+          "rank": 14
+        },
+        {
+          "candidateId": "c060",
+          "fit": 10,
+          "reason": "This newsletter creation and sending platform competes for the same list owners.",
+          "flags": [
+            "competitor"
+          ],
+          "evidence": [
+            {
+              "companyId": "c060",
+              "quote": "Build email newsletters and websites without any coding."
+            }
+          ],
+          "rank": 15
+        },
+        {
+          "candidateId": "c141",
+          "fit": 10,
+          "reason": "This publishing platform has built-in email newsletters, so it overlaps with the target.",
+          "flags": [
+            "competitor"
+          ],
+          "evidence": [
+            {
+              "companyId": "c141",
+              "quote": "email newsletters and paid subscriptions built-in"
+            }
+          ],
+          "rank": 16
+        },
+        {
+          "candidateId": "c163",
+          "fit": 10,
+          "reason": "This AI email marketing and SMS platform substitutes for the target's email marketing.",
+          "flags": [
+            "competitor"
+          ],
+          "evidence": [
+            {
+              "companyId": "c163",
+              "quote": "unifies AI-powered email marketing and SMS"
+            }
+          ],
+          "rank": 17
+        }
+      ],
+      "problems": [],
+      "profile": {
+        "sells": "An independent, customer-driven email marketing platform for running mailing lists and campaigns.",
+        "buyer": "Small businesses, creators and marketers who own and send to email mailing lists."
+      }
     }
   },
   "c078": {
@@ -606,6 +1997,228 @@
         }
       ],
       "problems": []
+    },
+    "wingman": {
+      "recommendations": [
+        {
+          "candidateId": "c080",
+          "fit": 88,
+          "reason": "A sales CRM used by 100,000+ companies whose deals end in contracts, and the target explicitly offers eSignature from inside a CRM.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c080",
+              "quote": "Get more qualified leads and grow your business with our sales CRM."
+            },
+            {
+              "companyId": "c078",
+              "quote": "Deliver a seamless eSignature experience from any website, CRM, or custom app."
+            }
+          ],
+          "rank": 1
+        },
+        {
+          "candidateId": "c005",
+          "fit": 85,
+          "reason": "A no-code automation platform across 9,000+ apps that can trigger and route signature requests inside business workflows.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c005",
+              "quote": "No-code automation across 9,000+ apps."
+            },
+            {
+              "companyId": "c078",
+              "quote": "automatically route them to recipients in a role-based order"
+            }
+          ],
+          "rank": 2
+        },
+        {
+          "candidateId": "c087",
+          "fit": 83,
+          "reason": "A CRM for revenue teams advancing deals, where signing closes the deal; a natural integration and co-sell fit.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c087",
+              "quote": "the CRM that builds pipeline, advances deals, and grows accounts around the clock"
+            }
+          ],
+          "rank": 3
+        },
+        {
+          "candidateId": "c130",
+          "fit": 80,
+          "reason": "An online form builder for application and registration forms that often need a legally binding signature.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c130",
+              "quote": "create registration forms, application forms, surveys, contact forms, payment forms and more"
+            }
+          ],
+          "rank": 4
+        },
+        {
+          "candidateId": "c047",
+          "fit": 78,
+          "reason": "A content management platform where business documents are stored and shared, so signing can be integrated into document workflows.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c047",
+              "quote": "collaborate internally and externally, and protect your sensitive data"
+            }
+          ],
+          "rank": 5
+        },
+        {
+          "candidateId": "c095",
+          "fit": 76,
+          "reason": "A simple CRM for SMB sales teams that could embed eSignature to close deals.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c095",
+              "quote": "manage contacts, sales and grow lasting relationships"
+            }
+          ],
+          "rank": 6
+        },
+        {
+          "candidateId": "c010",
+          "fit": 74,
+          "reason": "Recruiting software whose hiring process ends in offer letters that need to be signed.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c010",
+              "quote": "streamline everything from job posting to offer letters"
+            }
+          ],
+          "rank": 7
+        },
+        {
+          "candidateId": "c167",
+          "fit": 72,
+          "reason": "HR software handling onboarding and employee documents, which require signatures.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c167",
+              "quote": "Employee records, onboarding, documents, absences"
+            }
+          ],
+          "rank": 8
+        },
+        {
+          "candidateId": "c067",
+          "fit": 70,
+          "reason": "Law practice management software whose client engagements and documents need eSignatures.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c067",
+              "quote": "case management, calendaring, client communication, billing, and payments"
+            }
+          ],
+          "rank": 9
+        },
+        {
+          "candidateId": "c166",
+          "fit": 68,
+          "reason": "A process automation and document management platform where signing could be one step in orchestrated workflows.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c166",
+              "quote": "brings harmony to businesses' document management while seamlessly orchestrating your most important workflows"
+            }
+          ],
+          "rank": 10
+        },
+        {
+          "candidateId": "c004",
+          "fit": 10,
+          "reason": "Offers electronic signing and agreement management to the same buyers, so it substitutes for the target.",
+          "flags": [
+            "competitor"
+          ],
+          "evidence": [
+            {
+              "companyId": "c004",
+              "quote": "Electronically sign for free."
+            }
+          ],
+          "rank": 11
+        },
+        {
+          "candidateId": "c053",
+          "fit": 10,
+          "reason": "A contract platform that collects legally binding eSignatures, which directly overlaps the target's product.",
+          "flags": [
+            "competitor"
+          ],
+          "evidence": [
+            {
+              "companyId": "c053",
+              "quote": "Collect legally binding signatures from anywhere, on any device."
+            }
+          ],
+          "rank": 12
+        },
+        {
+          "candidateId": "c055",
+          "fit": 8,
+          "reason": "Electronic signature software, the same product sold to the same buyers.",
+          "flags": [
+            "competitor"
+          ],
+          "evidence": [
+            {
+              "companyId": "c055",
+              "quote": "electronic signature software helps you send legally binding and secure documents online in seconds"
+            }
+          ],
+          "rank": 13
+        },
+        {
+          "candidateId": "c092",
+          "fit": 20,
+          "reason": "A proposal and document workflow tool with built-in e-sign, which overlaps the target's core product.",
+          "flags": [
+            "competitor"
+          ],
+          "evidence": [
+            {
+              "companyId": "c092",
+              "quote": "From creation to e-sign and beyond"
+            }
+          ],
+          "rank": 14
+        },
+        {
+          "candidateId": "c059",
+          "fit": 20,
+          "reason": "Document automation for Microsoft 365 that collects eSignatures itself, making it a substitute for the target.",
+          "flags": [
+            "competitor"
+          ],
+          "evidence": [
+            {
+              "companyId": "c059",
+              "quote": "collect eSignatures"
+            }
+          ],
+          "rank": 15
+        }
+      ],
+      "problems": [],
+      "profile": {
+        "sells": "Legally binding eSignature software, with embeddable signing for websites, CRMs and custom apps and role-based document routing.",
+        "buyer": "Business teams (sales, operations, HR, legal) and developers at SMB-to-enterprise organizations that need documents signed."
+      }
     }
   },
   "c083": {
@@ -693,6 +2306,239 @@
         }
       ],
       "problems": []
+    },
+    "wingman": {
+      "recommendations": [
+        {
+          "candidateId": "c090",
+          "fit": 92,
+          "reason": "Its 401(k) platform syncs with payroll providers, a natural integration and benefits co-sell for the target's small business payroll customers.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c090",
+              "quote": "401(k)s, education, and emergency savings with payroll sync across 190+ providers"
+            },
+            {
+              "companyId": "c083",
+              "quote": "Simplify your payroll services, taxes, HR and benefits."
+            }
+          ],
+          "rank": 1
+        },
+        {
+          "candidateId": "c076",
+          "fit": 88,
+          "reason": "Small business accounting software pairs with payroll through journal syncing and shared SMB customers.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c076",
+              "quote": "software for small businesses connects you to your bank, accountant, bookkeeper, and other business apps"
+            }
+          ],
+          "rank": 2
+        },
+        {
+          "candidateId": "c026",
+          "fit": 86,
+          "reason": "Accounting and invoicing for millions of small businesses complements payroll and fits well with integrations and referrals.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c026",
+              "quote": "Join 7 million businesses already using [company]."
+            }
+          ],
+          "rank": 3
+        },
+        {
+          "candidateId": "c010",
+          "fit": 82,
+          "reason": "SMB recruiting software hands new hires straight into payroll onboarding.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c010",
+              "quote": "helps small businesses hire faster with easy-to-use recruiting software"
+            }
+          ],
+          "rank": 4
+        },
+        {
+          "candidateId": "c117",
+          "fit": 80,
+          "reason": "Its labor law poster compliance service explicitly partners with providers serving employers, which complements payroll compliance.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c117",
+              "quote": "Partner with [company] and help your clients put labor law poster compliance on autopilot."
+            }
+          ],
+          "rank": 5
+        },
+        {
+          "candidateId": "c142",
+          "fit": 78,
+          "reason": "Time tracking and timesheets feed hours directly into payroll runs for the same employers.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c142",
+              "quote": "a time tracker and timesheet app that lets you track work hours across projects"
+            }
+          ],
+          "rank": 6
+        },
+        {
+          "candidateId": "c084",
+          "fit": 75,
+          "reason": "Background checks for hiring complement the target's HR and onboarding workflow for employers.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c084",
+              "quote": "Fast, accurate background checks at scale."
+            }
+          ],
+          "rank": 7
+        },
+        {
+          "candidateId": "c068",
+          "fit": 72,
+          "reason": "New business formation services create a referral path to first-time employers who need payroll setup.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c068",
+              "quote": "start an LLC today for $0 plus state fees"
+            }
+          ],
+          "rank": 8
+        },
+        {
+          "candidateId": "c114",
+          "fit": 70,
+          "reason": "Bookkeeping and tax services for small businesses can refer clients to payroll and integrate with it.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c114",
+              "quote": "We handle bookkeeping, tax, and advisory work for startups and small businesses."
+            }
+          ],
+          "rank": 9
+        },
+        {
+          "candidateId": "c168",
+          "fit": 66,
+          "reason": "Time tracking used by tens of thousands of businesses supplies hours data for payroll processing.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c168",
+              "quote": "Log hours your way, on any device."
+            }
+          ],
+          "rank": 10
+        },
+        {
+          "candidateId": "c148",
+          "fit": 10,
+          "reason": "Offers online payroll, benefits and tax filing for small businesses, a direct substitute for the target.",
+          "flags": [
+            "competitor"
+          ],
+          "evidence": [
+            {
+              "companyId": "c148",
+              "quote": "offers fully integrated online HR services: payroll, benefits and everything else"
+            }
+          ],
+          "rank": 11
+        },
+        {
+          "candidateId": "c099",
+          "fit": 10,
+          "reason": "Offers full-service payroll, benefits and HR for SMBs, the same product as the target.",
+          "flags": [
+            "competitor"
+          ],
+          "evidence": [
+            {
+              "companyId": "c099",
+              "quote": "Full-service HR solution for payroll, benefits and more."
+            }
+          ],
+          "rank": 12
+        },
+        {
+          "candidateId": "c170",
+          "fit": 10,
+          "reason": "Offers online payroll, tax and HR, a direct substitute for the target.",
+          "flags": [
+            "competitor"
+          ],
+          "evidence": [
+            {
+              "companyId": "c170",
+              "quote": "offers industry-leading online payroll and HR solutions, plus tax, compliance, benefit administration and more"
+            }
+          ],
+          "rank": 13
+        },
+        {
+          "candidateId": "c018",
+          "fit": 10,
+          "reason": "Its HR and payroll solutions substitute for the target's.",
+          "flags": [
+            "competitor"
+          ],
+          "evidence": [
+            {
+              "companyId": "c018",
+              "quote": "has HR and Payroll solutions to fit the needs of any size business"
+            }
+          ],
+          "rank": 14
+        },
+        {
+          "candidateId": "c027",
+          "fit": 10,
+          "reason": "Its HCM platform covers payroll, compliance and benefits, which competes with the target.",
+          "flags": [
+            "competitor"
+          ],
+          "evidence": [
+            {
+              "companyId": "c027",
+              "quote": "Power-up payroll, compliance, benefits, and analytics with an all-in-one HCM solution."
+            }
+          ],
+          "rank": 15
+        },
+        {
+          "candidateId": "c006",
+          "fit": 15,
+          "reason": "Its tax filing software is sold to individual UK self-assessment filers, not to employers running payroll.",
+          "flags": [
+            "wrong_buyer"
+          ],
+          "evidence": [
+            {
+              "companyId": "c006",
+              "quote": "for anyone who needs to file a Self Assessment tax return"
+            }
+          ],
+          "rank": 16
+        }
+      ],
+      "problems": [],
+      "profile": {
+        "sells": "Online payroll software with tax filing, HR and benefits administration, backed by expert human support.",
+        "buyer": "Small business owners and HR/payroll administrators at small and medium-sized businesses."
+      }
     }
   },
   "c096": {
@@ -780,6 +2626,239 @@
         }
       ],
       "problems": []
+    },
+    "wingman": {
+      "recommendations": [
+        {
+          "candidateId": "c072",
+          "fit": 93,
+          "reason": "AI receipt and invoice capture that pushes categorised expenses into the accounting software, a natural integration for the same small-business owners.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c072",
+              "quote": "submitted to your accounting software"
+            },
+            {
+              "companyId": "c096",
+              "quote": "streamlines admin so you can make it count"
+            }
+          ],
+          "rank": 1
+        },
+        {
+          "candidateId": "c089",
+          "fit": 90,
+          "reason": "Extracts data from bills, receipts and bank statements and routes them for approval before they reach the accounting software, a direct complement.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c089",
+              "quote": "before it reaches your accounting software"
+            }
+          ],
+          "rank": 2
+        },
+        {
+          "candidateId": "c057",
+          "fit": 88,
+          "reason": "Automated invoice reminders and cash-flow forecasting that connect to the accounting system, extending the target's invoicing.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c057",
+              "quote": "Connect your accounting or financial system in just a few clicks."
+            }
+          ],
+          "rank": 3
+        },
+        {
+          "candidateId": "c036",
+          "fit": 87,
+          "reason": "Credit risk, debtor chasing and invoice finance delivered through an API connection to accounting software for small businesses.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c036",
+              "quote": "Seamlessly connect your accounting software via API"
+            }
+          ],
+          "rank": 4
+        },
+        {
+          "candidateId": "c129",
+          "fit": 82,
+          "reason": "A business expense cards and reconciliation tool that feeds spend data into the books of growing companies.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c129",
+              "quote": "From the first card tap to final reconciliation"
+            }
+          ],
+          "rank": 5
+        },
+        {
+          "candidateId": "c119",
+          "fit": 80,
+          "reason": "Small-business payments and POS whose transactions can sync into the target's accounting ledger.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c119",
+              "quote": "Millions of small businesses use [company] for affordable and easy to use payment solutions."
+            }
+          ],
+          "rank": 6
+        },
+        {
+          "candidateId": "c168",
+          "fit": 78,
+          "reason": "Time tracking that turns billable hours into invoices, which fits freelancers and small firms using accounting software.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c168",
+              "quote": "turn tracked hours into paid invoices"
+            }
+          ],
+          "rank": 7
+        },
+        {
+          "candidateId": "c021",
+          "fit": 76,
+          "reason": "Spend management with corporate cards, expenses and accounts payable that complements the core ledger for scaling businesses.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c021",
+              "quote": "Combine global corporate cards, travel, expenses and accounts payable"
+            }
+          ],
+          "rank": 8
+        },
+        {
+          "candidateId": "c114",
+          "fit": 74,
+          "reason": "Bookkeeping, tax and CFO services for startups and small businesses that could run on the target's software and refer customers to it.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c114",
+              "quote": "bookkeeping, tax, and advisory work for startups and small businesses"
+            }
+          ],
+          "rank": 9
+        },
+        {
+          "candidateId": "c091",
+          "fit": 72,
+          "reason": "A payments and billing platform for businesses that can integrate its money-movement data with the target's accounting.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c091",
+              "quote": "accept payments, build flexible billing models and manage money movement"
+            }
+          ],
+          "rank": 10
+        },
+        {
+          "candidateId": "c076",
+          "fit": 10,
+          "reason": "Small-business accounting software with bank connections and invoicing, a direct substitute for the target.",
+          "flags": [
+            "competitor"
+          ],
+          "evidence": [
+            {
+              "companyId": "c076",
+              "quote": "Manage all your accounting needs in one place."
+            }
+          ],
+          "rank": 11
+        },
+        {
+          "candidateId": "c026",
+          "fit": 10,
+          "reason": "Small-business accounting with invoicing and bank-connected expense import, which substitutes for the target.",
+          "flags": [
+            "competitor"
+          ],
+          "evidence": [
+            {
+              "companyId": "c026",
+              "quote": "Create invoices that customers can pay online right away."
+            }
+          ],
+          "rank": 12
+        },
+        {
+          "candidateId": "c173",
+          "fit": 12,
+          "reason": "A business cloud covering accounting, money and payroll for businesses from startup to enterprise, which competes with the target.",
+          "flags": [
+            "competitor"
+          ],
+          "evidence": [
+            {
+              "companyId": "c173",
+              "quote": "managing your money, accounting, payroll, people, payments"
+            }
+          ],
+          "rank": 13
+        },
+        {
+          "candidateId": "c006",
+          "fit": 20,
+          "reason": "HMRC self assessment tax filing software that overlaps with the target's financial admin offering for UK sole traders.",
+          "flags": [
+            "competitor"
+          ],
+          "evidence": [
+            {
+              "companyId": "c006",
+              "quote": "File your self assessment tax return online to HMRC"
+            }
+          ],
+          "rank": 14
+        },
+        {
+          "candidateId": "c181",
+          "fit": 30,
+          "reason": "UK accounting practice software sold to accounting firms rather than to the small businesses that buy the target.",
+          "flags": [
+            "wrong_buyer"
+          ],
+          "evidence": [
+            {
+              "companyId": "c181",
+              "quote": "trusted by 12,000+ UK accounting firms"
+            }
+          ],
+          "rank": 15
+        },
+        {
+          "candidateId": "c038",
+          "fit": 28,
+          "reason": "Cloud accountancy software built for accounting practices, a different buyer from the target's small-business owners.",
+          "flags": [
+            "wrong_buyer"
+          ],
+          "evidence": [
+            {
+              "companyId": "c038",
+              "quote": "Revolutionise your practice with [company]'s cloud-based accountancy software."
+            }
+          ],
+          "rank": 16
+        }
+      ],
+      "problems": [],
+      "profile": {
+        "sells": "Cloud accounting and bookkeeping software that gives small businesses confidence in their numbers and streamlines financial admin, backed by UK-based support.",
+        "buyer": "Owners, founders and finance admins of UK small and growing businesses and freelancers."
+      }
     }
   },
   "c168": {
@@ -867,6 +2946,198 @@
         }
       ],
       "problems": []
+    },
+    "wingman": {
+      "recommendations": [
+        {
+          "candidateId": "c016",
+          "fit": 90,
+          "reason": "Project management tool for teams that work with clients, a natural place to log hours against projects that are then invoiced.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c016",
+              "quote": "manage projects, work with clients, and communicate company-wide"
+            },
+            {
+              "companyId": "c168",
+              "quote": "turn tracked hours into paid invoices"
+            }
+          ],
+          "rank": 1
+        },
+        {
+          "candidateId": "c076",
+          "fit": 88,
+          "reason": "Small business accounting software that the target's invoices can sync into for bookkeeping and payment reconciliation.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c076",
+              "quote": "Manage all your accounting needs in one place."
+            },
+            {
+              "companyId": "c168",
+              "quote": "streamlined online invoicing"
+            }
+          ],
+          "rank": 2
+        },
+        {
+          "candidateId": "c026",
+          "fit": 86,
+          "reason": "Accounting platform for millions of small businesses, which pairs with time-based invoices for a full billing-to-books flow.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c026",
+              "quote": "Join 7 million businesses already using [company]."
+            }
+          ],
+          "rank": 3
+        },
+        {
+          "candidateId": "c092",
+          "fit": 80,
+          "reason": "Proposal and quote tool that covers the pre-sale stage for the same service businesses before hours are tracked and billed.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c092",
+              "quote": "streamlines proposals, quotes and other business document workflows"
+            }
+          ],
+          "rank": 4
+        },
+        {
+          "candidateId": "c057",
+          "fit": 78,
+          "reason": "Automates invoice reminders and collections, which extends the target's invoicing to getting paid.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c057",
+              "quote": "Automate invoice reminders, get paid faster"
+            }
+          ],
+          "rank": 5
+        },
+        {
+          "candidateId": "c080",
+          "fit": 75,
+          "reason": "Sales CRM for SMBs; won deals can flow into tracked projects and invoices.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c080",
+              "quote": "Get more qualified leads and grow your business with our sales CRM."
+            }
+          ],
+          "rank": 6
+        },
+        {
+          "candidateId": "c048",
+          "fit": 74,
+          "reason": "Work management software whose tasks and projects can be linked to time entries.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c048",
+              "quote": "Plan, automate, and execute critical workflows together."
+            }
+          ],
+          "rank": 7
+        },
+        {
+          "candidateId": "c105",
+          "fit": 72,
+          "reason": "Agency CFO firm that measures agency margins and could refer clients who need accurate time and profitability data.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c105",
+              "quote": "help digital and creative agencies measure and improve their margins"
+            }
+          ],
+          "rank": 8
+        },
+        {
+          "candidateId": "c005",
+          "fit": 70,
+          "reason": "No-code automation platform that connects the target to thousands of apps used by the same small businesses.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c005",
+              "quote": "No-code automation across 9,000+ apps."
+            }
+          ],
+          "rank": 9
+        },
+        {
+          "candidateId": "c072",
+          "fit": 66,
+          "reason": "Bookkeeping automation for receipts and expenses that complements billable-hour invoicing for small businesses.",
+          "flags": [],
+          "evidence": [
+            {
+              "companyId": "c072",
+              "quote": "automatically captures receipts and invoices"
+            }
+          ],
+          "rank": 10
+        },
+        {
+          "candidateId": "c142",
+          "fit": 10,
+          "reason": "Time tracker and timesheet app with invoicing, a direct substitute for the target.",
+          "flags": [
+            "competitor"
+          ],
+          "evidence": [
+            {
+              "companyId": "c142",
+              "quote": "a time tracker and timesheet app that lets you track work hours across projects"
+            }
+          ],
+          "rank": 11
+        },
+        {
+          "candidateId": "c175",
+          "fit": 10,
+          "reason": "Time tracking software with invoicing and timesheet reports, a direct substitute for the target.",
+          "flags": [
+            "competitor"
+          ],
+          "evidence": [
+            {
+              "companyId": "c175",
+              "quote": "The best time tracker and capacity planning software."
+            }
+          ],
+          "rank": 12
+        },
+        {
+          "candidateId": "c067",
+          "fit": 15,
+          "reason": "Offers billing and time tracking but is built for law firms, a different buyer from the target's general small businesses.",
+          "flags": [
+            "wrong_buyer"
+          ],
+          "evidence": [
+            {
+              "companyId": "c067",
+              "quote": "law practice management software can automate your firm processes, billing, time tracking and more"
+            }
+          ],
+          "rank": 13
+        }
+      ],
+      "problems": [],
+      "profile": {
+        "sells": "Time tracking software with reporting and online invoicing that turns tracked hours into paid invoices.",
+        "buyer": "Owners and managers of small and mid-sized service businesses such as agencies, consultancies and project-based teams that bill for their time."
+      }
     }
   }
 }

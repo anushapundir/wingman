@@ -147,7 +147,7 @@ async function discoverCandidates(domain: string, profile: string): Promise<z.in
     const res = await anthropic().messages.create({
       model: env.WINGMAN_MODEL,
       max_tokens: 8000,
-      tools: [{ type: "web_search_20250305", name: "web_search", max_uses: 5 }, SUBMIT],
+      tools: [{ type: "web_search_20260209", name: "web_search", max_uses: 5 }, SUBMIT],
       messages,
     });
     const call = res.content.find((b) => b.type === "tool_use" && b.name === SUBMIT.name);

@@ -1,6 +1,8 @@
 import type Anthropic from "@anthropic-ai/sdk";
-import { lookup } from "node:dns/promises";
-import { BlockList, isIP } from "node:net";
+import { lookup as dnsLookup } from "node:dns";
+import { request as httpRequest } from "node:http";
+import { request as httpsRequest } from "node:https";
+import { BlockList, isIP, type LookupFunction } from "node:net";
 import { z } from "zod";
 import { anthropic, rankWithAgent } from "./agent";
 import { env } from "./env";
@@ -37,43 +39,60 @@ export function parseSiteUrl(input: string): URL {
   return url;
 }
 
-// ponytail: fetch resolves the name again after this check, so DNS rebinding can slip through.
-// Pin the resolved IP with a custom dispatcher if this ever runs somewhere with a sensitive network.
-async function assertPublicHost(hostname: string) {
-  const host = hostname.replace(/^\[|\]$/g, "");
-  const ips = isIP(host) ? [host] : (await lookup(host, { all: true }).catch(() => [])).map((a) => a.address);
-  if (ips.length === 0) throw new LiveInputError("Could not resolve that host");
-  if (ips.some(isBlocked)) throw new LiveInputError("That host is not publicly reachable");
-}
+// Every address is vetted inside the socket's own lookup, so the IP we check is the IP we connect to.
+const vettedLookup: LookupFunction = (hostname, options, callback) => {
+  dnsLookup(hostname, { ...options, all: true }, (err, addresses) => {
+    if (err) return callback(err, "");
+    if (addresses.length === 0) return callback(new LiveInputError("Could not resolve that host"), "");
+    if (addresses.some((a) => isBlocked(a.address))) return callback(new LiveInputError("That host is not publicly reachable"), "");
+    if (options.all) return callback(null, addresses);
+    callback(null, addresses[0]!.address, addresses[0]!.family);
+  });
+};
 
-async function readCapped(res: Response): Promise<string> {
-  if (!res.body) return "";
-  const reader = res.body.getReader();
-  const chunks: Uint8Array[] = [];
-  let size = 0;
-  while (size < MAX_BYTES) {
-    const { done, value } = await reader.read();
-    if (done) break;
-    chunks.push(value);
-    size += value.byteLength;
-  }
-  await reader.cancel().catch(() => {});
-  return new TextDecoder().decode(Buffer.concat(chunks).subarray(0, MAX_BYTES));
+type RawResponse = { status: number; location?: string; body: string };
+
+function get(url: URL, signal: AbortSignal): Promise<RawResponse> {
+  // IP literals skip the lookup hook entirely, so they are checked here.
+  const literal = url.hostname.replace(/^\[|\]$/g, "");
+  if (isIP(literal) && isBlocked(literal)) return Promise.reject(new LiveInputError("That host is not publicly reachable"));
+  const request = url.protocol === "https:" ? httpsRequest : httpRequest;
+  return new Promise((resolve, reject) => {
+    const req = request(
+      url,
+      { lookup: vettedLookup, signal, headers: { "user-agent": "wingman/0.1 (+partner finder)", "accept-encoding": "identity" } },
+      (res) => {
+        const chunks: Buffer[] = [];
+        let size = 0;
+        const done = () => resolve({ status: res.statusCode ?? 0, location: res.headers.location, body: Buffer.concat(chunks).subarray(0, MAX_BYTES).toString("utf8") });
+        res.on("data", (chunk: Buffer) => {
+          chunks.push(chunk);
+          size += chunk.length;
+          if (size >= MAX_BYTES) {
+            res.destroy();
+            done();
+          }
+        });
+        res.on("end", done);
+        res.on("error", reject);
+      },
+    );
+    req.on("error", reject);
+    req.end();
+  });
 }
 
 export async function fetchHomepage(start: URL): Promise<{ url: URL; html: string }> {
   const signal = AbortSignal.timeout(FETCH_TIMEOUT_MS);
   let url = start;
   for (let hop = 0; hop <= MAX_REDIRECTS; hop++) {
-    await assertPublicHost(url.hostname);
-    const res = await fetch(url, { redirect: "manual", signal, headers: { "user-agent": "wingman/0.1 (+partner finder)" } });
-    const location = res.headers.get("location");
-    if (res.status >= 300 && res.status < 400 && location) {
-      url = parseSiteUrl(new URL(location, url).toString());
+    const res = await get(url, signal);
+    if (res.status >= 300 && res.status < 400 && res.location) {
+      url = parseSiteUrl(new URL(res.location, url).toString());
       continue;
     }
-    if (!res.ok) throw new LiveInputError(`The site answered with HTTP ${res.status}`);
-    return { url, html: await readCapped(res) };
+    if (res.status < 200 || res.status >= 300) throw new LiveInputError(`The site answered with HTTP ${res.status}`);
+    return { url, html: res.body };
   }
   throw new LiveInputError("Too many redirects");
 }

@@ -13,3 +13,7 @@ test("live fetch refuses non-http schemes and private or loopback addresses", as
 test("scrub removes whole-word brand names only", () => {
   assert.equal(scrub("Acme builds payroll. Acmelike tools exist.", ["acme", "ab"]), "the company builds payroll. Acmelike tools exist.");
 });
+
+test("a hostname that resolves to loopback is rejected on the connecting socket", async () => {
+  await assert.rejects(fetchHomepage(parseSiteUrl("http://localhost:3000/")), /not publicly reachable/);
+});

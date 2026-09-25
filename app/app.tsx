@@ -265,8 +265,9 @@ function Column({
       ) : (
         <>
           <ol>
-            {recs.map((r) => (
+            {recs.map((r, i) => (
               <Row
+                firstFlagged={r.flags.length > 0 && (i === 0 || recs[i - 1]!.flags.length === 0)}
                 key={r.candidateId}
                 rowKey={`${id}:${r.candidateId}`}
                 rec={r}
@@ -290,6 +291,7 @@ function Column({
 }
 
 function Row({
+  firstFlagged,
   rowKey,
   rec,
   company,
@@ -298,6 +300,7 @@ function Row({
   selected,
   onSelect,
 }: {
+  firstFlagged: boolean;
   rowKey: string;
   rec: Recommendation;
   company: Company | undefined;
@@ -310,6 +313,7 @@ function Row({
   const mine = selected?.key.startsWith(`${rowKey}#`) ? selected : null;
   return (
     <li className={`border-b border-line py-4 ${flagged ? "opacity-70" : ""}`}>
+      {firstFlagged && <p className="mb-3 text-sm text-muted">Flagged, not ranked</p>}
       <div className="flex items-start gap-3">
         <span className="w-6 shrink-0 pt-0.5 text-sm text-muted">{flagged ? "" : rec.rank}</span>
         <div className="min-w-0 flex-1">
@@ -329,7 +333,7 @@ function Row({
           {(flagged || rec.evidence.length > 0) && (
             <div className="mt-3 flex flex-wrap gap-1.5">
               {rec.flags.map((f) => (
-                <span key={f} title={FLAGS[f].description} className="rounded-md bg-bad-soft px-2 py-0.5 text-xs font-medium text-bad">
+                <span key={f} title={FLAGS[f].description} className="rounded-md border border-dashed border-muted/50 px-2 py-0.5 text-xs text-muted">
                   {FLAGS[f].label}
                 </span>
               ))}

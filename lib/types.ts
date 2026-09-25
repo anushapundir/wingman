@@ -22,14 +22,14 @@ export const Label = z.object({
 });
 export type Label = z.infer<typeof Label>;
 
-// The one flag table. The UI chips, the agent prompt and the scorer all read it.
+// The one flag table. The UI chips, the agent prompt and the tool schema all read it.
 export const FLAGS = {
   competitor: {
-    label: "Competitor",
+    label: "Flagged as competitor",
     description: "Sells a product that substitutes for the target's to the same buyer.",
   },
   wrong_buyer: {
-    label: "Wrong buyer",
+    label: "Flagged as wrong buyer",
     description: "Complementary product, but sold to a different buyer than the target's.",
   },
 } as const;

@@ -45,7 +45,7 @@ flowchart LR
   R --> UI[Compare UI]
 ```
 
-- `lib/types.ts` is the domain model. `Company` and `Label` are parsed with zod when the data loads. `Recommendation` is `{ candidateId, rank, fit, reason, flags, evidence }`. `FLAGS` is the one table of flags that the UI, the prompt and the tool schema read.
+- `lib/types.ts` is the domain model. `Company` and `Label` are parsed with zod when the data loads. `Recommendation` is `{ candidateId, rank, fit, reason, flags, evidence }`. `FLAGS` is the one table of flags that the UI, the prompt and the scorer read.
 - `lib/baseline.ts` is plain TF-IDF cosine over the descriptions, with no dependencies. Ties break by id, so it is deterministic.
 - `lib/agent.ts` sends the model only ids and anonymized descriptions, never names. The prompt asks it to profile the target first (what it sells, who buys it), then pick 10 complementary companies that sell to the same buyer. It answers through one forced tool call, parsed with zod.
 - `lib/score.ts` is pure. `checkOutput` drops candidate ids that are not in the pool and quotes that are not exact substrings of the cited description, and records each one as a problem. Nothing is silently fixed. `scoreTarget` and `aggregate` compute the metrics below. `npm test` covers both.
@@ -86,6 +86,7 @@ Each target company has labelled partners and competitors in `data/labels.json`,
 - **partnersAvailable**: labelled partners that exist in the pool for that target.
 - **hallucinated ids**: candidate or evidence ids that are not in the pool. Dropped from the ranking and counted.
 - **bad quotes**: evidence quotes that are not exact substrings of the cited description. Dropped and counted.
+- **flagged**: how many candidates were flagged, per flag.
 
 The top 10 are the unflagged picks. A labelled competitor that Wingman flags as a competitor is shown in the UI but does not count toward `competitors@10`.
 

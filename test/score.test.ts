@@ -91,6 +91,7 @@ test("scoreTarget counts hits, competitors and problems for one target", () => {
     recommendations: [
       { candidateId: id("p2"), rank: 1, fit: 90, reason: "", flags: [], evidence: [] },
       { candidateId: id("p1"), rank: 2, fit: 50, reason: "", flags: [], evidence: [] },
+      { candidateId: id("p3"), rank: 3, fit: 10, reason: "", flags: ["wrong_buyer"], evidence: [] },
     ],
     problems: [
       { kind: "unknown_id", id: "x", where: "candidate" },
@@ -105,12 +106,13 @@ test("scoreTarget counts hits, competitors and problems for one target", () => {
     partnersAvailable: 2,
     hallucinatedIds: 2,
     badQuotes: 1,
+    flagged: { competitor: 0, wrong_buyer: 1 },
   });
 });
 
 test("aggregate sums per-target scores and computes recall", () => {
-  const a = { targetId: id("a"), hitsAt10: 1, competitorsAt10: 2, partnersAvailable: 4, hallucinatedIds: 1, badQuotes: 0 };
-  const b = { targetId: id("b"), hitsAt10: 2, competitorsAt10: 0, partnersAvailable: 2, hallucinatedIds: 0, badQuotes: 3 };
+  const a = { targetId: id("a"), hitsAt10: 1, competitorsAt10: 2, partnersAvailable: 4, hallucinatedIds: 1, badQuotes: 0, flagged: { competitor: 2, wrong_buyer: 0 } };
+  const b = { targetId: id("b"), hitsAt10: 2, competitorsAt10: 0, partnersAvailable: 2, hallucinatedIds: 0, badQuotes: 3, flagged: { competitor: 1, wrong_buyer: 1 } };
   assert.deepEqual(aggregate([a, b]), {
     targets: 2,
     hitsAt10: 3,
@@ -119,6 +121,7 @@ test("aggregate sums per-target scores and computes recall", () => {
     partnerRecall: 0.5,
     hallucinatedIds: 1,
     badQuotes: 3,
+    flagged: { competitor: 3, wrong_buyer: 1 },
   });
   assert.equal(aggregate([]).partnerRecall, null);
 });

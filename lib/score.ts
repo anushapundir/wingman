@@ -1,4 +1,4 @@
-import type { Company, CompanyId, Flag, Label, Problem, Ranking, Recommendation } from "./types";
+import { FLAG_IDS, type Company, type CompanyId, type Flag, type Label, type Problem, type Ranking, type Recommendation } from "./types";
 
 export type RawPick = {
   candidateId: string;
@@ -55,7 +55,11 @@ export type TargetScore = {
   partnersAvailable: number;
   hallucinatedIds: number;
   badQuotes: number;
+  flagged: Record<Flag, number>;
 };
+
+const countFlags = (recs: { flags: Flag[] }[]) =>
+  Object.fromEntries(FLAG_IDS.map((f) => [f, recs.filter((r) => r.flags.includes(f)).length])) as Record<Flag, number>;
 
 // The top 10 are the unflagged picks; a flagged competitor is a correct call, not a miss.
 export const topTen = (recs: Recommendation[]) => recs.filter((r) => r.flags.length === 0).slice(0, 10);
@@ -72,13 +76,16 @@ export function scoreTarget(targetId: CompanyId, ranking: Ranking, labels: Label
     partnersAvailable: partners.size,
     hallucinatedIds: ranking.problems.filter((p) => p.kind === "unknown_id").length,
     badQuotes: ranking.problems.filter((p) => p.kind === "bad_quote").length,
+    flagged: countFlags(ranking.recommendations),
   };
 }
 
 export type Aggregate = Omit<TargetScore, "targetId"> & { targets: number; partnerRecall: number | null };
 
+type Counter = Exclude<keyof TargetScore, "targetId" | "flagged">;
+
 export function aggregate(scores: TargetScore[]): Aggregate {
-  const sum = (k: keyof Omit<TargetScore, "targetId">) => scores.reduce((s, x) => s + x[k], 0);
+  const sum = (k: Counter) => scores.reduce((s, x) => s + x[k], 0);
   const hitsAt10 = sum("hitsAt10");
   const partnersAvailable = sum("partnersAvailable");
   return {
@@ -89,5 +96,6 @@ export function aggregate(scores: TargetScore[]): Aggregate {
     partnerRecall: partnersAvailable === 0 ? null : hitsAt10 / partnersAvailable,
     hallucinatedIds: sum("hallucinatedIds"),
     badQuotes: sum("badQuotes"),
+    flagged: Object.fromEntries(FLAG_IDS.map((f) => [f, scores.reduce((s, x) => s + x.flagged[f], 0)])) as Record<Flag, number>,
   };
 }

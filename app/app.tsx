@@ -221,7 +221,7 @@ function TargetCard({ view, selected }: { view: View; selected: Selected }) {
       </p>
       {profile && (
         <p className="mt-4 max-w-3xl border-l-2 border-accent pl-4 text-sm leading-relaxed text-muted">
-          Wingman read this as: sells {profile.sells}. Buyer: {profile.buyer}.
+          <span className="font-medium text-ink">How Wingman reads it.</span> Sells: {profile.sells.replace(/\.+$/, "")}. Buyer: {profile.buyer.replace(/\.+$/, "")}.
         </p>
       )}
     </section>

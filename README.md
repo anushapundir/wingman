@@ -4,7 +4,11 @@
 
 Give Wingman a company. It returns 10 ranked partner candidates, each with a fit score, a one-line reason, flags, and quotes from the company descriptions that back the reason up.
 
-<!-- Screenshot slots: docs/compare.png (desktop) and docs/phone.png (phone width). -->
+![Help Scout: the naive list is mostly competitors, Wingman finds 7 real partners](docs/compare.png)
+
+Click any evidence chip and the quoted line lights up in that company's description.
+
+![Evidence chip highlighting the cited text](docs/evidence.png)
 
 ## Why
 
